@@ -56,7 +56,7 @@ The expected top-level fields are `verified: true` and `new_model_calls: 0`. The
 
 ## Keywords
 
-AI safety training · large language model alignment · AI for science · scientific discovery · human–AI collaboration · scientific reasoning · research evaluation · causal inference · reproducible research · formal verification.
+AI safety training · large language model alignment · AI for science · scientific discovery · scientific problem formulation · scientific communication · human–AI collaboration · scientific reasoning · research evaluation · causal inference · reproducible research · formal verification.
 
 ## Licensing
 

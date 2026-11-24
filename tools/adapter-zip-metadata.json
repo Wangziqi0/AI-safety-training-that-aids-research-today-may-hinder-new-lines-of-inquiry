@@ -1,0 +1,329 @@
+{
+  "compression_level": 3,
+  "files": [
+    {
+      "path": "PUBLIC_SOURCES.md",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "UPSTREAM_APACHE_2_0.txt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "USAGE.txt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/rl-1901-A/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/rl-1901-B/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/rl-1901-H/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/rl-2311-A/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/rl-2311-B/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/rl-2311-H/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/sft-1901-A/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/sft-1901-B/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/sft-1901-H/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/sft-2311-A/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/sft-2311-B/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/sft-2311-H/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/sft-2903-A/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/sft-2903-B/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/observed/sft-2903-H/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/weights/A-311/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/weights/A-617/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/weights/A-929/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/weights/B-311/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/weights/B-617/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/weights/B-929/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/weights/H-311/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/weights/H-617/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/weights/H-929/adapter.pt",
+      "modified": [
+        2026,
+        11,
+        20,
+        5,
+        7,
+        18
+      ],
+      "mode": 33204
+    }
+  ]
+}

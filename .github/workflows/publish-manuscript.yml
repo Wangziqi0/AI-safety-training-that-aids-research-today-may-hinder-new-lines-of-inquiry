@@ -1,0 +1,49 @@
+name: Publish verified manuscript archives
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    if: github.repository == 'Wangziqi0/AI-safety-training-that-aids-research-today-may-hinder-new-lines-of-inquiry' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      TAG: manuscript-v11.2
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Check out the public research files
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Rebuild the two original ZIP files
+        run: /usr/bin/python3 tools/build_submission_bundle.py --output "$RUNNER_TEMP/archives"
+      - name: Attach the verified archives and publish the release
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag_object=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$TAG" --jq '.object.sha')
+          target=$(gh api "repos/$GITHUB_REPOSITORY/git/tags/$tag_object" --jq '.object.sha')
+          test "$target" = "6c36f8d610a3f33a777dd75f393740e98c5ee126"
+          if ! gh release view "$TAG" --json tagName >/dev/null 2>&1; then
+            gh release create "$TAG" --verify-tag --draft \
+              --title "V11.2 — Full manuscript and research materials" \
+              --notes-file tools/release-notes.md
+          fi
+          for name in Nature_submission_materials_V11.2.zip Optional_trained_adapters.zip; do
+            if gh release view "$TAG" --json assets | jq -e --arg n "$name" 'any(.assets[]; .name == $n)' >/dev/null; then
+              mkdir -p "$RUNNER_TEMP/existing"
+              gh release download "$TAG" --pattern "$name" --dir "$RUNNER_TEMP/existing"
+              cmp "$RUNNER_TEMP/archives/$name" "$RUNNER_TEMP/existing/$name"
+            else
+              gh release upload "$TAG" "$RUNNER_TEMP/archives/$name"
+            fi
+          done
+          if [[ $(gh release view "$TAG" --json isDraft --jq '.isDraft') == true ]]; then
+            gh release edit "$TAG" --draft=false --latest
+          fi
+          gh release view "$TAG" --json tagName,url,isDraft,assets
