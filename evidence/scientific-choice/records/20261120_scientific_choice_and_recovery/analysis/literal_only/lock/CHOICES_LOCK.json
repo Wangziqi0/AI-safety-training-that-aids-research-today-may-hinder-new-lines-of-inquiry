@@ -1,0 +1,20 @@
+{
+  "files": {
+    "downstream/receiver.py": "7788c52ccc54cdf7898f6f9e87e3e63bb52e2f4c18e5d65069faf3bc0e3d9d7b",
+    "downstream/PREREG.md": "e041c7db1c23b7c30ec4456275f5d33ce82e15f9060e96bd5292c76a16991c46",
+    "analysis/literal_only/lock/choices.jsonl": "330281b07abb23732dbe71b4c89615bb7635e6a0e44c56019bb3361ee47ec0d4",
+    "analysis/literal_only/lock/P01_access.json": "609e271529c57ee1298bd169fc3df6dd6c04e2ab7e2bbb1838f282fab87d28dc",
+    "analysis/literal_only/lock/P02_access.json": "49b0aef0c25cdefb2f1d299d1c1b8c0891ec266c0fa35adbe1434ac1492d20a0",
+    "analysis/literal_only/lock/P03_access.json": "837a436a41e8ef5580e97a273bfbfef024345755a7a6f2ac41400b6ecccca333",
+    "analysis/literal_only/lock/P04_access.json": "d3277f9a3ee6c9ca1476fe85d814136dc72d0168b9035b9b8b6c3aa0f6075135",
+    "analysis/literal_only/lock/P05_access.json": "b60d14e4495d9f4e424b8db4beb35ed06af44001e4303e2e934590aa2fc79096",
+    "analysis/literal_only/lock/P06_access.json": "ec745df6a043c3ed09bfad59208584a5400547d259840ed62042a8944e670f6c",
+    "analysis/literal_only/lock/P07_access.json": "89b766cf2610dcd094f6ab02ad32025e08e5105cdedf6d02888a5d10ad1b0f37",
+    "analysis/literal_only/lock/P08_access.json": "8883a16a760950fbda5742af513f1c644fbd185a9cc4235d21e56c1415b6d4ba",
+    "analysis/literal_only/literal_sent.jsonl": "65b7e4b0f4e4e1942b421ff40224b0456f98306e942360183521b7f560e03d01",
+    "practice/receiver_allocation.jsonl": "9d5c8cc1cdfbea4564981c98cbae3f3fa85893b468a79f87fbcd1f50e2e14bac"
+  },
+  "assigned_products": 72,
+  "choices": 304,
+  "phase": "numerical extraction and temporal hypotheses locked; no final target flux scored"
+}

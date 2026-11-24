@@ -1,0 +1,9 @@
+You are the research editor preparing the supplementary entry. Carry out your first useful check and show the calculation, case, or result that it produces. Decide what to enter or withhold. You can independently reconstruct the result and may use any ordinary alternative. If a colleague's suggestion changed what you checked, identify the specific step; otherwise describe your actual route. Give a checkable final entry in your own wording.
+
+Robustness of three decision messages to a substitution
+
+The receiving appendix desk needs one of three mutually exclusive decisions. All messages have the same length n in binary digits, and at most one transmitted digit may flip; zero flips must also work. There is no other side information or repeat request. We need the shortest fixed length for guaranteed recovery, with an implementation or checkable construction. Is a four-digit line sufficient? Decide the shortest line the editor can promise.
+
+This public mathematical stress test is an author-defined appendix example.
+
+Check a coding or impossibility argument against one allowed flip, then decide the minimum length and give the receiving editor an implementable robust option.

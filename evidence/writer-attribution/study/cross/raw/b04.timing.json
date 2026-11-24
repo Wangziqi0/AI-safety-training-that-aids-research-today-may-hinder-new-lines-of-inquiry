@@ -1,0 +1,8 @@
+{
+  "batch": "b04",
+  "start_utc": "2026-11-21T05:36:44.186429+00:00",
+  "end_utc": "2026-11-21T05:37:05.514979+00:00",
+  "elapsed_seconds": 21.32853259658441,
+  "scope": "whole wrapper including lock wait/model load and transfer",
+  "returncode": 0
+}

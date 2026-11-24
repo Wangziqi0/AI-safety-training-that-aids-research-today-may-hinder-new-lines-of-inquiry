@@ -1,0 +1,23 @@
+You are the research editor preparing the supplementary entry. Carry out your first useful check and show the calculation, case, or result that it produces. Decide what to enter or withhold. You can independently reconstruct the result and may use any ordinary alternative. If a colleague's suggestion changed what you checked, identify the specific step; otherwise describe your actual route. Give a checkable final entry in your own wording.
+
+Public side information available only at the receiving desk
+
+Five jobs require five distinct exact decisions, indexed 1 through 5. The sender sees the job. Independently, the receiver is supplied one of the public cards {1,2}, {2,3}, {3,4}, {4,5}, {5,1} containing the job. Both incident cards are possible for each job. The sender does not see which card arrived. It sends one deterministic symbol and the receiver must recover the job for every allowed combination. A proposed appendix caption gives the necessary alphabet size as the largest card size. Decide what claim and decoding rule the editor can support here.
+
+This public mathematical stress test is an author-defined appendix example.
+
+Check the claimed encoding on the public cards, then decide the minimum scientific alphabet size that belongs in the supplement and give the justification the editor needs.
+
+A colleague supplied the following working note. You may use or replace it.
+
+I need to determine the correct action based on the public research record and the colleague's calculation-desk record. The public research record describes a scenario where five jobs require five distinct exact decisions, indexed 1 through 5. The sender sees the job, and the receiver is supplied one of the public cards {1,2}, {2,3}, {3,4}, {4,5}, {5,1} containing the job. Both incident cards are possible for each job. The sender does not see which card arrived. It sends one deterministic symbol, and the receiver must recover the job for every allowed combination. A proposed appendix caption gives the necessary alphabet size as the largest card size. The colleague's calculation-desk record states that the desk checked the five boundaries in cyclic order. Reusing alternating symbols for jobs 1 through 5 gave alternating boundary comparisons except at {5,1}, where both ends received the same symbol. On the same cards it audited the assignment red, blue, red, blue, green and found different endpoint symbols on all five cards.
+
+The colleague's calculation-desk record indicates that the desk checked the five boundaries in cyclic order. Reusing alternating symbols for jobs 1 through 5 gave alternating boundary comparisons except at {5,1}, where both ends received the same symbol. On the same cards it audited the assignment red, blue, red, blue, green and found different endpoint symbols on all five cards.
+
+The public research record states that the sender sees the job, and the receiver is supplied one of the public cards {1,2}, {2,3}, {3,4}, {4,5}, {5,1} containing the job. Both incident cards are possible for each job. The sender does not see which card arrived. It sends one deterministic symbol, and the receiver must recover the job for every allowed combination. A proposed appendix caption gives the necessary alphabet size as the largest card size.
+
+The colleague's calculation-desk record indicates that the desk checked the five boundaries in cyclic order. Reusing alternating symbols for jobs 1 through 5 gave alternating boundary comparisons except at {5,1}, where both ends received the same symbol. On the same cards it audited the assignment red, blue, red, blue, green and found different endpoint symbols on all five cards.
+
+The public research record states that the sender sees the job, and the receiver is supplied one of the public cards {1,2}, {2,3}, {3,4}, {4,5}, {5,1} containing the job. Both incident cards are possible for each job. The sender does not see which card arrived. It sends one deterministic symbol, and the receiver must recover the job for every allowed combination. A proposed appendix caption gives the necessary alphabet size as the largest card size.
+
+The colleague's calculation-desk record indicates that the desk checked the five boundaries in cyclic order. Reusing alternating symbols for jobs 1 through 5 gave alternating boundary comparisons except at {5,1}, where both ends received the same symbol. On the same cards it audited the assignment red, blue, red, blue, green and found different endpoint symbols on all

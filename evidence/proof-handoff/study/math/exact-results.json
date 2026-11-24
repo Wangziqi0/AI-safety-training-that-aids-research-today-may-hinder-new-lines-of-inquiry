@@ -1,0 +1,37 @@
+{
+  "arithmetic": "integers and fractions only",
+  "grid_cases_checked": 729,
+  "source": {
+    "x": "2^1024",
+    "epsilon": "1/64",
+    "A": "2^511",
+    "coefficient_a": "2^1025",
+    "coefficient_b": "2^20",
+    "ratio_at_A": "2^17",
+    "first_feasible_even": "A",
+    "second_feasible_even": "A+2",
+    "common_budget": "3*2^529",
+    "extra_common_budget_for_second": "2^21",
+    "certificate_passes": false,
+    "rows": [
+      {
+        "row": "more occupied rows",
+        "t_over_n": "1/4",
+        "exact_first": "2^513",
+        "exact_third": "2^530",
+        "common_budget_met": true,
+        "both_ranks_pass_original_size_fields": true,
+        "signed_premise_transported": true
+      },
+      {
+        "row": "fewer occupied rows",
+        "t_over_n": "1/8",
+        "exact_first": "2^513",
+        "exact_third": "2^531",
+        "common_budget_met": false,
+        "both_ranks_pass_original_size_fields": true,
+        "signed_premise_transported": true
+      }
+    ]
+  }
+}

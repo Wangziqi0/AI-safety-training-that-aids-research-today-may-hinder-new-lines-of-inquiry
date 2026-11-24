@@ -1,0 +1,24 @@
+{"id": "p57", "case": "G2", "arguments": null, "observation": "d=2, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 2), (6, 8), (12, 5)]. d=4, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 4), (6, 1), (12, 7)]. No residue in either list has second component zero.", "source": "plain language"}
+{"id": "p67", "case": "E1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p63", "case": "G1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p78", "case": "G2", "arguments": ["3", "5", "1/2"], "observation": "input 3: d=2: 0 pair(s), first m=none; d=4: 0 pair(s), first m=none; d=6: 0 pair(s), first m=none\ninput 7/2: d=2: 0 pair(s), first m=none; d=4: 0 pair(s), first m=none; d=6: 0 pair(s), first m=none\ninput 4: d=2: 0 pair(s), first m=none; d=4: 0 pair(s), first m=none; d=6: 0 pair(s), first m=none\ninput 9/2: d=2: 0 pair(s), first m=none; d=4: 0 pair(s), first m=none; d=6: 0 pair(s), first m=none\ninput 5: d=2: 0 pair(s), first m=none; d=4: 0 pair(s), first m=none; d=6: 0 pair(s), first m=none", "source": "specified"}
+{"id": "p05", "case": "E2", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p95", "case": "E1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p83", "case": "E1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p79", "case": "G2", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p56", "case": "G1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p60", "case": "G2", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p23", "case": "E2", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p31", "case": "E1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p43", "case": "G1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p41", "case": "E2", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p71", "case": "E2", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p87", "case": "E1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p06", "case": "G2", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p66", "case": "E2", "arguments": ["-3/8"], "observation": "Selected the value -3/8 for checking the two regimes.\ninput -3/8: I=(3/8,3/4); II=(9/8,-1/4); maximum=9/8", "source": "plain language"}
+{"id": "p03", "case": "G1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p39", "case": "G1", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p86", "case": "G1", "arguments": ["8", "16", "1"], "observation": "input 8: common rank count 1, first 8\ninput 9: common rank count 0, first none\ninput 10: common rank count 1, first 20\ninput 11: common rank count 1, first 20\ninput 12: common rank count 1, first 20\ninput 13: common rank count 1, first 20\ninput 14: common rank count 1, first 20\ninput 15: common rank count 1, first 20\ninput 16: common rank count 2, first 20", "source": "specified"}
+{"id": "p76", "case": "G2", "arguments": null, "observation": "No calculation was requested in operational terms; no output was generated.", "source": "none"}
+{"id": "p89", "case": "E1", "arguments": null, "observation": "At t=12 and m=12 the exact loss is 1.", "source": "plain language"}
+{"id": "p74", "case": "E2", "arguments": ["0"], "observation": "Selected k=0 for checking the maxima in both regimes.\ninput 0: I=(0,9/8); II=(3/4,1/8); maximum=9/8", "source": "plain language"}

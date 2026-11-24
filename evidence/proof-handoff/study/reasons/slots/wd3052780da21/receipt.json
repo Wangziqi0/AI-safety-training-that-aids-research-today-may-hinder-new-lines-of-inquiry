@@ -1,0 +1,25 @@
+{
+  "slot": "wd3052780da21",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "tool_calls": [
+    {
+      "name": "exec",
+      "input": "text(await tools.exec_command({cmd:\"cat study/reasons/slots/wd3052780da21/docket.txt\"}))\n"
+    }
+  ],
+  "complete": true,
+  "usage": {
+    "input_tokens": 67596,
+    "cached_input_tokens": 66944,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 472,
+    "reasoning_output_tokens": 80,
+    "total_tokens": 68068
+  },
+  "started_at": 1795236128,
+  "completed_at": 1795236147,
+  "duration_ms": 18735,
+  "words": 204,
+  "packet_sha256": "229bfd452626a6811e911bcfb7abc9181d5d2269ecf7123bf753b429b7d50108"
+}

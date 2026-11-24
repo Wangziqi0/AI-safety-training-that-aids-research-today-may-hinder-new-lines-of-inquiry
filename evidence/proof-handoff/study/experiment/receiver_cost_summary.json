@@ -1,0 +1,80 @@
+{
+  "A": {
+    "duration_ms": {
+      "min": 15589,
+      "median": 19147.0,
+      "max": 20898,
+      "sum": 74781
+    },
+    "output_tokens": {
+      "min": 422,
+      "median": 492.5,
+      "max": 541,
+      "sum": 1948
+    },
+    "reasoning_tokens": {
+      "min": 0,
+      "median": 69.5,
+      "max": 146,
+      "sum": 285
+    },
+    "words": {
+      "min": 138,
+      "median": 153.5,
+      "max": 199,
+      "sum": 644
+    }
+  },
+  "H": {
+    "duration_ms": {
+      "min": 14633,
+      "median": 18583.5,
+      "max": 25100,
+      "sum": 76900
+    },
+    "output_tokens": {
+      "min": 361,
+      "median": 467.5,
+      "max": 627,
+      "sum": 1923
+    },
+    "reasoning_tokens": {
+      "min": 35,
+      "median": 78.5,
+      "max": 217,
+      "sum": 409
+    },
+    "words": {
+      "min": 118,
+      "median": 129.0,
+      "max": 176,
+      "sum": 552
+    }
+  },
+  "ordinary": {
+    "duration_ms": {
+      "min": 15376,
+      "median": 17939.5,
+      "max": 20219,
+      "sum": 71474
+    },
+    "output_tokens": {
+      "min": 399,
+      "median": 482.5,
+      "max": 582,
+      "sum": 1946
+    },
+    "reasoning_tokens": {
+      "min": 46,
+      "median": 94.0,
+      "max": 144,
+      "sum": 378
+    },
+    "words": {
+      "min": 130,
+      "median": 142.0,
+      "max": 176,
+      "sum": 590
+    }
+  }
+}

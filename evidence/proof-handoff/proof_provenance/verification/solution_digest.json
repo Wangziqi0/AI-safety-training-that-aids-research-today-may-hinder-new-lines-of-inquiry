@@ -1,0 +1,9 @@
+{
+  "started_utc": "2026-11-21T00:42:07.268827+00:00",
+  "ended_utc": "2026-11-21T00:43:57.705814+00:00",
+  "seconds": 110.437,
+  "bytes": 61570595788,
+  "sha256": "5ea74b912147c5c93cc2b6d70cc727cf908df2f62ac6a20480a3fa02f6be244e",
+  "verified": true,
+  "source": "solution.ndjson.zst"
+}

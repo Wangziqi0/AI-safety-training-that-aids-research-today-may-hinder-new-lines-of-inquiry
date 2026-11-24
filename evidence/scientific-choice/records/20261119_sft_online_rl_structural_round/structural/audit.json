@@ -1,0 +1,37 @@
+{
+  "training_events": 276480,
+  "updates": 11520,
+  "nonzero_updates": 11520,
+  "max_parameter_error": 0.0,
+  "rl_reward_counts": {
+    "H": {
+      "-1": 1556,
+      "0": 5280,
+      "1": 39244
+    },
+    "A": {
+      "1": 38292,
+      "0": 2702,
+      "-1": 5086
+    },
+    "B": {
+      "-1": 5391,
+      "0": 2666,
+      "1": 38023
+    }
+  },
+  "rl_sample_changed_vs_initial_same_uniform": {
+    "H": 26711,
+    "A": 22849,
+    "B": 26019
+  },
+  "matched_packages": 82944,
+  "cut_identical_blocks": 4608,
+  "method_counts": {
+    "transferred": 28852,
+    "center": 20736,
+    "repair": 11061,
+    "certificate": 10941,
+    "standard": 11354
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "lock_sha256": {
+    "review/PREHISTORY.tsv": "68cc621f1ad19799559004bb5417d2c9e7d48c3dd0dae7f0473da0fb83132512",
+    "review/CROSS_NOTES.tsv": "4d9524aaf8831de88e381829420b19180079ce66af35182f862e86f39e8d04a9",
+    "review/ORIGINAL_DECISION.tsv": "f86e05a769c0f5450bfd5e455a08e5cc4fa281ea6b79ff2dcbd9a111adbb9036",
+    "review/ORIGIN_NOTES.tsv": "95fb95e3016d67a6f3c70eb20ddae025a3807f5659ff74379b71ea7406b3c89d",
+    "review/ORIGIN_PREHISTORY.tsv": "aa3f04df44a70d55d461f0ed04212e1485ab690921350d5b5dd59443a726c85d",
+    "review/LENGTH_NOTES.tsv": "55fe5f71dbbcb6acee286ffff3795ce36b290c59b8489dfe34c4b44447b725fc",
+    "review2/PREHISTORY.tsv": "c1043d593d11e309c3966d9baedad10e07bf7c32e62d708c90c108ea4093d4fb",
+    "review2/CROSS_NOTES.tsv": "cf914689323e0723f9c9c6f77e3f3a13d12199b1406b61bdf9578ce146f3a215",
+    "review2/SECONDARY_NOTES.tsv": "6afcb12b1fe91ec6c815cdbbbaf967cc24d0771ed2c877218d7a51777879d430",
+    "review2/SECONDARY_SERVICES.tsv": "bf134334fd10fcfe963409277e518dca25849b88295e5e06f75bc04c37ae6695",
+    "review2/ORIGIN_DESK.jsonl": "d1e6bbe431f0042e79fda427d6136993ddc9ab1fee6969b01ce993d47f33f46b"
+  },
+  "secondary_math": {
+    "n_histories": 24,
+    "masked_repeated_anchors_concordant": 24,
+    "second_reader_by_writer": {
+      "A": {
+        "action": 6,
+        "strict": 2
+      },
+      "H": {
+        "action": 0,
+        "strict": 0
+      },
+      "B": {
+        "action": 4,
+        "strict": 1
+      },
+      "anchor": {
+        "action": 4,
+        "strict": 1
+      }
+    },
+    "comparisons": {
+      "B_vs_A": {
+        "action": {
+          "n": 24,
+          "left_only": 0,
+          "right_only": 2,
+          "both": 4,
+          "neither": 18,
+          "left_total": 4,
+          "right_total": 6
+        },
+        "strict": {
+          "n": 24,
+          "left_only": 0,
+          "right_only": 1,
+          "both": 1,
+          "neither": 22,
+          "left_total": 1,
+          "right_total": 2
+        }
+      },
+      "B_vs_H": {
+        "action": {
+          "n": 24,
+          "left_only": 4,
+          "right_only": 0,
+          "both": 0,
+          "neither": 20,
+          "left_total": 4,
+          "right_total": 0
+        },
+        "strict": {
+          "n": 24,
+          "left_only": 1,
+          "right_only": 0,
+          "both": 0,
+          "neither": 23,
+          "left_total": 1,
+          "right_total": 0
+        }
+      },
+      "B_vs_anchor": {
+        "action": {
+          "n": 24,
+          "left_only": 1,
+          "right_only": 1,
+          "both": 3,
+          "neither": 19,
+          "left_total": 4,
+          "right_total": 4
+        },
+        "strict": {
+          "n": 24,
+          "left_only": 0,
+          "right_only": 0,
+          "both": 1,
+          "neither": 23,
+          "left_total": 1,
+          "right_total": 1
+        }
+      }
+    },
+    "primary_rater_agreement_out_of_48": {
+      "action": 46,
+      "strict": 48
+    },
+    "disagreements_in_action": [
+      {
+        "archived_id": "p87",
+        "writer": "A"
+      },
+      {
+        "archived_id": "p78",
+        "writer": "A"
+      }
+    ],
+    "on_primary_five_opportunities": {
+      "A": 4,
+      "H": 0,
+      "B": 3,
+      "anchor": 3
+    }
+  },
+  "secondary_service": {
+    "A": {
+      "disclosed": 5,
+      "protected": 7,
+      "locator": 8,
+      "calibration": 9,
+      "usable": 5,
+      "safe_usable": 2,
+      "truncated": 0
+    },
+    "H": {
+      "disclosed": 0,
+      "protected": 12,
+      "locator": 0,
+      "calibration": 12,
+      "usable": 0,
+      "safe_usable": 0,
+      "truncated": 0
+    },
+    "B": {
+      "disclosed": 0,
+      "protected": 12,
+      "locator": 2,
+      "calibration": 11,
+      "usable": 2,
+      "safe_usable": 2,
+      "truncated": 0
+    }
+  },
+  "length": {
+    "n_histories": 5,
+    "cells": 10,
+    "by_writer": {
+      "A": {
+        "actionable_650": 4,
+        "actionable_1300": 4,
+        "strict_650": 2,
+        "strict_1300": 2
+      },
+      "H": {
+        "actionable_650": 0,
+        "actionable_1300": 0,
+        "strict_650": 0,
+        "strict_1300": 0
+      }
+    },
+    "actionable_changes": 0,
+    "strict_changes": 0,
+    "exact_token_prefixes": 10,
+    "changed_text": [
+      {
+        "archived_id": "p74",
+        "writer": "A",
+        "tokens_650": "650",
+        "tokens_1300": "1300"
+      }
+    ]
+  },
+  "three_stage": {
+    "n_dockets": 4,
+    "seeds": [
+      311
+    ],
+    "n_history_cells": 16,
+    "n_note_cells": 32,
+    "by_service_investigator_writer": {
+      "AAA": {
+        "n": 4,
+        "protected": 3,
+        "locator_and_calibration": 2,
+        "safe_usable": 1,
+        "executed_desk": 3,
+        "qualified": 2,
+        "actionable": 1,
+        "strict": 0
+      },
+      "AAH": {
+        "n": 4,
+        "protected": 3,
+        "locator_and_calibration": 2,
+        "safe_usable": 1,
+        "executed_desk": 3,
+        "qualified": 2,
+        "actionable": 0,
+        "strict": 0
+      },
+      "AHA": {
+        "n": 4,
+        "protected": 3,
+        "locator_and_calibration": 2,
+        "safe_usable": 1,
+        "executed_desk": 1,
+        "qualified": 0,
+        "actionable": 0,
+        "strict": 0
+      },
+      "AHH": {
+        "n": 4,
+        "protected": 3,
+        "locator_and_calibration": 2,
+        "safe_usable": 1,
+        "executed_desk": 1,
+        "qualified": 0,
+        "actionable": 0,
+        "strict": 0
+      },
+      "HAA": {
+        "n": 4,
+        "protected": 4,
+        "locator_and_calibration": 0,
+        "safe_usable": 0,
+        "executed_desk": 3,
+        "qualified": 2,
+        "actionable": 2,
+        "strict": 2
+      },
+      "HAH": {
+        "n": 4,
+        "protected": 4,
+        "locator_and_calibration": 0,
+        "safe_usable": 0,
+        "executed_desk": 3,
+        "qualified": 2,
+        "actionable": 0,
+        "strict": 0
+      },
+      "HHA": {
+        "n": 4,
+        "protected": 4,
+        "locator_and_calibration": 0,
+        "safe_usable": 0,
+        "executed_desk": 1,
+        "qualified": 1,
+        "actionable": 1,
+        "strict": 1
+      },
+      "HHH": {
+        "n": 4,
+        "protected": 4,
+        "locator_and_calibration": 0,
+        "safe_usable": 0,
+        "executed_desk": 1,
+        "qualified": 1,
+        "actionable": 0,
+        "strict": 0
+      }
+    },
+    "positive_notes": [
+      {
+        "case": "E2",
+        "service": "H",
+        "investigator": "A",
+        "writer": "A",
+        "actionable": 1,
+        "strict": 1
+      },
+      {
+        "case": "G1",
+        "service": "H",
+        "investigator": "H",
+        "writer": "A",
+        "actionable": 1,
+        "strict": 1
+      },
+      {
+        "case": "G2",
+        "service": "A",
+        "investigator": "A",
+        "writer": "A",
+        "actionable": 1,
+        "strict": 0
+      },
+      {
+        "case": "G2",
+        "service": "H",
+        "investigator": "A",
+        "writer": "A",
+        "actionable": 1,
+        "strict": 1
+      }
+    ]
+  }
+}

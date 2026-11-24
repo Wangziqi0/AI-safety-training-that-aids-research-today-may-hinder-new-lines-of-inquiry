@@ -1,0 +1,25 @@
+{
+  "statement_definitions_byte_equal_after_trailing_whitespace": true,
+  "five_name_type_pairs_equal": [
+    [
+      "riemannHypothesis",
+      "RiemannHypothesis"
+    ],
+    [
+      "riemannZeta_eq_zero_re",
+      "RiemannZetaZerosOnLine"
+    ],
+    [
+      "LFunction_ne_zero_of_half_lt_re",
+      "DirichletLNonvanishingRightOfHalf"
+    ],
+    [
+      "LFunction_eq_zero_re",
+      "DirichletLZerosOnLine"
+    ],
+    [
+      "LFunction_eq_zero_re_of_isPrimitive",
+      "PrimitiveDirichletLZerosOnLine"
+    ]
+  ]
+}

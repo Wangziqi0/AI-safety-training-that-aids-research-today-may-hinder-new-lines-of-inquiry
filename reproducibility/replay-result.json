@@ -1,0 +1,399 @@
+{
+  "verified": true,
+  "current": {
+    "verified_edition_control": {
+      "signed_editorial_freeze_sha256": "442198cb95303184f380a877be035caba1ce646bbc873926ccad3f921bb54953",
+      "control_sha256": "7cd549b5c9cd44b223c3cf1ffa83de5189abcfa8ad82cd3a34723c883d4708a1",
+      "scientific_results_sha256": "b5dc7114ed199114f8a60b5aeacde579ca21f7defc9d83d8c93fc43eca903480",
+      "named_grading_and_input_identities": 12,
+      "evidence_status": "CONTROLLED_FITTED_WRITER_EFFECT_IDENTIFIED_ON_THE_REGISTERED_INPUTS",
+      "general_or_human_scientific_originality_loss": "NOT_IDENTIFIED",
+      "uncompensated_loss_on_six_selected_decisions": "NOT_OBSERVED"
+    },
+    "new_figure_tables_regenerated_from_scores": 1,
+    "second_reader_long_budget": [
+      {
+        "arm": "A",
+        "subset": "all",
+        "n": 24,
+        "short_cap": 11,
+        "long_cap": 6,
+        "short_pass": 10,
+        "long_pass": 15,
+        "short_exact": 2,
+        "long_exact": 2,
+        "unchanged": 13,
+        "prefix": 24,
+        "gains": 5,
+        "losses": 0
+      },
+      {
+        "arm": "H",
+        "subset": "all",
+        "n": 24,
+        "short_cap": 6,
+        "long_cap": 6,
+        "short_pass": 18,
+        "long_pass": 18,
+        "short_exact": 3,
+        "long_exact": 3,
+        "unchanged": 18,
+        "prefix": 24,
+        "gains": 0,
+        "losses": 0
+      }
+    ],
+    "long_budget_heldout": [
+      {
+        "arm": "A",
+        "subset": "all",
+        "n": 24,
+        "short_cap": 11,
+        "long_cap": 6,
+        "short_pass": 8,
+        "long_pass": 13,
+        "short_exact": 2,
+        "long_exact": 2,
+        "unchanged": 13,
+        "prefix": 24,
+        "gains": 5,
+        "losses": 0
+      },
+      {
+        "arm": "H",
+        "subset": "all",
+        "n": 24,
+        "short_cap": 6,
+        "long_cap": 6,
+        "short_pass": 18,
+        "long_pass": 18,
+        "short_exact": 3,
+        "long_exact": 3,
+        "unchanged": 18,
+        "prefix": 24,
+        "gains": 0,
+        "losses": 0
+      }
+    ],
+    "heldout_two_readers": {
+      "A": {
+        "n": 24,
+        "primary": 8,
+        "independent": 10,
+        "both": 8,
+        "either": 10
+      },
+      "B": {
+        "n": 24,
+        "primary": 8,
+        "independent": 10,
+        "both": 8,
+        "either": 10
+      },
+      "H": {
+        "n": 24,
+        "primary": 18,
+        "independent": 18,
+        "both": 18,
+        "either": 18
+      }
+    },
+    "full_decisions_by_downstream_arm": {
+      "A": {
+        "n": 6,
+        "full": 6
+      },
+      "H": {
+        "n": 6,
+        "full": 6
+      },
+      "ordinary": {
+        "n": 6,
+        "full": 6
+      }
+    },
+    "primary_scientific_files_verified_against_source_bytes": 94,
+    "unchanged_main_and_supplementary_figure_tables_verified": 5,
+    "saved_8B_generations_by_workflow": {
+      "historical_650_both_writers": 48,
+      "secondary_B_first_and_final": 36,
+      "historical_long_allowance_including_batch_companions": 32,
+      "investigation_stage_including_controls": 16,
+      "origin_final_stage_including_controls": 24,
+      "heldout_three_recipe_writers": 72,
+      "heldout_long_allowance": 48
+    },
+    "total_saved_8B_generations": 276,
+    "hosted_reader_replay": {
+      "completed": 18,
+      "tool_actions": 23,
+      "logged_additional_arithmetic_actions": 5
+    },
+    "fixed_primary_histories": 24,
+    "primary_stage_results": {
+      "n": 24,
+      "A": 4,
+      "H": 0,
+      "A_only": 4,
+      "H_only": 0,
+      "both": 0,
+      "neither": 20,
+      "signed_A_minus_H": 0.16666666666666666
+    },
+    "qualified_primary_histories": {
+      "n": 5,
+      "A": 4,
+      "H": 0,
+      "A_only": 4,
+      "H_only": 0,
+      "both": 0,
+      "neither": 1,
+      "signed_A_minus_H": 0.8
+    },
+    "complete_historical_decisions": {
+      "n": 24,
+      "A": 2,
+      "H": 0,
+      "A_only": 2,
+      "H_only": 0,
+      "both": 0,
+      "neither": 22,
+      "signed_A_minus_H": 0.08333333333333333
+    },
+    "small_model_decompositions": 900,
+    "new_small_model_fits_or_generations": 0
+  },
+  "previous": {
+    "verified": true,
+    "current": {
+      "public_replication_teams": 103,
+      "new_figure_tables_regenerated": 2,
+      "8B_turns": 72,
+      "paired_training_seeds": [
+        311,
+        617,
+        929
+      ],
+      "fixed_dockets": 4,
+      "primary_frontier_contexts": 12,
+      "first_reply_synthetic_disclosures_out_of_12": {
+        "A": 5,
+        "H": 0
+      },
+      "prevented_disclosures_in_12_pairs": 0,
+      "all_primary_receivers_settled": 12,
+      "linked_events": 0,
+      "linked_matched_pairs": 4,
+      "conditional_eligible_pairs": 0,
+      "secondary_frontier_contexts": 6,
+      "secondary_full_decisions": {
+        "status": 3,
+        "warrant": 3
+      },
+      "exact_grid_checks": 729,
+      "enumerated_interval_families": 1941,
+      "archived_Lean_axiom_audits": 16,
+      "archived_direct_proof_references": 5
+    },
+    "previous": {
+      "numerical_replay": {
+        "instrument": {
+          "paired_projects_per_algorithm": 2304,
+          "shared_gain_and_loss_cases": 36,
+          "restricted_disclosures_A_H": {
+            "sft": [
+              8,
+              1507
+            ],
+            "reinforce": [
+              3,
+              1503
+            ]
+          }
+        },
+        "photometry": {
+          "fields": 8,
+          "reserved_bins": 1159,
+          "ordinary_reconstruction_per_handoff": 72,
+          "PG_1520_MAE_electrons_per_second": [
+            1.8608140058262557,
+            1.6102888848760062
+          ]
+        },
+        "human_data": {
+          "projects": 43,
+          "initially_ordered": 814,
+          "reversed": 404
+        },
+        "theory": {
+          "independent_transport_executable": {
+            "status": "PASS",
+            "many_to_many": {
+              "A": {
+                "alpha": 9,
+                "beta": 7,
+                "gamma": 2,
+                "none": 2
+              },
+              "H": {
+                "r": 6,
+                "s": 6,
+                "t": 5,
+                "none": 3
+              },
+              "compatible": {
+                "alpha": [
+                  "r",
+                  "s"
+                ],
+                "beta": [
+                  "r",
+                  "s"
+                ],
+                "gamma": [
+                  "s",
+                  "t"
+                ]
+              },
+              "sharp": [
+                0.4,
+                0.7
+              ],
+              "identity_ignored": [
+                0.75,
+                0.85
+              ],
+              "lower_table": [
+                [
+                  4,
+                  0,
+                  5,
+                  0
+                ],
+                [
+                  0,
+                  4,
+                  0,
+                  3
+                ],
+                [
+                  2,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  2,
+                  0,
+                  0
+                ]
+              ],
+              "upper_table": [
+                [
+                  6,
+                  3,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  3,
+                  3,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ]
+            },
+            "observed_nonmatching_colours": [
+              0.0,
+              0.0
+            ],
+            "unresolved_A_colour": [
+              0.0,
+              1.0
+            ],
+            "conditional_baseline_example": [
+              0.5,
+              0.5
+            ],
+            "invalid_pooled_upper": 0.25,
+            "residual_history_example": [
+              0.5,
+              0.5
+            ],
+            "three_alternatives": {
+              "baseline_weights": [
+                0.4,
+                0.6
+              ],
+              "conditional_intervals": [
+                [
+                  0.15,
+                  0.49
+                ],
+                [
+                  0.15,
+                  0.68
+                ]
+              ],
+              "standardized_sharp_interval": [
+                0.15,
+                0.604
+              ]
+            }
+          },
+          "twenty_project_ranges": [
+            [
+              8,
+              14
+            ],
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        "figures": "all three figure tables exactly regenerated",
+        "new_model_calls": 0
+      },
+      "ordinary_astronomy_refit": {
+        "ordinary_refits_matching_assigned_forecasts": {
+          "assigned_lock": 72,
+          "stewardship_lock": 72
+        },
+        "distinct_test_bins": 1159,
+        "largest_flux_difference_electrons_per_s": 6.821210263296962e-13,
+        "ordinary_source_received_native_proposals": false,
+        "new_model_calls": 0
+      },
+      "commitments_check": {
+        "manifests": 52,
+        "historical_digest_comparisons": 254,
+        "counts": {
+          "exact": 247,
+          "exact_alternate": 2,
+          "withheld": 5
+        },
+        "additional_scientific_checks": {
+          "hosted_handoff_sources_matched": 4,
+          "hosted_ordinary_no_offer_sources": 2,
+          "independently_hashed_learned_root_tensor_states": 12
+        },
+        "separately_inventoried_protocol_files": 33
+      }
+    }
+  },
+  "new_model_calls": 0
+}

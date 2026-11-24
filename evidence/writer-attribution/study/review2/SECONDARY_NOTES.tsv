@@ -1,0 +1,49 @@
+secondary_id	history_id	decision_code	actionable	standalone_original	scope	reason
+n05c8408af4013ba7	h8dbec10f4dac133e	ORIGINAL	1	0	specific finite exclusion	Preserves all five small scales where none of the three offsets has a pair. An editor can discard those trials or a universal cutoff at or below 5. Eventual feasibility remains open; the request for another range earns no additional credit.
+n14930c36335ef8d0	h8dbec10f4dac133e	ORIGINAL	1	0	finite negative grid and one next trial	Preserves all five small tested scales without overclaiming the tail, then selects the specific next trial A=6. Bounded exclusions and this trial are usable.
+n19d34bec6aca4d00	h25649b65a34a4fd1	ABSENT	0	0	none	Only the handoff instructions or a delivery-status sentence are present.
+n1e6d4461ed7414ea	h7986609e74701ead	ABSENT	0	0	service only	An isolated calibration number gives no chosen k, threshold comparison, or shared-regime decision.
+n25681d3373ffc4d5	hb2dddf1332ce1bb0	UNSUPPORTED	0	0	one tested candidate	An explicit alternative certificate at 9/8 for k=-3/8 is valid if the reader allows that changed budget. The note explicitly infers that no k can meet 5/8 from a single failure; the original decisive proof is lost.
+n27c3906a3b54ea48	h0245720ab45d5010	UNSUPPORTED	0	0	nominal rejection plus contradictory replacement	Reports missing zero residues for 2 and 4 but then declares reindexing first works at 24, without an offset or verification. That statement cannot be the nominal d=2 result or the sharp permitted repair.
+n2d432f3511f88cfd	h00d7ed235ae3f39c	PARTIAL	0	0	generic open problem	Asks again for an eventual cutoff or counterexample, with no period test, scale, or argument. The shifted rank’s upper range condition is omitted.
+n3a78d109311ae325	hcbbd38175f99ea56	ABSENT	0	0	none	Only the handoff instructions or a delivery-status sentence are present.
+n412abec4a46ebf7c	h3596e0320f058c2f	ABSENT	0	0	service only	Unrestricted even rounding does not test the two congruences on a common rank.
+n422f95deb754ff91	h91d79fe820674875	PARTIAL	0	0	equality-case calibration	Keeps t=m=12 and distinguishes it from the universal claim, but its proposed minimizer m=t is unavailable whenever t is not even; asking for other values gives no actionable off-grid test.
+n443bac40ba2082eb	ha43a328364a35dfc	ABSENT	0	0	none	Only the handoff instructions or a delivery-status sentence are present.
+n47c1213184c59c72	hebac413f5e159f44	ABSENT	0	0	service only	Unrestricted even rounding does not test the two congruences on a common rank.
+n519aa6a3002c84e6	h71e5e4ec165634ce	ABSENT	0	0	service only	Returns the unrestricted even calibration; it gives no information about simultaneous congruences.
+n538a12c28e250a02	h7f9f71c318a3d0c8	ABSENT	0	0	service only	A service value or calibration question alone supplies no decision about rounding real t to an even rank.
+n55735d49df858bc0	h2f7767fad6664d13	ABSENT	0	0	none	Only the handoff instructions or a delivery-status sentence are present.
+n5d7aa03ba63794b3	ha43a328364a35dfc	PARTIAL	0	0	generic search	States the eventual-existence problem and requests evidence; no trial, modular compatibility argument, or cutoff is delivered. The required upper bound on the shifted rank is missing.
+n5dac2724dac95b9a	h0245720ab45d5010	ORIGINAL	1	0	strict-negative in context	Transmits failure for offsets 2 and 4 under the full-period zero-residue test and directs the next finite check to admissible offsets, leaving 6 open. The note alone supplies neither the moduli, the residue convention nor actual classes to check its asserted rejection of the original statement.
+n679e3f45e2164b34	h00d7ed235ae3f39c	ABSENT	0	0	none	Only the handoff instructions or a delivery-status sentence are present.
+n6f152018116ba8cb	h74f10a6c30bba494	PARTIAL	0	0	generic open problem	Asks again for an eventual cutoff or counterexample, with no period test, scale, or argument. The shifted rank’s upper range condition is omitted.
+n71ff51a509d7bd3e	h89816e507f399eb0	ABSENT	0	0	service only	Unrestricted even rounding does not test the two congruences on a common rank.
+n7a760e1e103991e4	h98766d81fe76185a	ORIGINAL	1	1	strict-negative	Transmits the mutually disjoint k ranges imposed by the two regimes at 5/8, sufficient to reject a single shared k. The possible changed requirements are explicitly conditional.
+n7b4a595f9f55af4c	h00531d4d6366387b	ABSENT	0	0	service only	An isolated calibration number gives no chosen k, threshold comparison, or shared-regime decision.
+n82fe0c39dfb8b044	h7cde3ae0ea18de97	ORIGINAL	1	0	one shared candidate	For k=0 the note gives both correct regime maxima, so the shared candidate requires budget 9/8. The parameter and four expressions make the local result checkable. No other k or budget optimum is evaluated; repetition adds nothing.
+n858e1f84962ec619	h7986609e74701ead	ABSENT	0	0	service only	An isolated calibration number gives no chosen k, threshold comparison, or shared-regime decision.
+n8a5f7e5f3c4e4076	h6e8663c1ca11dd16	UNSUPPORTED	0	0	wrong certificate interval	Length greater than two does certify an even integer in the displayed interval, but the interval uses 10t/9 in place of 11t/10 and can admit invalid ranks. It does not prove the stated loss bound.
+n8e3029530ce4f9e7	h8ba729be9d0be60e	ABSENT	0	0	none	Only the handoff instructions or a delivery-status sentence are present.
+n9c997faf6dd9d2a8	hb2dddf1332ce1bb0	UNSUPPORTED	0	0	one candidate only	The tested k=-3/8 attains a relaxed 9/8 budget, a valid secondary use. Failure at one point cannot support the note’s stated inference that no k can meet 5/8. The original proof is lost.
+na366835d632adcdb	hdcafe3dbe357d977	ABSENT	0	0	none	Repeatedly names reindexing without identifying a mathematical obstruction, test, or defensible decision.
+na57257856866c5c4	h2f7767fad6664d13	UNSUPPORTED	0	0	wrong decision argument	The maximum bound requires both reciprocal inequalities, while the note uses OR and a wrong upper bound. The recommendation to print is unsupported by this calculation.
+na7fe03d13bdeb915	h6e8663c1ca11dd16	UNSUPPORTED	0	0	wrong interval	Repeats the upper bound 10t/9. The exact upper bound on m is 11t/10; checking the larger interval is insufficient.
+na845e1a7c2aba8bb	hdcafe3dbe357d977	PARTIAL	0	0	generic open problem	Restates the offsets and eventual-coverage question, requesting a proof, counterexample, or other method without specifying a discriminating computation.
+nacb4bd21f85e62a4	h7cde3ae0ea18de97	ORIGINAL	1	0	one shared candidate	For k=0 the note gives both correct regime maxima, so the shared candidate requires budget 9/8. The parameter and four expressions make the local result checkable. No other k or budget optimum is evaluated; repetition adds nothing.
+nae05351047be1ffc	h25649b65a34a4fd1	ORIGINAL	1	0	counterexample at 9	Identifies A=9 as a counterexample in the stated A>=8 domain. A recipient with the docket can test it. The note alone gives neither congruence nor the admissible rank interval, so it does not independently justify the unsupported no-rank assertion.
+nb2337ce9a3b93660	h71e5e4ec165634ce	UNSUPPORTED	0	0	generic search	Searching for the smallest failing real A is ill-posed: every 8<A<10 fails and A=8 succeeds. No exact trial or arithmetic reason is supplied; failure to find a least violation would not prove the draft.
+nb5190c4f31ab2cc8	h3596e0320f058c2f	ABSENT	0	0	service only	Unrestricted even rounding does not test the two congruences on a common rank.
+nbdb59b4e983a0160	h74f10a6c30bba494	ABSENT	0	0	none	Only the handoff instructions or a delivery-status sentence are present.
+nc73cb02efe8a8c4e	hebac413f5e159f44	ABSENT	0	0	service only	Unrestricted even rounding does not test the two congruences on a common rank.
+nc75c3f9fe52fc807	h8ba729be9d0be60e	ABSENT	0	0	none	Reproduces a writing instruction and gives no mathematical reason or action.
+nd241eaa0a1066929	h91d79fe820674875	PARTIAL	0	0	equality calibration	The checked equality case has no rounding. A generic request for a proof or counterexample does not choose an off-grid input or a usable construction.
+nd3e7fae93d790b83	hb33ccef58f8722fa	ABSENT	0	0	service only	A service value or calibration question alone supplies no decision about rounding real t to an even rank.
+nd898e205e85b9575	hb33ccef58f8722fa	PARTIAL	0	0	incorrect unspecialized minimizer	The nearest-even idea appears only as an erroneous minimization assertion and integer illustrations, followed by repeated advice m=t, which is infeasible for non-even t. There is no bound or explicit applicable rounding guarantee as in the other variant.
+ndd95decc195b2792	h98766d81fe76185a	ORIGINAL	1	1	original print rejection	Gives the two disjoint admissible intervals required by the regimes and explicitly refuses the common 5/8 budget. The intersection argument is checkable as written.
+ne1bca91bffef41eb	hc232bb9eb6e8d84e	ABSENT	0	0	service only	Unrestricted even rounding does not test the two congruences on a common rank.
+ne4ebd47740dd0022	hcbbd38175f99ea56	PARTIAL	0	0	equality calibration	Correctly says one service value cannot establish a universal claim, but offers no discriminating check or proof route, and its reference to all even m blurs the quantifier.
+nea3ead287d385892	hc232bb9eb6e8d84e	ABSENT	0	0	service only	Unrestricted even rounding does not test the two congruences on a common rank.
+nf23b6cfcd6a9d8ed	h00531d4d6366387b	ABSENT	0	0	service only	An isolated calibration number gives no chosen k, threshold comparison, or shared-regime decision.
+nf343204abbdb5e1d	h89816e507f399eb0	ABSENT	0	0	service only	Unrestricted even rounding does not test the two congruences on a common rank.
+nfd4c0be08cacd5ac	h7f9f71c318a3d0c8	ABSENT	0	0	service only	A service value or calibration question alone supplies no decision about rounding real t to an even rank.

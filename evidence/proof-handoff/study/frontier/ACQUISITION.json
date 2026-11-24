@@ -1,0 +1,22 @@
+{
+  "acquisition": "Independent hosted GPT-6.2-Astra high, empty conversation history per recipient, source arm withheld. Instructions restrict file reads to a single public packet; filesystem policy is audited from tool history rather than guaranteed by OS isolation.",
+  "arithmetic": "One optional returned exact desk calculation with at most 41 rational entries",
+  "visible_response": "Requested at most 450 words. All completed responses retained.",
+  "no_new_human_decision": true,
+  "packet_sha256": "39a06a0cb27e872580476100397312a1578c6b567681dc1ec781135553937414",
+  "slots": [
+    "rc8e0c3cfe553",
+    "r60f7c20adaf5",
+    "r68ddf819444f",
+    "rd3c3b78ef48b",
+    "ra0a84ba9e657",
+    "r877babf5140c",
+    "ra16047591117",
+    "ra206f3cbaf09",
+    "r9c7572ed0f6f",
+    "r6ecea1a20997",
+    "r2f03d719a18e",
+    "rddf2cb8cfd41"
+  ],
+  "at": "2026-11-21T04:35:47.560756+00:00"
+}

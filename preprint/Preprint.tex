@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,inner=29mm,outer=26mm,top=24mm,bottom=24mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Liberation Serif}
+\usepackage{amsmath,amssymb,graphicx,booktabs,setspace,lineno,needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\hypersetup{pdftitle={AI safety training that aids research today may hinder new lines of inquiry},pdfauthor={Yifan Chen},pdfsubject={Research Article}}
+\makeatletter
+\renewcommand{\@cite}[2]{\textsuperscript{#1}}
+\makeatother
+\renewcommand{\linenumberfont}{\normalfont\scriptsize\color{black}}
+\usepackage{xcolor}
+\linespread{1.23}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.15em}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\newcommand{\parthead}[1]{\par\Needspace{5\baselineskip}\medskip\noindent{\large\bfseries #1}\par\smallskip\noindent\ignorespaces}
+\newcommand{\subhead}[1]{\par\Needspace{3\baselineskip}\noindent\textbf{#1.}\enspace\ignorespaces}
+\newcommand{\paperfig}[3]{\clearpage\noindent\includegraphics[width=\linewidth,height=.63\textheight,keepaspectratio]{../figures/#1.pdf}\par\medskip\begingroup\def\currentfigure{#1}\def\densefigure{fig1}\ifx\currentfigure\densefigure\setstretch{1.02}\fi\noindent\textbf{#2.}\enspace #3\par\endgroup}
+\newcommand{\es}{electrons\,s\(^{-1}\)}
+\begin{document}
+\nolinenumbers
+\begin{spacing}{1.05}
+\noindent\textit{Author working preprint (V11.2 local revision). 23 November 2026.}\par\smallskip
+\noindent{\LARGE\bfseries\raggedright AI safety training that aids research today may~hinder new lines of inquiry\par}
+\medskip\noindent Yifan Chen\textsuperscript{1,*}\par
+\noindent\textsuperscript{1}Independent researcher, Lu'an, China.\par
+\noindent\textsuperscript{*}Correspondence: \href{mailto:1426704936@qq.com}{1426704936@qq.com}\par
+\end{spacing}
+\medskip
+\noindent\textbf{\input{../article/summary}}\par
+\input{../article/main}
+\begin{thebibliography}{99}
+\setlength{\itemsep}{1pt}\setlength{\parsep}{0pt}
+\input{../article/reference_entries}
+\end{thebibliography}
+\input{../article/legends}
+\clearpage
+\parthead{Methods}
+\input{../article/methods}
+\input{../article/declarations}
+\end{document}

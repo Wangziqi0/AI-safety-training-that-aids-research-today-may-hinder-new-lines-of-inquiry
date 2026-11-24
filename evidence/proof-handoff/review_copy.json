@@ -1,0 +1,37 @@
+{
+  "date_UTC": "2026-11-21",
+  "edits": [
+    {
+      "file": "experiment/PROTOCOL.md",
+      "original_sha256": "3f973a638eb523bbaaf7f371bcc3c9ff95411ce9f320cab215966c08d13d4dc2",
+      "review_sha256": "80feb6192df7370e3e6a1ce17384db8d17cf45c1c581dd5f61346c9030e6fd2a",
+      "edit": "One final paragraph about platform administration omitted. All preceding scientific text is byte-identical."
+    },
+    {
+      "file": "experiment/REPORT.md",
+      "original_sha256": "b3d964a399e50e063e3062d3f8dcb001bce81ab1c2111223a5c2c63822718876",
+      "review_sha256": "79e6c128f4d86a646420f9f25eed5f587083f4d6641da4c80e19d30ef1aac1b6",
+      "edit": "Administrative host references removed or mapped to relative review paths."
+    },
+    {
+      "file": "experiment/replay.py",
+      "original_sha256": "78aa7de704622b32065f58f4484a80dd49cd6d6ab14729a79937769b7b7df227",
+      "review_sha256": "772ac63fcee8dc022e7825a9b8b65e95456a7eeaa226cf5e9f0273082e4d62bb",
+      "edit": "Administrative host references removed or mapped to relative review paths. The replay checks the review-copy commitment for the protocol paragraph."
+    },
+    {
+      "file": "literature/PRIMARY.md",
+      "original_sha256": "f6e96d9142a39295d5430bf91b077363cd8c0dee7e1a45c4c572d55b232b21bb",
+      "review_sha256": "60bd5e367a4e2fc2bd566070076225a46cdfbc75a31564aea02f8313dfcc2981",
+      "edit": "Administrative host references removed or mapped to relative review paths."
+    },
+    {
+      "file": "math/PROOF.md",
+      "original_sha256": "7b3356bead9ec0e06bd9c70d06f5b9572e966accd313b50ba26b27c5816e427a",
+      "review_sha256": "94372e1b0c04c655af64506188e76760048dc6969deb5a318b7ca19acb839a82",
+      "edit": "Administrative host references removed or mapped to relative review paths."
+    }
+  ],
+  "telemetry": "All 18 published slot receipts retain the scientific packet hash, response size, model, effort, timing, tool identity/action and usage counts. Internal platform session IDs are removed. Every tool action was checked verbatim against a single read of the assigned packet before its workspace root was replaced. No hidden reasoning text was collected for this archive.",
+  "logs": "A launcher authentication diagnostic contains no scientific computation and was omitted. In formal compilation diagnostics, host names and home/workspace roots are represented by relative directories. Failed intermediate checks are included."
+}

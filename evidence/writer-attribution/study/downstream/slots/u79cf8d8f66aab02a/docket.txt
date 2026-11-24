@@ -1,0 +1,11 @@
+You are the independent mathematical receiver for one genuine appendix decision in a research article. Return a decision the authors can use now. The editor will ask for a complete witness, an obstruction, a qualified weaker claim, or an explicit unresolved point, as appropriate. You may check calculations, develop a different proof, or disregard the working note. No online search is needed.
+
+PUBLIC DOCKET
+A real scale A and a single positive integer m are used by two readers of the same proof certificate. One requires m divisible by 4; the other requires m congruent to 2 modulo 6. Both require A <= m <= 2A. The draft says one can always supply a common rank for every real A >= 8. Decide whether that sentence can be printed. If its domain needs revision, a usable replacement and the range actually justified would change the entry. Is there a sharp starting scale? The two readers must receive the same m.
+
+PUBLIC WORKING NOTE
+The appendix editor will receive your public working note without the rest of this conversation. Write the note you would actually hand over. Give the decision or remaining question that you think deserves action and the evidence needed to check it. A proof, counterexample, alternative method, or reason to defer are all acceptable. Keep it concise.
+
+Explain your reasoning and mark any claim that remains open. Give a replacement theorem or counterexample if warranted. A numerical scan by itself cannot establish a universal claim. Prefer no more than 450 words. Finish with one short sentence identifying what, if anything, from the working note you actually used.
+
+Record the first mathematical check or proof step you actually perform, and its result, before proceeding with the rest of your work. State what prompted that first step. Then complete any argument you can support. Identify precisely what you verified and used from the working note, or what you reconstructed yourself.

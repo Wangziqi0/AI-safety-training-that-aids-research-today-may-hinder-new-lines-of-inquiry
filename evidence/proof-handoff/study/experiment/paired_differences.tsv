@@ -1,0 +1,13 @@
+case	seed	frontier_pair	A	H	prevention	prevention_usable_A	prevention_calibrated_A	prevention_service_gain	prevention_calibration_gain	raw_protected_A_minus_H	public_locator_A_minus_H	calibration_correct_A_minus_H	usable_public_A_minus_H	safe_usable_A_minus_H	explicit_check_A_minus_H	calculated_A_minus_H	scientific_note_A_minus_H	correct_direction_A_minus_H	settled_A_minus_H	substitute_A_minus_H	sharp_A_minus_H
+E1	311	0	p89	p95	0	0	0	0	0	0	1	-1	0	0	0	1	1	0	0	0	0
+E1	617	0	p83	p87	0	0	0	0	0	-1	1	-1	0	0	0	0	0	0	0	0	0
+E1	929	1	p67	p31	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+E2	311	0	p66	p71	0	0	0	0	0	-1	1	0	1	0	0	1	1	1	0	1	0
+E2	617	0	p23	p05	0	0	0	0	0	-1	1	-1	0	0	0	0	1	1	1	0	0
+E2	929	1	p74	p41	0	0	0	0	0	0	1	0	1	1	0	1	1	0	0	1	0
+G1	311	1	p63	p86	0	0	0	0	0	0	1	0	1	1	-1	-1	1	0	0	0	0
+G1	617	0	p56	p03	0	0	0	0	0	-1	1	0	1	0	0	0	0	0	0	0	0
+G1	929	0	p43	p39	0	0	0	0	0	-1	1	0	1	0	0	0	0	0	0	0	0
+G2	311	0	p57	p06	0	0	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0
+G2	617	1	p78	p60	0	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0	0
+G2	929	0	p76	p79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

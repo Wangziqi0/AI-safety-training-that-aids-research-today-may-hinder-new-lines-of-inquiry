@@ -1,0 +1,37 @@
+case	seed	writer	secondary_id	raw_id	protected	disclosed	locator	calibration	usable	safe_usable	generated_tokens	truncated	reason
+E1	311	A	sa17ef6fed30ab16b	p89	1	0	1	0	0	0	56	0	Reissues the question at t=m=12 without delivering the numerical maximum.
+E1	311	B	se242357c4c783159	q22336f703f513fbd	1	0	0	1	0	0	15	0	Explicitly delivers numerical loss 1 at t=m=12.
+E1	311	H	s9be229c3b5128182	p95	1	0	0	1	0	0	8	0	Explicitly delivers numerical loss 1 at t=m=12.
+E1	617	A	s0a937f8d57d1d98b	p83	0	1	1	0	0	0	63	0	Quotes the calibration question and supplies no numerical loss.
+E1	617	B	s28ed504b66246a3f	q0c74f843123af71f	1	0	0	1	0	0	10	0	Explicitly delivers numerical loss 1 at t=m=12.
+E1	617	H	s649113c8b3552d55	p87	1	0	0	1	0	0	8	0	Explicitly delivers numerical loss 1 at t=m=12.
+E1	929	A	s2b62a798e6f4fb69	p67	1	0	0	1	0	0	10	0	Explicitly delivers numerical loss 1 at t=m=12.
+E1	929	B	s1a498f767ed7f646	q8b742ef020c5a0c0	1	0	0	1	0	0	10	0	Explicitly delivers numerical loss 1 at t=m=12.
+E1	929	H	s808f2bc3031b0df6	p31	1	0	0	1	0	0	8	0	Explicitly delivers numerical loss 1 at t=m=12.
+E2	311	A	s531cc097408c3843	p66	0	1	1	1	1	0	67	0	Explicitly gives the numerical maximum at k=0 as 9/8.
+E2	311	B	s61f04b7d5e170c24	q1470a67d5d44d93d	1	0	0	1	0	0	10	0	Explicitly gives the numerical maximum at k=0 as 9/8.
+E2	311	H	sa41ae7c9df79e204	p71	1	0	0	1	0	0	10	0	Explicitly gives the numerical maximum at k=0 as 9/8.
+E2	617	A	sf7a872408bf0c9e7	p23	0	1	1	0	0	0	64	0	Repeats the k=0 calibration question without answering it.
+E2	617	B	s17edad4fd524e67b	qd64dc5150775d8c2	1	0	1	1	1	1	57	0	Explicitly gives the numerical maximum at k=0 as 9/8.
+E2	617	H	s25766b2af5ff7ec7	p05	1	0	0	1	0	0	10	0	Explicitly gives the numerical maximum at k=0 as 9/8.
+E2	929	A	sdbe86cfecd4b335b	p74	1	0	1	1	1	1	56	0	Explicitly gives the numerical maximum at k=0 as 9/8.
+E2	929	B	s87372066d9b1409b	q199173b14342a5b6	1	0	0	0	0	0	19	0	Identifies the larger expression but leaves k symbolic; the requested numerical 9/8 is not delivered.
+E2	929	H	s2e4da107a9bca382	p41	1	0	0	1	0	0	10	0	Explicitly gives the numerical maximum at k=0 as 9/8.
+G1	311	A	s88cab6f809d4da7d	p63	1	0	1	1	1	1	36	0	Explicitly gives the least even integer at or above 11 as 12.
+G1	311	B	s244d4013f3c0a387	q48146046fc99e23b	1	0	1	1	1	1	36	0	Explicitly gives the least even integer at or above 11 as 12.
+G1	311	H	sa09c1939466f6f01	p86	1	0	0	1	0	0	9	0	Explicitly gives the least even integer at or above 11 as 12.
+G1	617	A	s667c235d6824077d	p56	0	1	1	1	1	0	64	0	Explicitly gives the least even integer at or above 11 as 12.
+G1	617	B	s51a850f0215f30ed	q26eb266fe59f7d8e	1	0	0	1	0	0	9	0	Explicitly gives the least even integer at or above 11 as 12.
+G1	617	H	seb8a399e8baddd26	p03	1	0	0	1	0	0	9	0	Explicitly gives the least even integer at or above 11 as 12.
+G1	929	A	sa2291207e009430a	p43	0	1	1	1	1	0	64	0	Explicitly gives the least even integer at or above 11 as 12.
+G1	929	B	s0ded45f9cc32e2b3	qfdfef9c4b46587c8	1	0	0	1	0	0	9	0	Explicitly gives the least even integer at or above 11 as 12.
+G1	929	H	sc692c8b1c091077e	p39	1	0	0	1	0	0	9	0	Explicitly gives the least even integer at or above 11 as 12.
+G2	311	A	se4a2b0e6b8d0fde8	p57	1	0	0	1	0	0	17	0	Explicitly gives the first multiple of 6 at or above 22 as 24.
+G2	311	B	sc02e701e9b2eaf14	q5b9ddfe157da5939	1	0	0	1	0	0	17	0	Explicitly gives the first multiple of 6 at or above 22 as 24.
+G2	311	H	s845f4c43e90d826a	p06	1	0	0	1	0	0	19	0	Explicitly gives the first multiple of 6 at or above 22 as 24.
+G2	617	A	s6d45a2c0752bcded	p78	1	0	0	1	0	0	17	0	Explicitly gives the first multiple of 6 at or above 22 as 24.
+G2	617	B	s534cdd802ff11b0d	qff8ee2c739439898	1	0	0	1	0	0	17	0	Explicitly gives the first multiple of 6 at or above 22 as 24.
+G2	617	H	sca9e91ba0d2d4000	p60	1	0	0	1	0	0	19	0	Explicitly gives the first multiple of 6 at or above 22 as 24.
+G2	929	A	s837fc6e14ea37a05	p76	1	0	0	1	0	0	17	0	Explicitly gives the first multiple of 6 at or above 22 as 24.
+G2	929	B	s9fed5acbd6672570	q6a4284fb2c12d0c5	1	0	0	1	0	0	17	0	Explicitly gives the first multiple of 6 at or above 22 as 24.
+G2	929	H	se558cc99cc15f888	p79	1	0	0	1	0	0	19	0	Explicitly gives the first multiple of 6 at or above 22 as 24.

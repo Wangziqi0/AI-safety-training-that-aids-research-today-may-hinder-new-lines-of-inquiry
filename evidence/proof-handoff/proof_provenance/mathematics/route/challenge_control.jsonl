@@ -1,0 +1,4 @@
+{"bytes":350862311,"declarations":53722,"expressions":6112241,"names":329321}
+{"absent":["allChi"],"examined_expressions":68,"mode":"body","paths":{"sorryAx":[["value","sorryAx"]]},"reached_declarations":11,"root":"riemannHypothesis"}
+{"absent":[],"examined_expressions":108,"mode":"body","paths":{"DirichletCharacter.LFunction":[["value","DirichletCharacter.LFunction"]]},"reached_declarations":30,"root":"DirichletLZerosOnLine"}
+{"absent":[],"examined_expressions":115,"mode":"body","paths":{"DirichletCharacter.IsPrimitive":[["value","DirichletCharacter.IsPrimitive"]]},"reached_declarations":31,"root":"PrimitiveDirichletLZerosOnLine"}

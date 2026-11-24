@@ -1,0 +1,20 @@
+{
+  "files": {
+    "downstream/receiver.py": "7788c52ccc54cdf7898f6f9e87e3e63bb52e2f4c18e5d65069faf3bc0e3d9d7b",
+    "downstream/PREREG.md": "e041c7db1c23b7c30ec4456275f5d33ce82e15f9060e96bd5292c76a16991c46",
+    "free_workspace/sole_ordinary/choices.jsonl": "4c11f368817de82befbd59439fc0704ba51bee12f7c7ddde8899f04129d719b4",
+    "free_workspace/sole_ordinary/P01_access.json": "9fbd2773d40542a1e70892bdc3274bf0e2b8d1c74f6e143fba1c935be734f3ff",
+    "free_workspace/sole_ordinary/P02_access.json": "93f8db7ff5363b8e11b1007f96a8828d40289b639c8e297af1ea031987510e2a",
+    "free_workspace/sole_ordinary/P03_access.json": "01333ed813f7750136eb28ea32f13edddf819e4dcd70ec1ef36544768d39b627",
+    "free_workspace/sole_ordinary/P04_access.json": "edbcc4d5aab089d23c9fdc6a5fe4da3fcffca0d1c4809864ea51bb8f6788caa5",
+    "free_workspace/sole_ordinary/P05_access.json": "de89495fe254303f7fe4edfd20750c3f0599e7e238de606d5688348a2af51203",
+    "free_workspace/sole_ordinary/P06_access.json": "a567c192bad6aa3cee052c774eeb60ec6d80854d2ce5909e8a507f4cce0e9df7",
+    "free_workspace/sole_ordinary/P07_access.json": "ccf5e769cd8443f4b74b8b920a0ff92fe398b0ca208a76e937d15fcf8bf434a3",
+    "free_workspace/sole_ordinary/P08_access.json": "08bcfe5e04bb71d7ccd3ecbdc1e524843bae9fff7d76b1581ea8738107484cca",
+    "free_workspace/ordinary_period_only.jsonl": "7494d439a947d67f7e3a175e48a64457a30165f16c0802f36734594ac862a861",
+    "practice/receiver_allocation.jsonl": "9d5c8cc1cdfbea4564981c98cbae3f3fa85893b468a79f87fbcd1f50e2e14bac"
+  },
+  "assigned_products": 72,
+  "choices": 304,
+  "phase": "numerical extraction and temporal hypotheses locked; no final target flux scored"
+}

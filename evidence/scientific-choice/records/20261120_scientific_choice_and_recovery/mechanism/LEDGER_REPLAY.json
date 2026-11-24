@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "law_rows": 3120,
+  "full_categorical_draws_reclassified": 49920,
+  "actual_coupled_trajectories": 57600,
+  "engineered_cell_means_rederived": 5400,
+  "naive_sum_vs_alternative_factorization_max_abs_error": 1.3322676295501878e-15,
+  "primary_natural_A_samples": {
+    "sft": {
+      "total": 576,
+      "repeat": 123,
+      "archive": 60,
+      "model_issued": 418,
+      "model_correct": 247,
+      "ordinary_correct": 96,
+      "all_correct": 343
+    },
+    "rl": {
+      "total": 384,
+      "repeat": 86,
+      "archive": 42,
+      "model_issued": 280,
+      "model_correct": 174,
+      "ordinary_correct": 64,
+      "all_correct": 238
+    }
+  },
+  "shared_texts_between_fixed_folds": {
+    "source": {
+      "challenge_context_rows": 24,
+      "challenge_distinct": 24,
+      "challenge_rows_also_in_index": 0,
+      "distinct_contexts_in_both": 0
+    },
+    "reader": {
+      "challenge_context_rows": 36,
+      "challenge_distinct": 30,
+      "challenge_rows_also_in_index": 30,
+      "distinct_contexts_in_both": 24
+    }
+  }
+}

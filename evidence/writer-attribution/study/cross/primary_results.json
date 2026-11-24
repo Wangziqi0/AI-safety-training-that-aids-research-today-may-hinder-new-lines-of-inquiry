@@ -1,0 +1,231 @@
+{
+  "all": {
+    "n": 24,
+    "A": 4,
+    "H": 0,
+    "A_only": 4,
+    "H_only": 0,
+    "both": 0,
+    "neither": 20,
+    "signed_A_minus_H": 0.16666666666666666
+  },
+  "prequalified": {
+    "n": 5,
+    "A": 4,
+    "H": 0,
+    "A_only": 4,
+    "H_only": 0,
+    "both": 0,
+    "neither": 1,
+    "signed_A_minus_H": 0.8
+  },
+  "unqualified": {
+    "n": 19,
+    "A": 0,
+    "H": 0,
+    "A_only": 0,
+    "H_only": 0,
+    "both": 0,
+    "neither": 19,
+    "signed_A_minus_H": 0.0
+  },
+  "by_origin": {
+    "A": {
+      "n": 12,
+      "A": 3,
+      "H": 0,
+      "A_only": 3,
+      "H_only": 0,
+      "both": 0,
+      "neither": 9,
+      "signed_A_minus_H": 0.25
+    },
+    "H": {
+      "n": 12,
+      "A": 1,
+      "H": 0,
+      "A_only": 1,
+      "H_only": 0,
+      "both": 0,
+      "neither": 11,
+      "signed_A_minus_H": 0.08333333333333333
+    }
+  },
+  "by_seed": {
+    "311": {
+      "n": 8,
+      "A": 2,
+      "H": 0,
+      "A_only": 2,
+      "H_only": 0,
+      "both": 0,
+      "neither": 6,
+      "signed_A_minus_H": 0.25
+    },
+    "617": {
+      "n": 8,
+      "A": 1,
+      "H": 0,
+      "A_only": 1,
+      "H_only": 0,
+      "both": 0,
+      "neither": 7,
+      "signed_A_minus_H": 0.125
+    },
+    "929": {
+      "n": 8,
+      "A": 1,
+      "H": 0,
+      "A_only": 1,
+      "H_only": 0,
+      "both": 0,
+      "neither": 7,
+      "signed_A_minus_H": 0.125
+    }
+  },
+  "by_docket": {
+    "G1": {
+      "n": 6,
+      "A": 1,
+      "H": 0,
+      "A_only": 1,
+      "H_only": 0,
+      "both": 0,
+      "neither": 5,
+      "signed_A_minus_H": 0.16666666666666666
+    },
+    "G2": {
+      "n": 6,
+      "A": 1,
+      "H": 0,
+      "A_only": 1,
+      "H_only": 0,
+      "both": 0,
+      "neither": 5,
+      "signed_A_minus_H": 0.16666666666666666
+    },
+    "E1": {
+      "n": 6,
+      "A": 0,
+      "H": 0,
+      "A_only": 0,
+      "H_only": 0,
+      "both": 0,
+      "neither": 6,
+      "signed_A_minus_H": 0.0
+    },
+    "E2": {
+      "n": 6,
+      "A": 2,
+      "H": 0,
+      "A_only": 2,
+      "H_only": 0,
+      "both": 0,
+      "neither": 4,
+      "signed_A_minus_H": 0.3333333333333333
+    }
+  },
+  "same_writer_exact": 24,
+  "same_writer_differences": {},
+  "checked_replay_fields": [
+    "text",
+    "token_ids",
+    "eos",
+    "truncated",
+    "generated_tokens",
+    "context_tokens",
+    "effective_token_cap",
+    "batch_size",
+    "base_revision",
+    "checkpoint_sha256"
+  ],
+  "elapsed_wrapper_seconds": 176.17407476436347,
+  "timings": [
+    {
+      "batch": "b01",
+      "start_utc": "2026-11-21T05:35:28.933634+00:00",
+      "end_utc": "2026-11-21T05:36:01.121260+00:00",
+      "elapsed_seconds": 32.18759291758761,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b02",
+      "start_utc": "2026-11-21T05:36:01.121653+00:00",
+      "end_utc": "2026-11-21T05:36:20.331986+00:00",
+      "elapsed_seconds": 19.210320446174592,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b03",
+      "start_utc": "2026-11-21T05:36:20.332369+00:00",
+      "end_utc": "2026-11-21T05:36:44.185887+00:00",
+      "elapsed_seconds": 23.853504322003573,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b04",
+      "start_utc": "2026-11-21T05:36:44.186429+00:00",
+      "end_utc": "2026-11-21T05:37:05.514979+00:00",
+      "elapsed_seconds": 21.32853259658441,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b05",
+      "start_utc": "2026-11-21T05:37:05.515394+00:00",
+      "end_utc": "2026-11-21T05:37:57.322656+00:00",
+      "elapsed_seconds": 51.80724923685193,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b06",
+      "start_utc": "2026-11-21T05:37:57.323018+00:00",
+      "end_utc": "2026-11-21T05:38:25.109907+00:00",
+      "elapsed_seconds": 27.786875245161355,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    }
+  ],
+  "histories": 24,
+  "distinct_model_histories": 16,
+  "grade_counts": {
+    "A": {
+      "PARTIAL": 5,
+      "ABSENT": 12,
+      "UNSUPPORTED": 3,
+      "ORIGINAL": 4
+    },
+    "H": {
+      "PARTIAL": 1,
+      "ABSENT": 21,
+      "UNSUPPORTED": 2
+    }
+  },
+  "truncations": {
+    "A": 3,
+    "H": 0
+  },
+  "tokens": {
+    "A": 3902,
+    "H": 1225
+  },
+  "qualified_focal_counts": {
+    "A": {
+      "lost": 1,
+      "original": 4
+    },
+    "H": {
+      "lost": 5
+    }
+  },
+  "reason_opportunities": {
+    "ABSENT": 16,
+    "QUALIFIED": 5,
+    "PARTIAL": 2,
+    "INVALID": 1
+  }
+}

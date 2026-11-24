@@ -1,0 +1,3 @@
+Enter **three symbols** as the minimum alphabet size and remove the caption’s claim of two. I checked the two-symbol case by assigning job 1 symbol A. Since the receiver must distinguish the two jobs on each card, the cards {1,2}, {2,3}, {3,4}, and {4,5} force jobs 2 through 5 to use B, A, B, and A in order. On card {5,1}, both jobs then send A. No decoder can distinguish them.
+
+Three symbols suffice. Assign jobs 1 through 5 the symbols **A, B, A, B, C**, respectively. In the listed card order, the symbol pairs are AB, BA, AB, BC, and CA. Each pair contains two different symbols, so the receiver returns the unique job on its card whose assigned symbol matches the message.

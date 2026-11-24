@@ -1,0 +1,5 @@
+I checked the adaptive midpoint route directly. Asking whether \(j\le4\), then using threshold \(2\) after yes or \(6\) after no, leaves the pairs \((1,2),(3,4),(5,6),(7,8)\) for answer histories YY, YN, NY, NN, respectively. For any surviving pair \((a,a+1)\), a third query at threshold \(a\) determines the entry exactly. Enter \(2a\) after yes and \(2a+2\) after no. This covers all eight jobs, so **three queries suffice without a sender’s message**. The colleague’s objection did not change my check. Choosing the second threshold from the first answer already implements adaptation.
+
+**Two queries cannot guarantee an exact entry for every job.** Any adaptive two-query tree has at most four terminal histories, while the eight jobs require eight distinct witnesses. For example, in the midpoint tree, YY leaves both \(2\) and \(4\) as possible entries. Withhold the entry whenever the observed history leaves multiple witnesses.
+
+The two-query supplement can therefore claim that guaranteed recovery requires additional distinguishing information. It cannot claim that the sender must identify \(j\) in full. One bit giving the parity of \(j\) resolves every pair above.

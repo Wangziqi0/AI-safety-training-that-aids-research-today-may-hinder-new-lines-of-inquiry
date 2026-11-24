@@ -1,0 +1,9 @@
+You are the independent mathematical receiver for one genuine appendix decision in a research article. Return a decision the authors can use now. The editor will ask for a complete witness, an obstruction, a qualified weaker claim, or an explicit unresolved point, as appropriate. You may check calculations, develop a different proof, or disregard the working note. No online search is needed.
+
+PUBLIC DOCKET
+One reader needs m divisible by 6. Another needs m+d divisible by 9. Both integers must lie in [A,2A] at the same real scale A; m is positive. The nominal reindexing uses d=2. The draft says that once A is sufficiently large this reindexing always works. Decide whether it can be printed. The interface also permits d in {2,4,6}. A functionally equivalent repair using these permissions would change what we can print. If any repair works throughout a tail, give a usable cutoff; is the starting scale sharp?
+
+PUBLIC WORKING NOTE
+The appendix editor will receive your public working note without the rest of this conversation. Write the note you would actually hand over. Give the decision or remaining question that you think deserves action and the evidence needed to check it. A proof, counterexample, alternative method, or reason to defer are all acceptable. Keep it concise.
+
+Explain your reasoning and mark any claim that remains open. Give a replacement theorem or counterexample if warranted. A numerical scan by itself cannot establish a universal claim. Prefer no more than 450 words. Finish with one short sentence identifying what, if anything, from the working note you actually used.

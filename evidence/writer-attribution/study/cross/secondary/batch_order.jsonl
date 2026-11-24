@@ -1,0 +1,9 @@
+{"stage": "handoff", "historical_batch": "b01", "ordered_ids": ["q6acb95a8667c3697", "qff96d9fcba036806", "q38c49a7973d4e5fc", "qa2ae2cfb70b5c77a"]}
+{"stage": "service", "seed": 311, "historical_A_service_order": ["p57", "p63", "p66", "p89"], "ordered_ids": ["q5b9ddfe157da5939", "q48146046fc99e23b", "q1470a67d5d44d93d", "q22336f703f513fbd"]}
+{"stage": "handoff", "historical_batch": "b02", "ordered_ids": ["q56b7d0eab1731373", "qac5253c368596ec9", "qda0676588199faf6", "q7850cc3a20c2b9ae"]}
+{"stage": "handoff", "historical_batch": "b03", "ordered_ids": ["qb3986586666f3eb1", "q581590b17e9081e8", "q2a8c9c4cb41f0f4b", "qfb0250b9567fe39b"]}
+{"stage": "service", "seed": 617, "historical_A_service_order": ["p78", "p83", "p56", "p23"], "ordered_ids": ["qff8ee2c739439898", "q0c74f843123af71f", "q26eb266fe59f7d8e", "qd64dc5150775d8c2"]}
+{"stage": "handoff", "historical_batch": "b04", "ordered_ids": ["qe208effe037102b9", "qc07c4fa3b38de831", "q6bfe4c4cad35c73a", "q740ee4e6a4da1a67"]}
+{"stage": "handoff", "historical_batch": "b05", "ordered_ids": ["q6d7c1c6c16c1cfdf", "qbb26472bc596461b", "qac612ffadc20703c", "q9cac333e67c8f6db"]}
+{"stage": "service", "seed": 929, "historical_A_service_order": ["p67", "p43", "p76", "p74"], "ordered_ids": ["q8b742ef020c5a0c0", "qfdfef9c4b46587c8", "q6a4284fb2c12d0c5", "q199173b14342a5b6"]}
+{"stage": "handoff", "historical_batch": "b06", "ordered_ids": ["q5e1d2cce082552b2", "q60813d2a9734b1f9", "q0f06081d4a9e0bbf", "q452f701fd5ae4d47"]}

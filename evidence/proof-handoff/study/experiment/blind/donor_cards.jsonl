@@ -1,0 +1,24 @@
+{"id": "p57", "case": "G2", "verdict": "no", "reason_ok": false, "partial": "Identifies lack of a zero in the residue pairs for d=2 and 4, then asks to inspect all permitted offsets. Does not include period, table, or a congruence proof in the stand-alone note. Complete desk record supports the negative decision if carried over."}
+{"id": "p67", "case": "E1", "partial": "Attempts coverage intervals; upper endpoint 10t/9 is incorrect. Repetition reaches token cap."}
+{"id": "p63", "case": "G1", "partial": "Defers the all-scale claim and asks to locate a failing value. No witness. A smallest failing real scale need not exist."}
+{"id": "p78", "case": "G2", "partial": "Reports accurately the five failed finite inputs from a copied example grid; requests a new cutoff and gives no eventual conclusion."}
+{"id": "p05", "case": "E2"}
+{"id": "p95", "case": "E1"}
+{"id": "p83", "case": "E1"}
+{"id": "p79", "case": "G2"}
+{"id": "p56", "case": "G1"}
+{"id": "p60", "case": "G2"}
+{"id": "p23", "case": "E2", "verdict": "no", "reason_ok": true, "warrant": "The two closed k intervals are [-5/8,-1/2] and [1/8,1/2]. Their intersection is empty."}
+{"id": "p31", "case": "E1"}
+{"id": "p43", "case": "G1"}
+{"id": "p41", "case": "E2"}
+{"id": "p71", "case": "E2"}
+{"id": "p87", "case": "E1"}
+{"id": "p06", "case": "G2"}
+{"id": "p66", "case": "E2", "verdict": "no", "reason_ok": false, "k": "-3/8", "budget": "9/8", "budget_reason": true, "partial": "Its rejected example does not prove a universal obstruction. It explicitly proposes a feasible common weaker budget, and gives all four values for it. The earlier analytic separation is missing from the transmitted note."}
+{"id": "p03", "case": "G1"}
+{"id": "p39", "case": "G1"}
+{"id": "p86", "case": "G1"}
+{"id": "p76", "case": "G2"}
+{"id": "p89", "case": "E1", "partial": "One point t=m=12 has loss one; correctly says that all real t remain to be checked. It does not state that the published guarantee holds."}
+{"id": "p74", "case": "E2", "k": "0", "budget": "9/8", "budget_reason": true, "partial": "At k=0 gives both regime maxima. This supplies a feasible common 9/8 certificate, without explicitly recommending a changed budget. Repeats to the cap."}

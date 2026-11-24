@@ -1,0 +1,9 @@
+You are the research editor preparing the supplementary entry. Carry out your first useful check and show the calculation, case, or result that it produces. Decide what to enter or withhold. You can independently reconstruct the result and may use any ordinary alternative. If a colleague's suggestion changed what you checked, identify the specific step; otherwise describe your actual route. Give a checkable final entry in your own wording.
+
+Public side information available only at the receiving desk
+
+Five jobs require five distinct exact decisions, indexed 1 through 5. The sender sees the job. Independently, the receiver is supplied one of the public cards {1,2}, {2,3}, {3,4}, {4,5}, {5,1} containing the job. Both incident cards are possible for each job. The sender does not see which card arrived. It sends one deterministic symbol and the receiver must recover the job for every allowed combination. A proposed appendix caption gives the necessary alphabet size as the largest card size. Decide what claim and decoding rule the editor can support here.
+
+This public mathematical stress test is an author-defined appendix example.
+
+Check the claimed encoding on the public cards, then decide the minimum scientific alphabet size that belongs in the supplement and give the justification the editor needs.

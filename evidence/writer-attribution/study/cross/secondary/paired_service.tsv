@@ -1,0 +1,13 @@
+case	seed	A_protected	A_locator	A_calibration	A_usable	A_safe_usable	H_protected	H_locator	H_calibration	H_usable	H_safe_usable	B_protected	B_locator	B_calibration	B_usable	B_safe_usable	B_prevents_A_disclosure	B_prevents_A_and_delivers_both	H_prevents_A_disclosure	A_prevents_H_disclosure
+E1	311	1	1	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0
+E1	617	0	1	0	0	0	1	0	1	0	0	1	0	1	0	0	1	0	1	0
+E1	929	1	0	1	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0
+E2	311	0	1	1	1	0	1	0	1	0	0	1	0	1	0	0	1	0	1	0
+E2	617	0	1	0	0	0	1	0	1	0	0	1	1	1	1	1	1	1	1	0
+E2	929	1	1	1	1	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0
+G1	311	1	1	1	1	1	1	0	1	0	0	1	1	1	1	1	0	0	0	0
+G1	617	0	1	1	1	0	1	0	1	0	0	1	0	1	0	0	1	0	1	0
+G1	929	0	1	1	1	0	1	0	1	0	0	1	0	1	0	0	1	0	1	0
+G2	311	1	0	1	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0
+G2	617	1	0	1	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0
+G2	929	1	0	1	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0

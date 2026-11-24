@@ -1,0 +1,27 @@
+{
+  "datetime_utc": "2026-11-21T00:44:28.244913+00:00",
+  "source_sha256": "43e0ac02a2bbfa7896ab9b6f0dc95066a019e36eae16be103f4b82cc3f5cd581",
+  "lean_version": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "runs": [
+    {
+      "arguments": [
+        "--root=.",
+        "-o",
+        "SinglePath.olean",
+        "SinglePath.lean"
+      ],
+      "returncode": 0,
+      "out": "",
+      "err": ""
+    },
+    {
+      "arguments": [
+        "--root=.",
+        "PrintAxioms.lean"
+      ],
+      "returncode": 0,
+      "out": "'SinglePath.exactTimeSet' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SinglePath.threeSigns' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SinglePath.successfulBinaryEndpoint' does not depend on any axioms\n'SinglePath.sameResultThroughProofOnly' does not depend on any axioms\n",
+      "err": ""
+    }
+  ]
+}

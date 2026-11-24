@@ -1,0 +1,23 @@
+{
+  "upstream_author": "https://alpo.ge/remark.pdf",
+  "build_release_sha256": "9631b4f020199e580ba86178cb56c6e9b09f690c2369a80dc4334aa93f49c7fc",
+  "check_manifest": "https://math.mit.edu/~drew/grh/SHA256SUMS",
+  "upstream_status_snapshot": "2026-11-20T22:05:00Z",
+  "snapshotted_page_sha256": "de7153ec1b22acab193a99824d427d41050e2c0d2c4374ec518d52fc0de62307",
+  "solution_exports": {
+    "solution.ndjson.zst": "61a8938ad5f5e57397c1c0e3b954916af546d9004ade01c3555744a681b05381",
+    "challenge.ndjson.zst": "c24ef99dab3556a52c7fb886e03cf22a242f3b96f82ae4cc40539e5d2f678ac6",
+    "comparator.json": "8ea890e6ccda9cf3983ada343af18a41d12542036875a3936e7925ed5b1582ff",
+    "solution.ndjson": "5ea74b912147c5c93cc2b6d70cc727cf908df2f62ac6a20480a3fa02f6be244e",
+    "challenge.ndjson": "bd484ac9886a96f26b1d9a7a59ebd45b7a70d102c015d4f31f9302bbdd6ab2b9"
+  },
+  "source_lean": "v4.33.1 / 819816b2",
+  "source_mathlib": "v4.33.1 / 0df444a3",
+  "checker_lean": "v4.36.0 / 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+  "con_leche_compare": "5dc36dc15b7bee891a02406b78a8ac816a47baad",
+  "official_lean_release_url": "https://github.com/leanprover/lean4/releases/tag/v4.36.0",
+  "official_lean_release_asset_sha256": "2b7ab1ed8b92d2e6abfaf41344823b510064dbc9c0260cac73eb496ab2dea6eb",
+  "observed_challenge_bytes": 350862311,
+  "challenge_descriptive_bytes_in_html": 350862970,
+  "note": "The authoritative challenge digest matches. HTML size differs from the stored canonical byte count by 659."
+}

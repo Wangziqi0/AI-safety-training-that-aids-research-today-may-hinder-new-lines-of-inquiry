@@ -1,0 +1,7 @@
+Ordinary work can recover the missed direction in either state, but the draft cannot credit both states as recovered. The receiver sees the same message in both. A receiver who sets \(k=0\) succeeds in state 0 and fails in state 1. Setting \(k=1\) reverses the outcomes. Either fixed setting therefore has worst-state success probability zero. In a realized case, recovery can be credited if the setting actually used matched the state.
+
+For a randomized rule, let \(p\) be the probability of setting \(k=1\). The receiver has the same information in both states, so the same \(p\) applies in both. The success probabilities are \(1-p\) in state 0 and \(p\) in state 1. Their minimum is at most \(1/2\), since they sum to one. A fair coin attains \(1/2\) in each state, so the sharp worst-state success probability is **\(1/2\)**. This calculation requires no prior over states.
+
+For guaranteed substitution, let \(I(z)\) denote the information available when acting and \(S(z)\) the settings that meet the scientific need in state \(z\). Credit guaranteed recovery exactly when there is one admissible rule \(g\) such that \(g(I(z))\in S(z)\) for every state under consideration. In this example the common message would require a setting in \(S(0)\cap S(1)=\{0\}\cap\{1\}=\varnothing\). The draft establishes only that each set is individually nonempty, which does not justify dropping either state from the loss calculation in advance.
+
+I used the note’s suggestion to fix one receiver rule and evaluate it in both states.

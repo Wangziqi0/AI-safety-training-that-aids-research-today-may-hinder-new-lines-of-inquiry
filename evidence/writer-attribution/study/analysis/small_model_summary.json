@@ -1,0 +1,123 @@
+{
+  "source": "Archived native grouped-token probabilities and evaluated policy values",
+  "new_model_fits_or_generations": 0,
+  "decompositions": 900,
+  "maximum_additivity_residual": 0.0,
+  "challenge_algorithm_means_probability_units": {
+    "natural": {
+      "sft": {
+        "total": 0.003989273251316853,
+        "history": -1.1162401782264611e-05,
+        "writer": 0.004000435653099117,
+        "interaction": -2.3454903274859145e-05
+      },
+      "rl": {
+        "total": 6.501752355569934e-05,
+        "history": 2.611916366229705e-05,
+        "writer": 3.889835989340229e-05,
+        "interaction": -5.115834500468708e-08
+      }
+    },
+    "late_full": {
+      "sft": {
+        "total": 0.006524115361533633,
+        "history": -1.850371707708594e-17,
+        "writer": 0.006524115361533652,
+        "interaction": 3.700743415417188e-17
+      },
+      "rl": {
+        "total": -6.999009942498802e-06,
+        "history": 2.220446049250313e-16,
+        "writer": -6.999009942720846e-06,
+        "interaction": 0.0
+      }
+    }
+  },
+  "challenge_later_accuracy_by_fit_probability_units": {
+    "natural": [
+      {
+        "algorithm": "sft",
+        "seed": 1901,
+        "total": 0.0049888483487969815,
+        "history": 0.0001546210958019989,
+        "writer": 0.004834227252994983,
+        "interaction": -1.8798045626100546e-05
+      },
+      {
+        "algorithm": "sft",
+        "seed": 2311,
+        "total": 0.0026975758240534997,
+        "history": -0.00014287536616625074,
+        "writer": 0.0028404511902197505,
+        "interaction": -1.39810135882934e-05
+      },
+      {
+        "algorithm": "sft",
+        "seed": 2903,
+        "total": 0.004281395581100078,
+        "history": -4.5232934982541995e-05,
+        "writer": 0.00432662851608262,
+        "interaction": -3.7585650610183485e-05
+      },
+      {
+        "algorithm": "rl",
+        "seed": 1901,
+        "total": -3.7086104382577645e-05,
+        "history": 4.460562048824723e-05,
+        "writer": -8.169172487082488e-05,
+        "interaction": -9.644278242681992e-08
+      },
+      {
+        "algorithm": "rl",
+        "seed": 2311,
+        "total": 0.00016712115149397633,
+        "history": 7.63270683634687e-06,
+        "writer": 0.00015948844465762946,
+        "interaction": -5.873907582554239e-09
+      }
+    ],
+    "late_full": [
+      {
+        "algorithm": "sft",
+        "seed": 1901,
+        "total": 0.010009566600638231,
+        "history": 1.6653345369377348e-16,
+        "writer": 0.010009566600638065,
+        "interaction": -1.1102230246251565e-16
+      },
+      {
+        "algorithm": "sft",
+        "seed": 2311,
+        "total": 0.005096049474144992,
+        "history": -1.6653345369377348e-16,
+        "writer": 0.005096049474145159,
+        "interaction": 1.1102230246251565e-16
+      },
+      {
+        "algorithm": "sft",
+        "seed": 2903,
+        "total": 0.0044667300098176765,
+        "history": -5.551115123125783e-17,
+        "writer": 0.004466730009817732,
+        "interaction": 1.1102230246251565e-16
+      },
+      {
+        "algorithm": "rl",
+        "seed": 1901,
+        "total": -0.0002579226536525425,
+        "history": 3.3306690738754696e-16,
+        "writer": -0.0002579226536528756,
+        "interaction": 0.0
+      },
+      {
+        "algorithm": "rl",
+        "seed": 2311,
+        "total": 0.00024392463376754492,
+        "history": 1.1102230246251565e-16,
+        "writer": 0.0002439246337674339,
+        "interaction": 0.0
+      }
+    ]
+  },
+  "complete_late_supply_max_history_component": 3.3306690738754696e-16
+}

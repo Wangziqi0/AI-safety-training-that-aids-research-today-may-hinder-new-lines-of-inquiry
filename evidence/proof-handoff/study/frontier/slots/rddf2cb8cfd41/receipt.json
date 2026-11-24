@@ -1,0 +1,25 @@
+{
+  "slot": "rddf2cb8cfd41",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "tool_calls": [
+    {
+      "name": "exec",
+      "input": "text(await tools.exec_command({cmd:\"cat study/frontier/slots/rddf2cb8cfd41/docket.txt\"}))\n"
+    }
+  ],
+  "complete": true,
+  "usage": {
+    "input_tokens": 67691,
+    "cached_input_tokens": 66944,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 462,
+    "reasoning_output_tokens": 85,
+    "total_tokens": 68153
+  },
+  "started_at": 1795236051,
+  "completed_at": 1795236069,
+  "duration_ms": 18582,
+  "words": 154,
+  "packet_sha256": "a139a2dbea265859601308c623746e6f8baab534e1d94c765351d359a62c1be2"
+}

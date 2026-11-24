@@ -1,0 +1,1 @@
+Optional trained adapter coordinates for private scientific review. Extract over the Data and Code archive root. The 8B models and 1.5B models have separate code and public parent revisions. Licence and attribution information is provided in PUBLIC_SOURCES.md. No original pretrained model is included.

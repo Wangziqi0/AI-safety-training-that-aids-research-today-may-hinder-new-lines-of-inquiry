@@ -1,0 +1,558 @@
+{
+  "0.25": {
+    "pooled": {
+      "local": {
+        "n": 35,
+        "attempted": 19,
+        "hits": 15.0,
+        "ties": 0,
+        "abstentions": 16,
+        "mae": 0.0010551878458538635
+      },
+      "transfer": {
+        "n": 35,
+        "attempted": 23,
+        "hits": 17.0,
+        "ties": 0,
+        "abstentions": 12,
+        "mae": 0.0013719362282603072
+      }
+    },
+    "algorithm": {
+      "sft": {
+        "local": {
+          "n": 21,
+          "attempted": 17,
+          "hits": 13.0,
+          "ties": 0,
+          "abstentions": 4,
+          "mae": 0.001757695958409156
+        },
+        "transfer": {
+          "n": 21,
+          "attempted": 21,
+          "hits": 15.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.002274804003335322
+        }
+      },
+      "rl": {
+        "local": {
+          "n": 14,
+          "attempted": 2,
+          "hits": 2.0,
+          "ties": 0,
+          "abstentions": 12,
+          "mae": 1.425677020924776e-06
+        },
+        "transfer": {
+          "n": 14,
+          "attempted": 2,
+          "hits": 2.0,
+          "ties": 0,
+          "abstentions": 12,
+          "mae": 1.763456564778506e-05
+        }
+      }
+    },
+    "stream": {
+      "sft-1901": {
+        "local": {
+          "n": 7,
+          "attempted": 6,
+          "hits": 5.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.0018762337183789684
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 7,
+          "hits": 6.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.002425977336445883
+        }
+      },
+      "sft-2311": {
+        "local": {
+          "n": 7,
+          "attempted": 6,
+          "hits": 4.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.0017581040474678494
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 7,
+          "hits": 4.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.0023066335559235873
+        }
+      },
+      "sft-2903": {
+        "local": {
+          "n": 7,
+          "attempted": 5,
+          "hits": 4.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 0.0016387501093806497
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 7,
+          "hits": 5.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.002091801117636496
+        }
+      },
+      "rl-1901": {
+        "local": {
+          "n": 7,
+          "attempted": 2,
+          "hits": 2.0,
+          "ties": 0,
+          "abstentions": 5,
+          "mae": 1.646303119198381e-06
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 2,
+          "hits": 2.0,
+          "ties": 0,
+          "abstentions": 5,
+          "mae": 1.6235600587916066e-05
+        }
+      },
+      "rl-2311": {
+        "local": {
+          "n": 7,
+          "attempted": 0,
+          "hits": 0,
+          "ties": 0,
+          "abstentions": 7,
+          "mae": 1.205050922651171e-06
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 0,
+          "hits": 0,
+          "ties": 0,
+          "abstentions": 7,
+          "mae": 1.903353070765406e-05
+        }
+      }
+    },
+    "endpoint": {
+      "natural/protected": {
+        "local": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 4.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.0012222965241720952
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 4.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.0011636174125175813
+        }
+      },
+      "natural/current": {
+        "local": {
+          "n": 5,
+          "attempted": 3,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 6.635497352998065e-05
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 3,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 6.755082426253e-05
+        }
+      },
+      "natural/repeat": {
+        "local": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.000981770522894232
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.0010770384464279192
+        }
+      },
+      "natural/correct": {
+        "local": {
+          "n": 5,
+          "attempted": 1,
+          "hits": 0.0,
+          "ties": 0,
+          "abstentions": 4,
+          "mae": 0.0003246321547786035
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 3,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 9.376630429367428e-05
+        }
+      },
+      "natural/native_correct": {
+        "local": {
+          "n": 5,
+          "attempted": 3,
+          "hits": 1.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 0.0016981919411989677
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 3,
+          "hits": 1.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 0.0017391027809053328
+        }
+      },
+      "late_full/correct": {
+        "local": {
+          "n": 5,
+          "attempted": 1,
+          "hits": 1.0,
+          "ties": 0,
+          "abstentions": 4,
+          "mae": 0.00035912325775879774
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 3,
+          "hits": 0.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 0.0006696019185086887
+        }
+      },
+      "late_full/work": {
+        "local": {
+          "n": 5,
+          "attempted": 3,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 0.0027339455466443676
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 3,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 0.004792875910906424
+        }
+      }
+    }
+  },
+  "1.0": {
+    "pooled": {
+      "local": {
+        "n": 35,
+        "attempted": 30,
+        "hits": 20.0,
+        "ties": 0,
+        "abstentions": 5,
+        "mae": 0.0074482491188891
+      },
+      "transfer": {
+        "n": 35,
+        "attempted": 30,
+        "hits": 18.0,
+        "ties": 0,
+        "abstentions": 5,
+        "mae": 0.008704436876674692
+      }
+    },
+    "algorithm": {
+      "sft": {
+        "local": {
+          "n": 21,
+          "attempted": 20,
+          "hits": 10.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.012404657482926483
+        },
+        "transfer": {
+          "n": 21,
+          "attempted": 21,
+          "hits": 9.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.014458340021377938
+        }
+      },
+      "rl": {
+        "local": {
+          "n": 14,
+          "attempted": 10,
+          "hits": 10.0,
+          "ties": 0,
+          "abstentions": 4,
+          "mae": 1.3636572833024472e-05
+        },
+        "transfer": {
+          "n": 14,
+          "attempted": 9,
+          "hits": 9.0,
+          "ties": 0,
+          "abstentions": 5,
+          "mae": 7.358215961982392e-05
+        }
+      }
+    },
+    "stream": {
+      "sft-1901": {
+        "local": {
+          "n": 7,
+          "attempted": 7,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.01298834747469729
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 7,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.015187321946964946
+        }
+      },
+      "sft-2311": {
+        "local": {
+          "n": 7,
+          "attempted": 6,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.012561322394642058
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 7,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.014751321091814555
+        }
+      },
+      "sft-2903": {
+        "local": {
+          "n": 7,
+          "attempted": 7,
+          "hits": 4.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.011664302579440103
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 7,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.01343637702535431
+        }
+      },
+      "rl-1901": {
+        "local": {
+          "n": 7,
+          "attempted": 5,
+          "hits": 5.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 1.8552417451340414e-05
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 6,
+          "hits": 6.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 7.194978994331683e-05
+        }
+      },
+      "rl-2311": {
+        "local": {
+          "n": 7,
+          "attempted": 5,
+          "hits": 5.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 8.720728214708531e-06
+        },
+        "transfer": {
+          "n": 7,
+          "attempted": 3,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 4,
+          "mae": 7.521452929633101e-05
+        }
+      }
+    },
+    "endpoint": {
+      "natural/protected": {
+        "local": {
+          "n": 5,
+          "attempted": 5,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.01063466008459748
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 5,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.010399943637979425
+        }
+      },
+      "natural/current": {
+        "local": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 4.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.0009392279971473406
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 4.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.0008875285998068749
+        }
+      },
+      "natural/repeat": {
+        "local": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 1.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.006057485640243815
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 1.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.006438742495566368
+        }
+      },
+      "natural/correct": {
+        "local": {
+          "n": 5,
+          "attempted": 3,
+          "hits": 2.0,
+          "ties": 0,
+          "abstentions": 2,
+          "mae": 0.0025971438831241312
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 4.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.0013019464900022814
+        }
+      },
+      "natural/native_correct": {
+        "local": {
+          "n": 5,
+          "attempted": 5,
+          "hits": 2.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.010061977681937118
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 5,
+          "hits": 2.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.010223402349982568
+        }
+      },
+      "late_full/correct": {
+        "local": {
+          "n": 5,
+          "attempted": 5,
+          "hits": 5.0,
+          "ties": 0,
+          "abstentions": 0,
+          "mae": 0.003217331664580625
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 1.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.004813856225743906
+        }
+      },
+      "late_full/work": {
+        "local": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.01862991688059319
+        },
+        "transfer": {
+          "n": 5,
+          "attempted": 4,
+          "hits": 3.0,
+          "ties": 0,
+          "abstentions": 1,
+          "mae": 0.02686563833764142
+        }
+      }
+    }
+  }
+}

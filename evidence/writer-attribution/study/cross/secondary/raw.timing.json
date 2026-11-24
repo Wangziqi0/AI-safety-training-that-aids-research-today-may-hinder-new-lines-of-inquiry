@@ -1,0 +1,8 @@
+{
+  "batch": "secondary",
+  "start_utc": "2026-11-21T05:38:25.110477+00:00",
+  "end_utc": "2026-11-21T05:50:00.412196+00:00",
+  "elapsed_seconds": 695.3017037492245,
+  "scope": "whole wrapper including lock wait/model load and transfer",
+  "returncode": 0
+}

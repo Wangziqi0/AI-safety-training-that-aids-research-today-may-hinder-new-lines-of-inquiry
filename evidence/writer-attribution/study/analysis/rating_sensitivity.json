@@ -1,0 +1,238 @@
+{
+  "archive": {
+    "rows": 48,
+    "grade_agreements": 46,
+    "grade_disagreements": 2,
+    "arm_counts": {
+      "A": {
+        "n": 24,
+        "primary": 4,
+        "independent": 6,
+        "both": 4,
+        "either": 6
+      },
+      "H": {
+        "n": 24,
+        "primary": 0,
+        "independent": 0,
+        "both": 0,
+        "either": 0
+      }
+    },
+    "AH_worst_case_over_discrepant_grades": {
+      "denominator": 24,
+      "low_difference_count": 4,
+      "high_difference_count": 6
+    }
+  },
+  "archive_primary_qualified": {
+    "rows": 10,
+    "grade_agreements": 10,
+    "grade_disagreements": 0,
+    "arm_counts": {
+      "A": {
+        "n": 5,
+        "primary": 4,
+        "independent": 4,
+        "both": 4,
+        "either": 4
+      },
+      "H": {
+        "n": 5,
+        "primary": 0,
+        "independent": 0,
+        "both": 0,
+        "either": 0
+      }
+    },
+    "AH_worst_case_over_discrepant_grades": {
+      "denominator": 5,
+      "low_difference_count": 4,
+      "high_difference_count": 4
+    }
+  },
+  "archive_independently_qualified": {
+    "rows": 12,
+    "grade_agreements": 11,
+    "grade_disagreements": 1,
+    "arm_counts": {
+      "A": {
+        "n": 6,
+        "primary": 4,
+        "independent": 5,
+        "both": 4,
+        "either": 5
+      },
+      "H": {
+        "n": 6,
+        "primary": 0,
+        "independent": 0,
+        "both": 0,
+        "either": 0
+      }
+    },
+    "AH_worst_case_over_discrepant_grades": {
+      "denominator": 6,
+      "low_difference_count": 4,
+      "high_difference_count": 5
+    }
+  },
+  "archive_strict": {
+    "rows": 48,
+    "grade_agreements": 48,
+    "grade_disagreements": 0,
+    "arm_counts": {
+      "A": {
+        "n": 24,
+        "primary": 2,
+        "independent": 2,
+        "both": 2,
+        "either": 2
+      },
+      "H": {
+        "n": 24,
+        "primary": 0,
+        "independent": 0,
+        "both": 0,
+        "either": 0
+      }
+    },
+    "AH_worst_case_over_discrepant_grades": {
+      "denominator": 24,
+      "low_difference_count": 2,
+      "high_difference_count": 2
+    }
+  },
+  "heldout": {
+    "rows": 72,
+    "grade_agreements": 68,
+    "grade_disagreements": 4,
+    "arm_counts": {
+      "A": {
+        "n": 24,
+        "primary": 8,
+        "independent": 10,
+        "both": 8,
+        "either": 10
+      },
+      "B": {
+        "n": 24,
+        "primary": 8,
+        "independent": 10,
+        "both": 8,
+        "either": 10
+      },
+      "H": {
+        "n": 24,
+        "primary": 18,
+        "independent": 18,
+        "both": 18,
+        "either": 18
+      }
+    },
+    "AH_worst_case_over_discrepant_grades": {
+      "denominator": 24,
+      "low_difference_count": -10,
+      "high_difference_count": -8
+    }
+  },
+  "heldout_math": {
+    "rows": 36,
+    "grade_agreements": 34,
+    "grade_disagreements": 2,
+    "arm_counts": {
+      "A": {
+        "n": 12,
+        "primary": 6,
+        "independent": 8,
+        "both": 6,
+        "either": 8
+      },
+      "B": {
+        "n": 12,
+        "primary": 5,
+        "independent": 5,
+        "both": 5,
+        "either": 5
+      },
+      "H": {
+        "n": 12,
+        "primary": 11,
+        "independent": 11,
+        "both": 11,
+        "either": 11
+      }
+    },
+    "AH_worst_case_over_discrepant_grades": {
+      "denominator": 12,
+      "low_difference_count": -5,
+      "high_difference_count": -3
+    }
+  },
+  "heldout_data": {
+    "rows": 36,
+    "grade_agreements": 34,
+    "grade_disagreements": 2,
+    "arm_counts": {
+      "A": {
+        "n": 12,
+        "primary": 2,
+        "independent": 2,
+        "both": 2,
+        "either": 2
+      },
+      "B": {
+        "n": 12,
+        "primary": 3,
+        "independent": 5,
+        "both": 3,
+        "either": 5
+      },
+      "H": {
+        "n": 12,
+        "primary": 7,
+        "independent": 7,
+        "both": 7,
+        "either": 7
+      }
+    },
+    "AH_worst_case_over_discrepant_grades": {
+      "denominator": 12,
+      "low_difference_count": -5,
+      "high_difference_count": -5
+    }
+  },
+  "heldout_strict": {
+    "rows": 72,
+    "grade_agreements": 72,
+    "grade_disagreements": 0,
+    "arm_counts": {
+      "A": {
+        "n": 24,
+        "primary": 2,
+        "independent": 2,
+        "both": 2,
+        "either": 2
+      },
+      "B": {
+        "n": 24,
+        "primary": 1,
+        "independent": 1,
+        "both": 1,
+        "either": 1
+      },
+      "H": {
+        "n": 24,
+        "primary": 3,
+        "independent": 3,
+        "both": 3,
+        "either": 3
+      }
+    },
+    "AH_worst_case_over_discrepant_grades": {
+      "denominator": 24,
+      "low_difference_count": -1,
+      "high_difference_count": -1
+    }
+  }
+}

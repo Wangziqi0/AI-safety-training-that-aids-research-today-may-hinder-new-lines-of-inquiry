@@ -1,0 +1,534 @@
+{
+  "manifests": [
+    {
+      "manifest": "records/20261119_open_science_alignment_convergence/structural/FORECAST.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261119_open_science_alignment_convergence/structural",
+      "copy_sha256": "2492631228b36cb50f9390af0f89534ff44d4132241fd33329444fd9aa80ab27",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261119_open_science_alignment_convergence/structural/FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261119_open_science_alignment_convergence/structural",
+      "copy_sha256": "c482c736501c41d12596d6659f6cbe0d75c149843b8e1854677aa4c1ce3451e0",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/mechanism/DESIGN.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "453209bad9255df6a36d31ef03315ae3978b4266ad4b9f0987b415bf46c2dc2a",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/mechanism/FORECAST.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "59561064b3739514510db1eee8360d7853cc4fca778a946666657951f8433a68",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/mechanism/PROGRAM.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "620cd9ee361d5afcf716acb49fdb4afe25f2ea67a74fe4a868ce0093053e6c27",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/practice/COHORT_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/practice",
+      "copy_sha256": "0d1722f472117ec953f3f4d4b2933f743f64f4c5b946998873df1e363454af98",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/practice/CURRENT_LOCK.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/practice",
+      "copy_sha256": "60bbdfd7b0ea1b970404ccec3aeabf8fdfd63519ed5d85e8753c0e6d4bf5d26f",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/practice/PRELOCK.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/practice",
+      "copy_sha256": "0957762967c87863bc516b747308e44ab60347043e08bc97edfad06727809ebe",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/practice/STEWARDSHIP_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/practice",
+      "copy_sha256": "d04077818529f87fab8b954b80c754cd0c3b41d7a21f81ac417e1914a0a6e6aa",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/ALLOCATION_LOCK.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/downstream",
+      "copy_sha256": "8696a85ee28e397b3dc9a997df083987ec8938a6dd30560125f7a348ae34e705",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/IMPLEMENTATION_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/downstream",
+      "copy_sha256": "5dfd0c7a8614d2463e7399a6ddfc2b75315a0a6b0fc25150397027005e109b94",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/REGISTRATION.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/downstream",
+      "copy_sha256": "9ce73df4074944bc563c3ab7ca399ed8d78c3ce17d67a2c8cd204c2fc63c6e93",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/TRANSPORT_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/downstream",
+      "copy_sha256": "9c18402e68026ade7a36a016f9bc7efbc5e23bcd9a51d8aa79a343e544eb254d",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/analysis/LINKAGE_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "02fd76682688f2baaf7a0469bd10cd7e6515d8eac9785b7d910d6a60f297ff11",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/strong/FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/strong",
+      "copy_sha256": "bd7f3e63f4aaf299b8dc8e8aeb2bb67bb21ab64601980cbdc49b93a878292dbb",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/strong/RESULTS.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/strong",
+      "copy_sha256": "8b511c9a8fb88c4814977295b8e1cef2d748d516161843cda5d0cae7508e3d5c",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/strong/SERVICE_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/strong",
+      "copy_sha256": "4b91e8e49bdb2a13e60a46391e516a1e47056476bfa8b875c704d44702ac3a1c",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/BROKER_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "copy_sha256": "dc86b789d6e2ed74288b61a6ec0b723aa58bb89cf867ba673316d99adae571f1",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/CHOICES.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "copy_sha256": "47a773483d732227d4f0a1202d6ec214cca0809196ba5533704fd6599486b2cd",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/CLOSE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "copy_sha256": "9f666f74762bf4d6186d9397ebe659dd469c20af9cc2c26d224db2f01adee21c",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/IMPLEMENTATION_INITIAL.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "copy_sha256": "c2690b020a32430f913b368c9a8aed48bd78bd721ce876f91d3d47b2db7cde9d",
+      "overrides": {
+        "records/20261120_scientific_choice_and_recovery/free_workspace/measurements.py": {
+          "status": "exact_alternate",
+          "file": "commitments/historical/free_workspace_initial/measurements.py"
+        }
+      }
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/PROMPT_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "copy_sha256": "2d81a74a63df0c9b7263f8100d31eb70dc7d7c00ddde9049c957abba7f6f39b4",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/TURN1.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "copy_sha256": "49fecd9418096320a7d0a3470c5282823f06651ddd132c610a33ab72d1d3025b",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/TURN2.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "copy_sha256": "5218eca9feca03cebd73232bd08313fef98f3c2c3757d1bdb9b122030bdcb27e",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/dialogue/INITIAL_DECISIONS.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/dialogue",
+      "copy_sha256": "0d1c59fc058c0e66fff2cd0fda9d9f6c5d095387b4cb183351c8cff672f5072f",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/dialogue/PRELOCK.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/dialogue",
+      "copy_sha256": "46438a5663b174a3e89346a532a4be7f8249017a2848115d43f98278c9b60422",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/dialogue/REPAIR_DECISIONS.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/dialogue",
+      "copy_sha256": "a77187f7ed646c0da8aff07f73a9557bd79c03639a1985ef859a1344db045256",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/dialogue/RESULTS.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/dialogue",
+      "copy_sha256": "5a895f0b4bfa3686ab8d32b64e9eb4f191a14dd7aaebb0fa8fb31a1abf699271",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra",
+      "copy_sha256": "11f92543c77aeb23c24a405e42a36efdbbe7f314325a41fcb60b7d16a7c8b139",
+      "overrides": {
+        "records/20261120_scientific_choice_and_recovery/astra/dispatch.py": {
+          "status": "withheld",
+          "reason": "Local authenticated service launcher and account-telemetry collection. The approved scientific work orders and responses are included."
+        },
+        "records/20261120_scientific_choice_and_recovery/astra/isolation.py": {
+          "status": "withheld",
+          "reason": "Private host credential-routing and worker-isolation implementation."
+        },
+        "records/20261120_scientific_choice_and_recovery/astra/quota.py": {
+          "status": "withheld",
+          "reason": "Private subscription-management helper with no scientific estimator or input."
+        }
+      }
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/ORIGINAL_METHOD_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra",
+      "copy_sha256": "1735fc8c82fd9fd758346f3177478fba35b6c97c48c64b65aec8993a9f5a3c7a",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/RESULTS.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra",
+      "copy_sha256": "6da546f999855ac9416706ee7b9efc0d070be8853da7411d3c03676405bec634",
+      "overrides": {
+        "records/20261120_scientific_choice_and_recovery/astra/RESULT.json": {
+          "status": "withheld",
+          "reason": "Original per-call result includes the shared account's usage. The delivered copy removes two administrative keys. All decision and forecast hash checks run on raw scientific records."
+        },
+        "records/20261120_scientific_choice_and_recovery/astra/REPORT.md": {
+          "status": "withheld",
+          "reason": "Original report mixes the scientific table with shared-account telemetry. Figure sources and full public-facing numerical records support the observations."
+        }
+      }
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/SCIENCE_FREEZE.sha256",
+      "kind": "sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra",
+      "copy_sha256": "8642b28346e14c751fa5ab80407e54d361465ff534966663ef5e651e23ca6262",
+      "overrides": {
+        "records/20261120_scientific_choice_and_recovery/astra/science.py": {
+          "status": "exact_alternate",
+          "file": "records/20261120_scientific_choice_and_recovery/astra/science_initial.py"
+        }
+      }
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/assigned_lock/CHOICES_LOCK.json",
+      "kind": "choices",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "59bb405987156f14949ea28842378340825470bef617dee1625d31c25aff4f6a",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/ordinary_lock/CHOICES_LOCK.json",
+      "kind": "choices",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "14aacedacfdedb8a2317269d3a51c2873ac175e7a5c0a9c881ae268460d93f6e",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/stewardship_lock/CHOICES_LOCK.json",
+      "kind": "choices",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "7313696462e79df2d532a828018177af1dddb4247ebc7c901ed21023323af0c1",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/assigned_lock/SCORED_LOCK.json",
+      "kind": "scored",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "33d56a63f44853cd191a60b7e81e784811bfe4ba8b791cb7c2b17498b5211c8d",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/stewardship_lock/SCORED_LOCK.json",
+      "kind": "scored",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "0b4fbd038c2ad35796b314956f28778679aa78c610a020cdd6f73a10a35f5e5c",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/all_channel/CHOICES_LOCK.json",
+      "kind": "choices",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "a092f888ff5043d199cc2f425dba3b75513b64f6f8bb796bb350a9f188bd4851",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/sole_ordinary/CHOICES_LOCK.json",
+      "kind": "choices",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "942c0170d1d7a45eb789c087da0b1695bb1099aa58d456840a1ee2d6d48af8ec",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/all_channel/SCORED_LOCK.json",
+      "kind": "scored",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "dc2af5e3b0a6eddc3b473310ccce719dc57885bc317f0688e791066e7a8547f2",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/sole_ordinary/SCORED_LOCK.json",
+      "kind": "scored",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "ecf367832fb04e7694340101baf40c9ac0607fca98ba9ca130f5d6c9f3f40fbc",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/analysis/literal_only/lock/CHOICES_LOCK.json",
+      "kind": "choices",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "dc919fdeb5d63ac18b0509a964e93279cec5bcc7766cff8be52d72fcdeba13d3",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/analysis/literal_only/lock/SCORED_LOCK.json",
+      "kind": "scored",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "be61fdfc1fa3bfebb0aa23044ff7c0d52426f6ead10005c90f7772f95174d5d2",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/BOTH_DECISIONS_LOCKED.json",
+      "kind": "batches",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "383cfa9a20bc0fe1eb674d18e81d91e03ae3b03bdaa26390552fa646d1e8772b",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/DECISIONS.json",
+      "kind": "hosted_decisions",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "85b43e5680676e02628163cfaea6e4749937ca06bb3ebee76042d8d22357c403",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/FORECAST_LOCK.json",
+      "kind": "hosted_forecasts",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "copy_sha256": "71f485af98da95ef139789c17f094c7742a191e1c7749a21eb9fd8b91668cb89",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/36a3caac2119/prompt.sha256",
+      "kind": "prompt",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/36a3caac2119",
+      "copy_sha256": "bb984504dabb6ae6379dc188c543453bb109d26305e68c3a003eaf656bcb64ef",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/39d86fedd052/prompt.sha256",
+      "kind": "prompt",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/39d86fedd052",
+      "copy_sha256": "a4f547836d3a6eb3cba175ab76f925b0603b9d4f260b9e69ed59c613c53bb4b9",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/53a049662554/prompt.sha256",
+      "kind": "prompt",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/53a049662554",
+      "copy_sha256": "5720affa7702b0977b2064f7ec129d87530e70c88284abf5a4926d91a0f123b4",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/5ef2d9a61f80/prompt.sha256",
+      "kind": "prompt",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/5ef2d9a61f80",
+      "copy_sha256": "f37e9bb938b2e01dfc8906f9096769500a54fee3d237d38458dd9834f5e78837",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/a8de97e0cbdc/prompt.sha256",
+      "kind": "prompt",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/a8de97e0cbdc",
+      "copy_sha256": "8d2df7260dc2be26dba3e15899317a779656b807d859396331730426d57da7c1",
+      "overrides": {}
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/c1a4423ebdb1/prompt.sha256",
+      "kind": "prompt",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/c1a4423ebdb1",
+      "copy_sha256": "2ac475c37ea62a8e60a178450968fb1063a7bcf86ee30b608084752fb9f8c1dc",
+      "overrides": {}
+    }
+  ],
+  "protocols": [
+    {
+      "path": "records/20261119_sft_online_rl_structural_round/structural/PLAN.md",
+      "packaging_sha256": "fb8fcbb449405ec7711362b3288f34d0299594fcd182596f2371ab419f5e7008"
+    },
+    {
+      "path": "records/20261119_sft_online_rl_structural_round/structural/MATERIAL_SCHEMA.md",
+      "packaging_sha256": "c8febb9407eb5511588211f004ebb1e3822bc7c18acf6a498ae3da39c8e88dce"
+    },
+    {
+      "path": "records/20261119_sft_online_rl_structural_round/structural/config.json",
+      "packaging_sha256": "e1b12e4055f3d8d148b2bdd2a272be1febcc1c83bcbeadfd92bfbde3904ab4c7"
+    },
+    {
+      "path": "records/20261119_sft_online_rl_structural_round/structural/RUN.md",
+      "packaging_sha256": "ce065e93d30ecd3f94463761e6ea22f6c7a55ad43cf88a20bc6ca1928d8fc174"
+    },
+    {
+      "path": "records/20261119_sft_online_rl_structural_round/successor/PLAN.md",
+      "packaging_sha256": "c2ecec09257f6cd9d116532d910d4a47b667a7ede895c7ccc7970097fe16994d"
+    },
+    {
+      "path": "records/20261119_sft_online_rl_structural_round/successor/CONTRACT.md",
+      "packaging_sha256": "62c848ca9c3218a7c46c347b69dc86c5d35d71d7f362f2663693d91f024e2e4e"
+    },
+    {
+      "path": "records/20261119_sft_online_rl_structural_round/review/G1.md",
+      "packaging_sha256": "36ba90398ac9d43fc09b7842cdfaaeb979617e9dad894425e32957493d5f7e95"
+    },
+    {
+      "path": "records/20261119_sft_online_rl_structural_round/review/G1_SUCCESSOR.md",
+      "packaging_sha256": "8ffdb235bca150c3b563b12211a8a67194b3761b77827406ec33e1a95963ec18"
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/PLAN.md",
+      "packaging_sha256": "100821b530a5efdf32cae16a807e49798283511d993ed4454252eb3544c47e24"
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/RL_AMENDMENT.md",
+      "packaging_sha256": "8847de1cc7a9247267e92613baab1d8db66a62979486bae0c0e812c88f065358"
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/REPRODUCE.md",
+      "packaging_sha256": "61d489a6921056083c352a15e4cbb3eea41e982f68a26a691b1379af32e044a3"
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/lab/SOURCE.json",
+      "packaging_sha256": "bde8b61d211038518d144ce6cef22d99f80dbca362787bee5de1dcced2a99ea9"
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/structural/PLAN.md",
+      "packaging_sha256": "11a2a56ab200e5cc71602a09c336b59c77f1d035996e31ee52e519326b01db15"
+    },
+    {
+      "path": "records/20261119_open_science_alignment_convergence/structural/FORECAST.time",
+      "packaging_sha256": "92528aec628df1af94fd4998459c5b2aa25602a26233e35453f3592e240b1462"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/mechanism/PLAN.md",
+      "packaging_sha256": "5767c92c9ec24e462737a5b73433ff0c8122db792ee463e70b221d1963bea676"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/mechanism/formal/NATIVE_RUN.json",
+      "packaging_sha256": "9eaab8e7d6f979852792a28c76ecc293c9ab27ab57d74912a094502bd416df51"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/practice/PLAN.md",
+      "packaging_sha256": "7ac629909e84fa3df63c61d77a25f2d114ca2b840ae7970b09b394ae227377bc"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/practice/COHORT.md",
+      "packaging_sha256": "c0e856f7dacbf921363fd0241067a748af8f7131bb3b4e6ed03ccbddd2fe444f"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/practice/STEWARDSHIP.md",
+      "packaging_sha256": "605274bbbcd7f5228ffcd1c47d23566ea1b96eadb3224ceca022ee6d7154556c"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/downstream/PREREG.md",
+      "packaging_sha256": "e041c7db1c23b7c30ec4456275f5d33ce82e15f9060e96bd5292c76a16991c46"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/downstream/TWO_BATCH_ADDENDUM.md",
+      "packaging_sha256": "6d94637f6b1be9f492afe7811b371ed689693cc0054de2087473b8ff0aed58e4"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/downstream/RESOLUTION_NOTE.md",
+      "packaging_sha256": "ffa5cd0b4b9b07bc6c402dab78303e163a31a79241cd8801e36929a90683a711"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/analysis/LINKAGE_PLAN.md",
+      "packaging_sha256": "aa9aaf9f758476e304a12f3090c8927cd07968b5ee306334bb5b41ee2eefba76"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/strong/PLAN.md",
+      "packaging_sha256": "731aa245db2e0e5530b913cf19569aec460ed96eeb2b0fa57963db7d14ac0e70"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/free_workspace/QUESTION.md",
+      "packaging_sha256": "d928a844df57c941d862f62502471dca7259d5abaa21256a32f0b5879f2775b5"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/free_workspace/BROKER_RULE.md",
+      "packaging_sha256": "a739b0c6ec4cb808a73c66575c18128758872803a525fc46d7e2789318d837e9"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/free_workspace/BROKER_ENCODING.md",
+      "packaging_sha256": "798a29cd1f7d081bc9cebf4ce256eb996c9b3cb23ed41169cb271b13606d49cf"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/free_workspace/INTERPRETATION_NOTES.md",
+      "packaging_sha256": "e8e8c200d3dd616ac4c1a212f53f70839312f9d422fff7c587aced6482695f48"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/dialogue/PROTOCOL.md",
+      "packaging_sha256": "e1f687d1cac6567c652d44192a9d95e14f411fb4353aa4f2055dd6a75425b954"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/astra/PLAN.md",
+      "packaging_sha256": "f455d5dd3d5866bf1e8b5f8b68203bcea41f8182952b81f6b9fd5027c646a741"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/astra/RIDGE_DECISION.md",
+      "packaging_sha256": "2fd58b11bb54525055fc85d5ede98ac539900f38208bbe819bccd84d5bffae9c"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/astra/SLOTS.json",
+      "packaging_sha256": "58aa3925c32619de68c78cee25ab3d05d0865778b1d9b54dce9b0495c67ea25b"
+    },
+    {
+      "path": "records/20261120_scientific_choice_and_recovery/field/PLAN.md",
+      "packaging_sha256": "2620b42e8c5b0faec52994c355f6b7317649fd9a7d86735e37b0553c66fcb652"
+    }
+  ]
+}

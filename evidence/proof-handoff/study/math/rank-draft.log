@@ -1,0 +1,16 @@
+Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+checking Handoff.lean
+'Handoff.multiplicative_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.continuous_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.log_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.source_right_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.budget_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.even_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.even_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.common_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.recovery_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+checking RankSubstitute.lean
+'Handoff.Rank.prescribed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.Rank.neighboring_structures' depends on axioms: [propext, Classical.choice, Quot.sound]
+All requested local modules accepted.

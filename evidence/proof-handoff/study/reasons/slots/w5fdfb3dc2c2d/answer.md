@@ -1,0 +1,7 @@
+The draft should retain both states in the loss calculation. Each state admits a successful setting, but the worker receives the same information in both states and must choose once. Either deterministic choice therefore succeeds in one state and fails in the other. Ordinary work can be credited with realized recovery if the chosen setting matches the realized state. It cannot be credited with guaranteed recovery across both states.
+
+Let \(p\) be the probability of choosing \(k=1\). Since the state is indistinguishable at decision time, the same \(p\) applies in both states. The success probabilities are \(1-p\) when \(z=0\) and \(p\) when \(z=1\). Their minimum is at most their average, \(1/2\). A fair coin attains \(1/2\) in each state, so the sharp worst-state success probability is **\(1/2\)**. This calculation needs no prior on the states.
+
+For the appendix, let \(I(z)\) denote the information available when acting and \(S(z)\) the set of feasible settings that achieve recovery in state \(z\). Attribute guaranteed recovery to a substitute exactly when there is an implementable rule \(g\) such that \(g(I(z))\in S(z)\) for every relevant state. Thus, for each possible observation, the rule must select a setting in the intersection of the success sets of all states consistent with that observation. Here the intersection is \(\{0\}\cap\{1\}=\varnothing\).
+
+I used the note’s statement that a successful configuration exists separately for each state. The workbook reference was unnecessary for the argument.

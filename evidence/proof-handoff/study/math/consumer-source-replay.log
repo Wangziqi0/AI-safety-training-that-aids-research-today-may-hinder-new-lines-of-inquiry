@@ -1,0 +1,49 @@
+original source SHA-256 matched 90e749885560a742ca12305e0f028da32a95ef10bb42580986306387be48894d
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:135:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.chC_apply'`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:139:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.psC_apply'`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:226:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.mean_le`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:341:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.wR_thick`:
+  [Fintype H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:344:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.wR_thin`:
+  [Fintype H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:348:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.aR_mem`:
+  [AddCommGroup H]
+  [Fintype H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup H] [Fintype H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:745:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.AN.norm_cosetMean_le`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+re-elaborated original consumer SHA-256 f5e1a4beee9ab6353108c3959e7848c36b4b2095dd3696e258393a5714ec6dfc
+reference compiled SHA-256 2dd746b95371596ae83189ec8a8a747a18274b288b6496cfecf6a2e1b1e9c630
+compiled reference byte match False

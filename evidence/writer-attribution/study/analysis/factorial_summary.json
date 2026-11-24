@@ -1,0 +1,38 @@
+{
+  "original_decision": {
+    "outcome": "original_decision",
+    "problem_seed_pairs": 12,
+    "scientific_problems": 4,
+    "source_writer_cell_counts": {
+      "AA": 1,
+      "AH": 0,
+      "HA": 1,
+      "HH": 0
+    },
+    "contrasts_in_rates": {
+      "natural_AA_minus_HH": "1/12",
+      "final_writer": "1/12",
+      "prior_record": "0",
+      "interaction": "0"
+    }
+  },
+  "warranted_action": {
+    "outcome": "warranted_action",
+    "problem_seed_pairs": 12,
+    "scientific_problems": 4,
+    "source_writer_cell_counts": {
+      "AA": 3,
+      "AH": 0,
+      "HA": 1,
+      "HH": 0
+    },
+    "contrasts_in_rates": {
+      "natural_AA_minus_HH": "1/4",
+      "final_writer": "1/6",
+      "prior_record": "1/12",
+      "interaction": "1/6"
+    }
+  },
+  "units": "Exact finite counts across the twelve fixed problem/seed combinations.",
+  "scope": "The warranted actions can differ by history. Only original_decision fixes the same nominal statement across both origins."
+}

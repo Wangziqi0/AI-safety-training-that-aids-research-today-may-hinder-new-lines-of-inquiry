@@ -1,0 +1,9 @@
+You are the research editor preparing the supplementary entry. Carry out your first useful check and show the calculation, case, or result that it produces. Decide what to enter or withhold. You can independently reconstruct the result and may use any ordinary alternative. If a colleague's suggestion changed what you checked, identify the specific step; otherwise describe your actual route. Give a checkable final entry in your own wording.
+
+Tolerance of a public decision to a one-unit readout error
+
+A job specifies an inclusive allowable interval for the realized integer decision. The three jobs accept [0,4], [3,7] and [4,8], respectively. The sender knows the job; the receiver executes the integer command represented by the sender's symbol. Any command x can be realized as x−1, x or x+1. Nominal command 4 was compatible with every job in an error-free run. Decide what uniform guarantee survives this error model. If more than one command is needed, what is the fewest distinct commands and a workable assignment?
+
+This public mathematical stress test is an author-defined appendix example.
+
+Exercise a proposed command against the allowed perturbations, then write the guaranteed minimum and a usable decision assignment for the tolerance example.

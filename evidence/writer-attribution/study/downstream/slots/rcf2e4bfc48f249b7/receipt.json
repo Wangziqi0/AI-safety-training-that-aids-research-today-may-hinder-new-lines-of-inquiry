@@ -1,0 +1,29 @@
+{
+  "slot": "rcf2e4bfc48f249b7",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "tool_calls": [
+    {
+      "name": "exec",
+      "input": "text(await tools.exec_command({cmd:\"cat study/downstream/slots/rcf2e4bfc48f249b7/docket.txt\"}))\n"
+    },
+    {
+      "name": "exec",
+      "input": "const s=(await tools.exec_command({cmd:\"cat study/downstream/slots/rcf2e4bfc48f249b7/docket.txt\"})).output;const counts=[[0,0],[0,0]]; for(const line of s.split(\"mode,reproduced,major_errors\\n\")[1].split(\"\\n\\n\")[0].split(\"\\n\")) {const [m,r,e]=line.split(\",\").map(Number);if(m<2)counts[m][Number(r===1&&e>=1)]++;}const C=(n,k)=>{let x=1n;for(let i=1;i<=k;i++)x=x*BigInt(n+1-i)/BigInt(i);return x};const [[a,b],[c,d]]=counts;const n=a+b,events=b+d,none=a+c;const nums=Array.from({length:events+1},(_,x)=>C(events,x)*C(none,n-x));const tails=nums.flatMap((v,x)=>v<=nums[b]?[x]:[]);const num=tails.reduce((s,x)=>s+nums[x],0n),den=C(none+events,n);text([counts,tails,Number(num)/Number(den),String(num),String(den)])\n"
+    }
+  ],
+  "complete": true,
+  "usage": {
+    "input_tokens": 105026,
+    "cached_input_tokens": 102272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 825,
+    "reasoning_output_tokens": 107,
+    "total_tokens": 105851
+  },
+  "started_at": 1795240763,
+  "completed_at": 1795240790,
+  "duration_ms": 27731,
+  "words": 182,
+  "packet_sha256": "6dc8784c40b2cd9947d5eb737011bddf5af1cf69e4b4410f9beede573450e0ab"
+}

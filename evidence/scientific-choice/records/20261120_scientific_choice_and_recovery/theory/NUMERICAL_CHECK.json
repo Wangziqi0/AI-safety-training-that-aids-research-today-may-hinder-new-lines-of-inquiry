@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "exact_enumeration": {
+    "population_sizes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "complete_observed_margins_checked": 6170,
+    "binary_worlds_evaluated": 1340358,
+    "all_intermediate_counts_attained": true,
+    "incomplete_margin_triples_checked": 9261
+  },
+  "equal_resource_alternative": {
+    "projects": 5,
+    "rival_alternatives": 2,
+    "observed_margins": 216,
+    "complete_counterworlds": 32768
+  },
+  "unequal_probability_randomization": {
+    "A": {
+      "0": "7/9",
+      "1": "7/9"
+    },
+    "H": {
+      "0": "7/9",
+      "1": "2/3"
+    }
+  },
+  "observed_distribution_both_worlds": [
+    {
+      "z": "A",
+      "r": "natural",
+      "protected": 1,
+      "current": 1,
+      "naturally_formed": 0,
+      "used": 0,
+      "later_success": 0,
+      "rescue_cost": 0,
+      "probability": "3/16"
+    },
+    {
+      "z": "A",
+      "r": "natural",
+      "protected": 1,
+      "current": 1,
+      "naturally_formed": 0,
+      "used": 0,
+      "later_success": 1,
+      "rescue_cost": 0,
+      "probability": "1/16"
+    },
+    {
+      "z": "A",
+      "r": "offered",
+      "protected": 1,
+      "current": 1,
+      "naturally_formed": 0,
+      "used": 1,
+      "later_success": 0,
+      "rescue_cost": 2,
+      "probability": "1/16"
+    },
+    {
+      "z": "A",
+      "r": "offered",
+      "protected": 1,
+      "current": 1,
+      "naturally_formed": 0,
+      "used": 1,
+      "later_success": 1,
+      "rescue_cost": 2,
+      "probability": "3/16"
+    },
+    {
+      "z": "H",
+      "r": "ineligible",
+      "protected": 0,
+      "current": 0,
+      "naturally_formed": 1,
+      "used": 1,
+      "later_success": 1,
+      "rescue_cost": 0,
+      "probability": "1/4"
+    },
+    {
+      "z": "H",
+      "r": "ineligible",
+      "protected": 1,
+      "current": 1,
+      "naturally_formed": 1,
+      "used": 0,
+      "later_success": 0,
+      "rescue_cost": 0,
+      "probability": "1/4"
+    }
+  ],
+  "individual_counts_out_of_eight": {
+    "world_I": {
+      "recovered_only": 4,
+      "linked": 0
+    },
+    "world_II": {
+      "recovered_only": 6,
+      "linked": 4
+    }
+  },
+  "heterogeneity": {
+    "two_equal_A_history_cells": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "averaged_ITT": 0,
+    "individual_rescue_share": 0.5,
+    "individual_damage_share": 0.5
+  },
+  "ascertainment": {
+    "common_covered_fraction": 0.5,
+    "covered_bounds": [
+      0.4,
+      0.8
+    ],
+    "whole_population_bounds": [
+      0.2,
+      0.9
+    ]
+  }
+}

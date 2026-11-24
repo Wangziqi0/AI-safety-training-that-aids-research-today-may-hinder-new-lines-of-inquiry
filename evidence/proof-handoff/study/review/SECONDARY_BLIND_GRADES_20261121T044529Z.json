@@ -1,0 +1,61 @@
+{
+  "graded_utc": "2026-11-21T04:45:29.792139+00:00",
+  "source": "reasons/answers_blind.jsonl",
+  "source_sha256": "16398cc9d6de22ce5c8df425d9e5bad3fdcf156863a145a53f132ec0fa84b87e",
+  "audit_stage": "All records graded before opening freeze, packet text or allocation. Only opaque slots and returned text were read. Self-attributions in the returned text may cue assignment. No arm inferred for endpoint scoring.",
+  "criteria": {
+    "private desk": "conflict graph iff and valid finite counterexample",
+    "ordinary recovery": "sharp 1/2 minimax with attainment and executable common-policy criterion",
+    "multiple methods": "minimal three-type counterexample (nonempty types) and necessary and sufficient complete witness intersection"
+  },
+  "outcomes": [
+    {
+      "slot": "w42c0944a54cd",
+      "task": "multiple methods",
+      "complete_decision": true,
+      "proof_evidence": "All three pairwise intersections are given, with empty triple intersection and at most two grid intervals per type. Correct nonempty-set minimality argument and exact nonempty full-intersection iff condition.",
+      "self_attribution_reported": "Reported use of the single-interval observation to seek a gap.",
+      "self_attribution_grade": "descriptive only"
+    },
+    {
+      "slot": "w5fdfb3dc2c2d",
+      "task": "ordinary recovery",
+      "complete_decision": true,
+      "proof_evidence": "Both deterministic rules fail in one indistinguishable state. The minimum of p and 1-p is bounded by 1/2, attained with a fair coin. One feasible information-measurable policy must succeed in all states. Realized recovery is distinguished.",
+      "self_attribution_reported": "Reported use of separate state-wise availability, and explicitly said the workbook reference was unnecessary.",
+      "self_attribution_grade": "descriptive only"
+    },
+    {
+      "slot": "wadbb1dfc2f7f",
+      "task": "private desk",
+      "complete_decision": true,
+      "proof_evidence": "Defines conflicts by disjoint intervals among types possible at the same desk. Shows both directions via proper two-coloring and discrete interval Helly. Three desks force a triangle despite a two-witness set per desk, including the third type via a nonconstraining interval.",
+      "self_attribution_reported": "Reported use of the fixed-label observation and short-cycle suggestion.",
+      "self_attribution_grade": "descriptive only"
+    },
+    {
+      "slot": "wcfd829d50a30",
+      "task": "private desk",
+      "complete_decision": true,
+      "proof_evidence": "Gives the conflict graph and both directions, with the least-right-endpoint argument on each desk and color. Three pair-only desks force an odd cycle despite two local witnesses. The unused third type could also be given the whole two-point grid without changing the obstruction.",
+      "self_attribution_reported": "Reported use of desk-known adaptation as the comparator to a global encoding.",
+      "self_attribution_grade": "descriptive only"
+    },
+    {
+      "slot": "wd3052780da21",
+      "task": "multiple methods",
+      "complete_decision": true,
+      "proof_evidence": "Provides the three-type triangle of sets, empty triple intersection and nonempty pairwise intersections. Explains minimality for nonempty sets and the singleton-empty exception. Proves the iff full-intersection rule with the union of alternatives within each type.",
+      "self_attribution_reported": "Reported use of the suggestion to let different pairs share different witnesses.",
+      "self_attribution_grade": "descriptive only"
+    },
+    {
+      "slot": "wf572b53e6bee",
+      "task": "ordinary recovery",
+      "complete_decision": true,
+      "proof_evidence": "Correct deterministic zero worst-state result and randomized 1/2 both as bound and constructive attainment. Gives one implementable common-information rule as necessary and sufficient and distinguishes realization from guarantee.",
+      "self_attribution_reported": "Reported use of the suggestion to hold the receiver rule fixed across both states.",
+      "self_attribution_grade": "descriptive only"
+    }
+  ]
+}

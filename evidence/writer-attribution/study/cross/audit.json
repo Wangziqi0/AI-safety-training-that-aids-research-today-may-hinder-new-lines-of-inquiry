@@ -1,0 +1,273 @@
+{
+  "freeze_sha256": "f72b8d5f50c5445452d06a968a5aae0796ae77f5cb618a51c5c46f4a0466f819",
+  "raw_sha256": {
+    "raw/b01.jsonl": "867b6a3276588efbccd3fa89b0b154d6010fa333e7366782f05fb97edfc04338",
+    "raw/b02.jsonl": "b9ba6c64e98b4ddf902e37ca9cd430d05593aab4ab9b508ae023ebfc30cd9a60",
+    "raw/b03.jsonl": "bb9132da190b59c3aa368480089983e790e359ccb00512e12ce2ddfe9e1ffc9e",
+    "raw/b04.jsonl": "578a016f61510f545553f67db8dca94911b24684c61efe67884734be9ba8bed2",
+    "raw/b05.jsonl": "f7c399c6412dd517efe95bd838c4847a70aa651d2f9dedd0dd74d70cef5d1888",
+    "raw/b06.jsonl": "8ef13e136009c4d263e66ab2576457b8429e0a04cc5e63f4970dcbf87e18e853",
+    "secondary/raw.jsonl": "43d527d8e924110aca68f3004e985c6a0bac76402fc631f56630c5b640e85c20"
+  },
+  "historical_check_fields": [
+    "text",
+    "token_ids",
+    "eos",
+    "truncated",
+    "generated_tokens",
+    "context_tokens",
+    "effective_token_cap",
+    "batch_size",
+    "base_revision",
+    "checkpoint_sha256"
+  ],
+  "historical_replay": {
+    "p57": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 67,
+      "regenerated_tokens": 67
+    },
+    "p63": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 93,
+      "regenerated_tokens": 93
+    },
+    "p66": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 174,
+      "regenerated_tokens": 174
+    },
+    "p89": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 143,
+      "regenerated_tokens": 143
+    },
+    "p95": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 11,
+      "regenerated_tokens": 11
+    },
+    "p71": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 10,
+      "regenerated_tokens": 10
+    },
+    "p06": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 66,
+      "regenerated_tokens": 66
+    },
+    "p86": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 66,
+      "regenerated_tokens": 66
+    },
+    "p78": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 87,
+      "regenerated_tokens": 87
+    },
+    "p83": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 63,
+      "regenerated_tokens": 63
+    },
+    "p56": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 64,
+      "regenerated_tokens": 64
+    },
+    "p23": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 184,
+      "regenerated_tokens": 184
+    },
+    "p05": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 10,
+      "regenerated_tokens": 10
+    },
+    "p60": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 66,
+      "regenerated_tokens": 66
+    },
+    "p87": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 8,
+      "regenerated_tokens": 8
+    },
+    "p03": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 9,
+      "regenerated_tokens": 9
+    },
+    "p67": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 650,
+      "regenerated_tokens": 650
+    },
+    "p43": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 64,
+      "regenerated_tokens": 64
+    },
+    "p76": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 650,
+      "regenerated_tokens": 650
+    },
+    "p74": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 650,
+      "regenerated_tokens": 650
+    },
+    "p79": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 66,
+      "regenerated_tokens": 66
+    },
+    "p31": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 66,
+      "regenerated_tokens": 66
+    },
+    "p41": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 66,
+      "regenerated_tokens": 66
+    },
+    "p39": {
+      "matched": true,
+      "different_fields": [],
+      "original_tokens": 9,
+      "regenerated_tokens": 9
+    }
+  },
+  "exact_originals": 24,
+  "primary_cells": 48,
+  "histories": 24,
+  "primary_batch_timing": [
+    {
+      "batch": "b01",
+      "start_utc": "2026-11-21T05:35:28.933634+00:00",
+      "end_utc": "2026-11-21T05:36:01.121260+00:00",
+      "elapsed_seconds": 32.18759291758761,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b02",
+      "start_utc": "2026-11-21T05:36:01.121653+00:00",
+      "end_utc": "2026-11-21T05:36:20.331986+00:00",
+      "elapsed_seconds": 19.210320446174592,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b03",
+      "start_utc": "2026-11-21T05:36:20.332369+00:00",
+      "end_utc": "2026-11-21T05:36:44.185887+00:00",
+      "elapsed_seconds": 23.853504322003573,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b04",
+      "start_utc": "2026-11-21T05:36:44.186429+00:00",
+      "end_utc": "2026-11-21T05:37:05.514979+00:00",
+      "elapsed_seconds": 21.32853259658441,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b05",
+      "start_utc": "2026-11-21T05:37:05.515394+00:00",
+      "end_utc": "2026-11-21T05:37:57.322656+00:00",
+      "elapsed_seconds": 51.80724923685193,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    },
+    {
+      "batch": "b06",
+      "start_utc": "2026-11-21T05:37:57.323018+00:00",
+      "end_utc": "2026-11-21T05:38:25.109907+00:00",
+      "elapsed_seconds": 27.786875245161355,
+      "scope": "whole wrapper including lock wait/model load and transfer",
+      "returncode": 0
+    }
+  ],
+  "distinct_exact_model_histories": 16,
+  "distinct_by_case": {
+    "G1": 4,
+    "G2": 4,
+    "E1": 4,
+    "E2": 4
+  },
+  "distinct_public_histories": 16,
+  "verified_independent_receiver_packets": 6,
+  "primary_wrapper_seconds": 176.17407476436347,
+  "primary_by_writer": {
+    "A": {
+      "n": 24,
+      "truncated": 3,
+      "total_tokens": 3902,
+      "range_tokens": [
+        9,
+        650
+      ]
+    },
+    "H": {
+      "n": 24,
+      "truncated": 0,
+      "total_tokens": 1225,
+      "range_tokens": [
+        8,
+        180
+      ]
+    }
+  },
+  "secondary_timing": {
+    "batch": "secondary",
+    "start_utc": "2026-11-21T05:38:25.110477+00:00",
+    "end_utc": "2026-11-21T05:50:00.412196+00:00",
+    "elapsed_seconds": 695.3017037492245,
+    "scope": "whole wrapper including lock wait/model load and transfer",
+    "returncode": 0
+  },
+  "secondary_by_cap": {
+    "192": {
+      "n": 12,
+      "truncated": 0,
+      "total_tokens": 226
+    },
+    "650": {
+      "n": 24,
+      "truncated": 2,
+      "total_tokens": 3327
+    }
+  }
+}

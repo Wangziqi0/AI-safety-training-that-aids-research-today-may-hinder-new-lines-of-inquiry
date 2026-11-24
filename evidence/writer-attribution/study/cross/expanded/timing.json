@@ -1,0 +1,7 @@
+{
+  "start_utc": "2026-11-21T05:39:02.330807+00:00",
+  "end_utc": "2026-11-21T05:52:20.030530+00:00",
+  "elapsed_seconds": 797.6996807651594,
+  "returncode": 0,
+  "scope": "whole original wrapper including queue, model reload and transfer"
+}

@@ -1,0 +1,338 @@
+[
+ {
+  "id": "P01",
+  "products": [
+   {
+    "name": "tess2020160202036-s0026-0000000423311936-0188-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0026/0000/0004/2331/1936/tess2020160202036-s0026-0000000423311936-0188-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2020160202036-s0026-0000000423311936-0188-s_lc.fits",
+    "bytes": 1820160,
+    "sha256": "7545639eff955d2f2cc712cd509a484bd2fc41302f6435705e154231b1daf411",
+    "etag": "392df4ee974a5c16616a8a2161cd446d",
+    "sector": 26
+   },
+   {
+    "name": "tess2020160202036-s0026-0000000423311936-0188-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0026/0000/0004/2331/1936/tess2020160202036-s0026-0000000423311936-0188-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2020160202036-s0026-0000000423311936-0188-s_tp.fits",
+    "bytes": 43879680,
+    "sha256": "f0a5304d5f22de4b023fec3af2de216362f0d9a372b0a6f64a6bd6c34ecc7f0e",
+    "etag": "d0197d9acbd3e350b614786e02c1b79c",
+    "sector": 26
+   },
+   {
+    "name": "tess2024170053053-s0080-0000000423311936-0275-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0080/0000/0004/2331/1936/tess2024170053053-s0080-0000000423311936-0275-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2024170053053-s0080-0000000423311936-0275-s_lc.fits",
+    "bytes": 1935360,
+    "sha256": "79036825eed7eecf7bffbac9c1051f45c1c4a1305140510f4cdb6cfb011ee839",
+    "etag": "6d47c3df068cbe095a7d9c9b8ccc04d4",
+    "sector": 80
+   },
+   {
+    "name": "tess2024170053053-s0080-0000000423311936-0275-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0080/0000/0004/2331/1936/tess2024170053053-s0080-0000000423311936-0275-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2024170053053-s0080-0000000423311936-0275-s_tp.fits",
+    "bytes": 46664640,
+    "sha256": "ce8eac058cabba1aa850e8b90aac4ae7cbee2b8dff9abb711352e3bf6ddd3c24",
+    "etag": "2ef2290ab4555ff0bd6779e18d71ecbd",
+    "sector": 80
+   }
+  ],
+  "packed_sha256": "7d09c1f39bd68606839577a6da9d8fc993fa9b3eaf74b9267b8bff652f1d4c93"
+ },
+ {
+  "id": "P02",
+  "products": [
+   {
+    "name": "tess2021175071901-s0040-0000001842385646-0211-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0040/0000/0018/4238/5646/tess2021175071901-s0040-0000001842385646-0211-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2021175071901-s0040-0000001842385646-0211-s_lc.fits",
+    "bytes": 2062080,
+    "sha256": "4e4b4bc67cc964ea33e3a80735f99b246ddab1c35611c5689b983243d6a30ca9",
+    "etag": "f21cc778baf611a65be362c15a5773a9",
+    "sector": 40
+   },
+   {
+    "name": "tess2021175071901-s0040-0000001842385646-0211-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0040/0000/0018/4238/5646/tess2021175071901-s0040-0000001842385646-0211-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2021175071901-s0040-0000001842385646-0211-s_tp.fits",
+    "bytes": 49754880,
+    "sha256": "ce87ac957eada6105d1a11aaa10515a0cc150bdaec839fdf21ac1c41ed18f9b8",
+    "etag": "aa4ffaab2ec158690a42621356fd0305",
+    "sector": 40
+   },
+   {
+    "name": "tess2024196212429-s0081-0000001842385646-0276-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0081/0000/0018/4238/5646/tess2024196212429-s0081-0000001842385646-0276-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2024196212429-s0081-0000001842385646-0276-s_lc.fits",
+    "bytes": 1946880,
+    "sha256": "a9953e29b27973382db2e7fe97d2ddab0cbafb2cbb66b0d72046bab8896310a7",
+    "etag": "641935f9b4822027eb1b2236e7777880",
+    "sector": 81
+   },
+   {
+    "name": "tess2024196212429-s0081-0000001842385646-0276-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0081/0000/0018/4238/5646/tess2024196212429-s0081-0000001842385646-0276-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2024196212429-s0081-0000001842385646-0276-s_tp.fits",
+    "bytes": 46975680,
+    "sha256": "d2184b2e366abfdc42881f369ccb1ae8e7be7f254749b5ba3d2df8d6ee645744",
+    "etag": "1c3f59f180a1e17f87fe49a89a0184d6",
+    "sector": 81
+   }
+  ],
+  "packed_sha256": "3de6b6341d41810866128605a761ee179fbdb11b7c48b39e4c88e40e2359e049"
+ },
+ {
+  "id": "P03",
+  "products": [
+   {
+    "name": "tess2021065132309-s0036-0000000120596335-0207-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0036/0000/0001/2059/6335/tess2021065132309-s0036-0000000120596335-0207-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2021065132309-s0036-0000000120596335-0207-s_lc.fits",
+    "bytes": 1837440,
+    "sha256": "a46ebf75494110398e3456e0f881966d2ed9da4e3a1282ff997778950e280d0d",
+    "etag": "e85e10ee56be0b003c0b1bb74a8349fc",
+    "sector": 36
+   },
+   {
+    "name": "tess2021065132309-s0036-0000000120596335-0207-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0036/0000/0001/2059/6335/tess2021065132309-s0036-0000000120596335-0207-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2021065132309-s0036-0000000120596335-0207-s_tp.fits",
+    "bytes": 44265600,
+    "sha256": "848f7eac65dc13e0aefa37f1d2a0448ed090dcc9ebe3968d912e422583d4970f",
+    "etag": "21f97870ff403327180ae58e7bea19a0",
+    "sector": 36
+   },
+   {
+    "name": "tess2025071122000-s0090-0000000120596335-0287-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0090/0000/0001/2059/6335/tess2025071122000-s0090-0000000120596335-0287-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2025071122000-s0090-0000000120596335-0287-s_lc.fits",
+    "bytes": 2041920,
+    "sha256": "b22a6e76144ed97d24eb2382be4b8e740ea604304f62996e7326d3a8bcb01df7",
+    "etag": "9fa46b4972f56d06c46621d0ff49a684",
+    "sector": 90
+   },
+   {
+    "name": "tess2025071122000-s0090-0000000120596335-0287-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0090/0000/0001/2059/6335/tess2025071122000-s0090-0000000120596335-0287-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2025071122000-s0090-0000000120596335-0287-s_tp.fits",
+    "bytes": 49256640,
+    "sha256": "147bf337ee1520b31b4afc8e85f50b25c1c7119708bfb425e339a5c9543f309b",
+    "etag": "c2ac61685a5d77835f975c5254534fcf",
+    "sector": 90
+   }
+  ],
+  "packed_sha256": "8a53ad15734c50f1d2fbef465e6bdad0dfc3fcce3798a32ea8b38bd4bf7e8339"
+ },
+ {
+  "id": "P04",
+  "products": [
+   {
+    "name": "tess2019226182529-s0015-0000000063373833-0151-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0015/0000/0000/6337/3833/tess2019226182529-s0015-0000000063373833-0151-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2019226182529-s0015-0000000063373833-0151-s_lc.fits",
+    "bytes": 1906560,
+    "sha256": "275abe509feca7e69c22bdb213179792ceceec2addc0108e9036d4740be282ef",
+    "etag": "7eef6e13faab9fe57d0eb59a9dc8772e",
+    "sector": 15
+   },
+   {
+    "name": "tess2019226182529-s0015-0000000063373833-0151-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0015/0000/0000/6337/3833/tess2019226182529-s0015-0000000063373833-0151-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2019226182529-s0015-0000000063373833-0151-s_tp.fits",
+    "bytes": 45956160,
+    "sha256": "89f1d711c17af937972f71de17e5fb485591af496e76c3505ee4f56184bc258f",
+    "etag": "8739365dc387342f3aa010ca088a9bb7",
+    "sector": 15
+   },
+   {
+    "name": "tess2024223182411-s0082-0000000063373833-0278-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0082/0000/0000/6337/3833/tess2024223182411-s0082-0000000063373833-0278-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2024223182411-s0082-0000000063373833-0278-s_lc.fits",
+    "bytes": 1892160,
+    "sha256": "4cfa572a06eeeff35e72c9c581baf9984275b3e059f15c81d013b38b4094324a",
+    "etag": "f037b2c83b561212be07e6dc5644fb38",
+    "sector": 82
+   },
+   {
+    "name": "tess2024223182411-s0082-0000000063373833-0278-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0082/0000/0000/6337/3833/tess2024223182411-s0082-0000000063373833-0278-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2024223182411-s0082-0000000063373833-0278-s_tp.fits",
+    "bytes": 45619200,
+    "sha256": "3372d6dd8d77a7ab88be3cb9eea7bb0e2dd24aaf86b384703bd75c6d6c2b4d30",
+    "etag": "275f787cf3c71553c1f018c2ea818cef",
+    "sector": 82
+   }
+  ],
+  "packed_sha256": "6e3d9590c1ca57a094fe3b31313b4641a8b33eb03e45847d41935a808eee7259"
+ },
+ {
+  "id": "P05",
+  "products": [
+   {
+    "name": "tess2019331140908-s0019-0000000084306468-0164-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0019/0000/0000/8430/6468/tess2019331140908-s0019-0000000084306468-0164-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2019331140908-s0019-0000000084306468-0164-s_lc.fits",
+    "bytes": 1834560,
+    "sha256": "b8d9ecaa8f218682347b1bf542242629953763a4c20167a96e319d4998f0636c",
+    "etag": "e270372ae960c6516a063533a4594c20",
+    "sector": 19
+   },
+   {
+    "name": "tess2019331140908-s0019-0000000084306468-0164-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0019/0000/0000/8430/6468/tess2019331140908-s0019-0000000084306468-0164-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2019331140908-s0019-0000000084306468-0164-s_tp.fits",
+    "bytes": 44231040,
+    "sha256": "931fc712b3bdb27e6c94c30ead4be24ec5dc093093e4f9c0721779074a7e2f04",
+    "etag": "a18eff403eaade4ea501031bfa7b98c6",
+    "sector": 19
+   },
+   {
+    "name": "tess2024326142117-s0086-0000000084306468-0283-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0086/0000/0000/8430/6468/tess2024326142117-s0086-0000000084306468-0283-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2024326142117-s0086-0000000084306468-0283-s_lc.fits",
+    "bytes": 1944000,
+    "sha256": "f9e147ef9b049021034c4ba553d9b992e1b08fcdc9f5491a2360aaa84d3faa11",
+    "etag": "ae5b321dd584090d31bcdd0d667b88df",
+    "sector": 86
+   },
+   {
+    "name": "tess2024326142117-s0086-0000000084306468-0283-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0086/0000/0000/8430/6468/tess2024326142117-s0086-0000000084306468-0283-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2024326142117-s0086-0000000084306468-0283-s_tp.fits",
+    "bytes": 46874880,
+    "sha256": "24eeb7bf29a50253d19a479c7dae7a0baab43a6b6aefaed5fd8885ab269f5d4d",
+    "etag": "859aa1879436a9c06c0a68f7c4c579d5",
+    "sector": 86
+   }
+  ],
+  "packed_sha256": "5ef37679c49b4932a499592931f4f098ae9300380397b7d007807b9dcfae9454"
+ },
+ {
+  "id": "P06",
+  "products": [
+   {
+    "name": "tess2019253231442-s0016-0000000193990614-0152-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0016/0000/0001/9399/0614/tess2019253231442-s0016-0000000193990614-0152-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2019253231442-s0016-0000000193990614-0152-s_lc.fits",
+    "bytes": 1805760,
+    "sha256": "3232a611c2fe1db6a0e0e26b4aaba9c4908caba45daf2746dc8e7e4279b5605b",
+    "etag": "5fe5602637f5eddbc5eface34cea70ee",
+    "sector": 16
+   },
+   {
+    "name": "tess2019253231442-s0016-0000000193990614-0152-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0016/0000/0001/9399/0614/tess2019253231442-s0016-0000000193990614-0152-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2019253231442-s0016-0000000193990614-0152-s_tp.fits",
+    "bytes": 43528320,
+    "sha256": "dbeb196853f6eb958a9212c7625820f50b1244119d4cc620b4f9d8b393519732",
+    "etag": "c822cac075ed9d15f0a633573be8be65",
+    "sector": 16
+   },
+   {
+    "name": "tess2024114025118-s0078-0000000193990614-0273-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0078/0000/0001/9399/0614/tess2024114025118-s0078-0000000193990614-0273-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2024114025118-s0078-0000000193990614-0273-s_lc.fits",
+    "bytes": 1330560,
+    "sha256": "b04d493f1d231fc0ad6f53f5455ec1b9a12df89fe4bcd6d83d0fea6ed0feb688",
+    "etag": "a1f6563a40b5c65c3a2b809d1e9dd9b2",
+    "sector": 78
+   },
+   {
+    "name": "tess2024114025118-s0078-0000000193990614-0273-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0078/0000/0001/9399/0614/tess2024114025118-s0078-0000000193990614-0273-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2024114025118-s0078-0000000193990614-0273-s_tp.fits",
+    "bytes": 31870080,
+    "sha256": "db496737db72a8a10ef6ccbb592e7e84e53b8b55c7b9b2a2f00c30210c4b017b",
+    "etag": "5cc732f23a66f44319f0b022a4a34c03",
+    "sector": 78
+   }
+  ],
+  "packed_sha256": "ad2d89b3dd9cbc2578db8a78c2839f8ab5f26cac77cfd5c16ef9f48c36cd520a"
+ },
+ {
+  "id": "P07",
+  "products": [
+   {
+    "name": "tess2022217014003-s0055-0000000367508287-0242-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0055/0000/0003/6750/8287/tess2022217014003-s0055-0000000367508287-0242-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2022217014003-s0055-0000000367508287-0242-s_lc.fits",
+    "bytes": 1987200,
+    "sha256": "1a83a15c93057b13827919d39196e8bee338e1abffe4341c8d65ed5059a5dd57",
+    "etag": "21b01a5a14455db13d098cfa25b59a8b",
+    "sector": 55
+   },
+   {
+    "name": "tess2022217014003-s0055-0000000367508287-0242-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0055/0000/0003/6750/8287/tess2022217014003-s0055-0000000367508287-0242-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2022217014003-s0055-0000000367508287-0242-s_tp.fits",
+    "bytes": 47926080,
+    "sha256": "0ab8b8d8edbb6096a024a26556d6eb21e0518c8b1daa0e7ebfd8ab66d1ee4809",
+    "etag": "85faa819e1c3fffacd7afd9d5f5b3878",
+    "sector": 55
+   },
+   {
+    "name": "tess2024223182411-s0082-0000000367508287-0278-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0082/0000/0003/6750/8287/tess2024223182411-s0082-0000000367508287-0278-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2024223182411-s0082-0000000367508287-0278-s_lc.fits",
+    "bytes": 1892160,
+    "sha256": "35cc4c92731293fe3b32b4fd9bed02f137424939fdeadaeaaa4f8f0281f51744",
+    "etag": "e2426c4f1dc5fce8a232eae00597005b",
+    "sector": 82
+   },
+   {
+    "name": "tess2024223182411-s0082-0000000367508287-0278-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0082/0000/0003/6750/8287/tess2024223182411-s0082-0000000367508287-0278-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2024223182411-s0082-0000000367508287-0278-s_tp.fits",
+    "bytes": 45619200,
+    "sha256": "16c369eedf11feca6639e2fb793fb69431c171951493478d1bf49cf463dd8dcc",
+    "etag": "b533b3c0d4a5e39549988cc070030bad",
+    "sector": 82
+   }
+  ],
+  "packed_sha256": "2b03b3fbb320b8c19def0ede4134b4e57629f7c5f749c98216110dc29aca8b34"
+ },
+ {
+  "id": "P08",
+  "products": [
+   {
+    "name": "tess2019357164649-s0020-0000000446005482-0165-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0020/0000/0004/4600/5482/tess2019357164649-s0020-0000000446005482-0165-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2019357164649-s0020-0000000446005482-0165-s_lc.fits",
+    "bytes": 1926720,
+    "sha256": "8c146800f80cda7d87ac1cb8014155263c20233d4ac1eabc44f0038484c18db6",
+    "etag": "23febe961bdc43719a8d1f511d1a31fe",
+    "sector": 20
+   },
+   {
+    "name": "tess2019357164649-s0020-0000000446005482-0165-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0020/0000/0004/4600/5482/tess2019357164649-s0020-0000000446005482-0165-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2019357164649-s0020-0000000446005482-0165-s_tp.fits",
+    "bytes": 46437120,
+    "sha256": "df54e1d8bdb44793801480df819aa55d4161e6f790108516317c953c386c904c",
+    "etag": "84c0dac5c6effd422f105816efe8ec28",
+    "sector": 20
+   },
+   {
+    "name": "tess2023315124025-s0072-0000000446005482-0267-s_lc.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0072/0000/0004/4600/5482/tess2023315124025-s0072-0000000446005482-0267-s_lc.fits",
+    "mast_uri": "mast:TESS/product/tess2023315124025-s0072-0000000446005482-0267-s_lc.fits",
+    "bytes": 1860480,
+    "sha256": "728e75918db9b17ea78846d0a2b4dc55081c483a8ee29504cfdc037257012fa9",
+    "etag": "2e0ff4938132b881608bbaf6c40859ac",
+    "sector": 72
+   },
+   {
+    "name": "tess2023315124025-s0072-0000000446005482-0267-s_tp.fits",
+    "url": "https://stpubdata.s3.amazonaws.com/tess/public/tid/s0072/0000/0004/4600/5482/tess2023315124025-s0072-0000000446005482-0267-s_tp.fits",
+    "mast_uri": "mast:TESS/product/tess2023315124025-s0072-0000000446005482-0267-s_tp.fits",
+    "bytes": 44818560,
+    "sha256": "83d5da8282f1f9a5f40ba90b6098b16fb51db4e5513319c767a76a1966beba46",
+    "etag": "383f24f40fd3a80a0f9431dc30c250fb",
+    "sector": 72
+   }
+  ],
+  "packed_sha256": "c93bf134f62e811d4bb5c64eceda280da2f45aa513d0604d55c1667285e2ddc9"
+ }
+]

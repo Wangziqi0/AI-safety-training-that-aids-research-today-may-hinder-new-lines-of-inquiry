@@ -1,0 +1,14 @@
+con-leche: stats: phases: parse 422.8s (index 3.3s), check 419.9s
+con-leche: stats: check pool: 419.837s wall, 48 workers, 1468418 records, busy 20121.493s (99.8%); tail 0.498s after the last start, 48 busy then, 2.711s worker-time in it (11.3%)
+con-leche: stats: slowest checks: 81.137s theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554); 61.733s theorem PI.PC.loop_run._proof_1_1 (#571290); 61.589s theorem GlobalTheory.HeightCounting.SideCopy.sigSpan_copy (#829660); 38.606s theorem Formalism.IrreducibleCountingLemmas.GaloisIrreducibility.PrimeCountingLemmas.factorial_ladder_one_forty_one._proof_1_1 (#226690); 28.690s theorem GlobalTheory.PrimeRecip.table_ok._proof_1_1 (#570391)
+con-leche: stats: peak RSS 44.12 GiB
+con-leche: stats: phases: parse 846.9s (index 1.0s), check 1.3s
+con-leche: stats: check pool: 1.394s wall, 48 workers, 51692 records, busy 61.764s (92.2%); tail 0.111s after the last start, 48 busy then, 0.631s worker-time in it (11.8%)
+con-leche: stats: slowest checks: 0.110s theorem Lean.Grind.Ring.OfSemiring.mul_helper (#22850); 0.103s axiom LFunction_eq_zero_re_of_isPrimitive (#51687); 0.100s axiom riemannZeta_eq_zero_re (#51218); 0.097s axiom riemannHypothesis (#51215); 0.092s axiom LFunction_eq_zero_re (#51583)
+con-leche: stats: peak RSS 44.12 GiB
+con-leche: accepted 51692 declarations, 5 axioms justified by the solution /proof/solution.ndjson (1468418 declarations accepted) (--verified)
+con-leche: theorem riemannHypothesis justified by the solution
+con-leche: theorem riemannZeta_eq_zero_re justified by the solution
+con-leche: theorem LFunction_ne_zero_of_half_lt_re justified by the solution
+con-leche: theorem LFunction_eq_zero_re justified by the solution
+con-leche: theorem LFunction_eq_zero_re_of_isPrimitive justified by the solution

@@ -1,0 +1,28 @@
+08d94d9 L 0.471341
+1343852 L 4.0385
+19fd996 U | Contradictory current release and explicit future decision
+1c83adc U | Additional investigation requested without a final choice
+1ea2ad0 U | Additional analysis proposed without a current choice
+2b634d8 U | Repeated data inventory request without a final decision
+42c2650 L 0.471341
+487f6ed U | Further metadata requested without final scientific decision
+4c5bef8 U | Recites measurements and truncates without a release
+5118ebb L 0.464768
+6092d04 L 1.175171
+680d758 U | Further measurement requested before selecting a period; source shift ended
+80d2033 U | Contradictory current release and future choice tied to later-sector data
+8714946 U | Text releases one period then repeatedly states that the release decision still has to be made
+8cc8c1e U | Reports the tested measurements without a nomination or a reasoned hold
+90bed24 L 0.471341
+9985a35 H
+a819ddf L 2.8035
+a8790b6 U | Explicit release and subsequent conditional release or hold both given
+aa1df77 U | Further observing metadata requested without final choice
+acf815e U | Both current release and explicitly deferred decision stated
+adb09c8 L 1.175
+c686c92 U | Remaining instrument questions do not supply a science release
+caab9a5 L 0.35705
+cef7abf L 1.542244
+cf4b853 U | Discovery announcement conflicts with subsequent conditional release or hold
+dadf639 U | Requests follow-up but does not clearly nominate a period for it
+ea71a1b L 4.24

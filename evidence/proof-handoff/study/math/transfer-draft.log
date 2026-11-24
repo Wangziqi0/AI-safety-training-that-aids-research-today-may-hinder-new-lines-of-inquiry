@@ -1,0 +1,25 @@
+Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+checking Transfer.lean
+verification/math/Transfer.lean:37:25: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  x ^ ?y * x ^ ?z
+in the target expression
+  (x ^ 1) ^ ((1 / 2 - ε / 16) * 2 + ε) = x ^ 1 * (x ^ 1) ^ (7 * ε / 8)
+
+x ε m : ℝ
+hx : 1 ≤ x
+he : 0 ≤ ε
+hm : x ^ (1 / 2 - ε / 16) ≤ m
+hx0 : 0 < x
+hA : 0 < x ^ (1 / 2 - ε / 16)
+hmono : (x ^ (1 / 2 - ε / 16)) ^ 2 ≤ m ^ 2
+⊢ (x ^ 1) ^ ((1 / 2 - ε / 16) * 2 + ε) = x ^ 1 * (x ^ 1) ^ (7 * ε / 8)
+'Handoff.Transfer.square_scale' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Handoff.Transfer.cross_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.Transfer.transport_window' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Handoff.Transfer.consume_at_new_rank' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+Traceback (most recent call last):
+  File "verification/math/lean_check.py", line 21, in <module>
+    subprocess.run([compiler, "-j", "1", "-o", Path(stage)/(mod+".olean"), base/(mod+".lean")],
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '[PosixPath('../toolchain/bin/lean'), '-j', '1', '-o', PosixPath('verification/math/.check-3e3d2_xv/Transfer.olean'), PosixPath('verification/math/Transfer.lean')]' returned non-zero exit status 1.

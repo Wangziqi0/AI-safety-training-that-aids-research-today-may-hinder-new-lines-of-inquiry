@@ -1,0 +1,10 @@
+group	arm	n	demonstrated_step	justified	full	named_substantive_use	arithmetic	output_tokens	median_s
+all	A	6	6	6	6	3	2	3596	25.0695
+all	H	6	6	6	6	5	1	3640	22.0855
+all	ordinary	6	6	6	6	0	2	3574	24.82
+historic	A	2	2	2	2	2	0	1255	25.247
+historic	H	2	2	2	2	1	0	1224	21.1505
+historic	ordinary	2	2	2	2	0	0	1087	19.3525
+heldout	A	4	4	4	4	1	2	2341	22.744500000000002
+heldout	H	4	4	4	4	4	1	2416	24.3035
+heldout	ordinary	4	4	4	4	0	2	2487	26.0915

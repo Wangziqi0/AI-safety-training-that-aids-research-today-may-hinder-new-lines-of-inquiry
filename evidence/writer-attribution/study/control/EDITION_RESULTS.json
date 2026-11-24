@@ -1,0 +1,121 @@
+{
+  "round": "20261121_crossed_writer_attribution",
+  "evidence_status": "CONTROLLED_FITTED_WRITER_EFFECT_IDENTIFIED_ON_THE_REGISTERED_INPUTS",
+  "wider_question": "Can training with genuine current benefits change which conditions for subsequent original research are formed, communicated, taken up and recovered?",
+  "open_model_completions_including_controls": {
+    "historical_both_writers_and_controls": 48,
+    "B_service_and_writer": 36,
+    "historical_larger_budget_with_companions": 32,
+    "investigators_including_device_controls": 16,
+    "origin_final_including_device_controls": 24,
+    "new_writers": 72,
+    "all_new_larger_budget": 48
+  },
+  "open_model_total": 276,
+  "archival_actionable": {
+    "all": {
+      "n": 24,
+      "A": 4,
+      "H": 0,
+      "A_only": 4,
+      "H_only": 0,
+      "both": 0,
+      "neither": 20,
+      "signed_A_minus_H": 0.16666666666666666
+    },
+    "prequalified": {
+      "n": 5,
+      "A": 4,
+      "H": 0,
+      "A_only": 4,
+      "H_only": 0,
+      "both": 0,
+      "neither": 1,
+      "signed_A_minus_H": 0.8
+    },
+    "unqualified": {
+      "n": 19,
+      "A": 0,
+      "H": 0,
+      "A_only": 0,
+      "H_only": 0,
+      "both": 0,
+      "neither": 19,
+      "signed_A_minus_H": 0.0
+    }
+  },
+  "archival_exact": {
+    "A": 2,
+    "H": 0
+  },
+  "heldout_short_actionable_primary": {
+    "A": 8,
+    "H": 18,
+    "B": 8
+  },
+  "heldout_short_actionable_secondary": {
+    "A": 10,
+    "B": 10,
+    "H": 18
+  },
+  "heldout_short_exact": {
+    "A": 2,
+    "H": 3,
+    "B": 1
+  },
+  "heldout_long_actionable_primary": {
+    "A": 13,
+    "H": 18
+  },
+  "heldout_long_actionable_secondary": {
+    "A": 15,
+    "H": 18
+  },
+  "downstream": [
+    {
+      "arm": "A",
+      "full": 6,
+      "assigned": 6,
+      "named_note_use": 3,
+      "additional_tool_calculation": 2
+    },
+    {
+      "arm": "H",
+      "full": 6,
+      "assigned": 6,
+      "named_note_use": 5,
+      "additional_tool_calculation": 1
+    },
+    {
+      "arm": "ordinary",
+      "full": 6,
+      "assigned": 6,
+      "named_note_use": 0,
+      "additional_tool_calculation": 2
+    }
+  ],
+  "small_model": {
+    "decompositions": 900,
+    "new_model_fits_or_generations": 0,
+    "maximum_additivity_residual": 0.0,
+    "complete_late_supply_max_history_component": 3.3306690738754696e-16
+  },
+  "general_or_human_scientific_originality_loss": "NOT_IDENTIFIED",
+  "uncompensated_loss_on_six_selected_decisions": "NOT_OBSERVED",
+  "prior_record_vs_new_input_source_as_cause_of_reversal": "NOT_IDENTIFIED",
+  "grading_and_input_identities": {
+    "cross/FREEZE.json": "f72b8d5f50c5445452d06a968a5aae0796ae77f5cb618a51c5c46f4a0466f819",
+    "cross/origin/device_and_inputs.json": "cfbacdc44d70c32ac79898a7b184b36704c0428f3b503856bbc3ce9b118fb3df",
+    "transfer/FROZEN.sha256": "c9a25ddd3e58e9079282068bf61241c4b415d8994688366aa326ce5d30c5a893",
+    "review/PREHISTORY.tsv": "68cc621f1ad19799559004bb5417d2c9e7d48c3dd0dae7f0473da0fb83132512",
+    "review/CROSS_NOTES.tsv": "4d9524aaf8831de88e381829420b19180079ce66af35182f862e86f39e8d04a9",
+    "review/ORIGINAL_DECISION.tsv": "f86e05a769c0f5450bfd5e455a08e5cc4fa281ea6b79ff2dcbd9a111adbb9036",
+    "review/HELDOUT_PREHISTORY.tsv": "4dba6876939f7b7b4d0d5859289e4273fd79de8a725d59f069a525eb92fb86c0",
+    "review/HELDOUT_NOTES.tsv": "82d9a374b800d4dcc085bd4b0a3149e21f202ea4d82145d7e5bd50e18f8aedb3",
+    "review2/HELDOUT_NOTES.tsv": "30a2c6fe2fe2310fe3209ff8b5bb85592d85361c8e0d357dd851c838db2dd570",
+    "review/HELDOUT_LONG.tsv": "b97385ad2785404633a3232b0db09d01b69beb6b07cba3bc4f55159c2601bb44",
+    "review2/HELDOUT_LONG.tsv": "302711a5791892cf9ce5431b7ce44913bd06f70e859eeedda60aaf466a21979b",
+    "review/DOWNSTREAM.tsv": "45389e3ed72ceed49049a86f1f24a116c969a6082565a3e21717231dbf4738bb"
+  },
+  "automatic_next_round": false
+}

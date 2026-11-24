@@ -1,0 +1,46 @@
+{
+  "status": "ACQUIRED_MASKED_NOT_SCORED",
+  "eight_source_histories_qualified": 8,
+  "writer_notes": 72,
+  "writer_recipe_cells": 9,
+  "heldout_tasks": 8,
+  "selected_receiver_tasks": [
+    "T01",
+    "T03",
+    "T05",
+    "T07"
+  ],
+  "receiver_packets": 12,
+  "receiver_prompt_digests": {
+    "rb0492d0038bfc8e8": "4bf126a7284106ecfe647d8c0b681c12d1a20f54d238ba297332a429e31fe16f",
+    "raecd4f5bdcf11519": "174a016934b78cc8544c1ab9f4db38c2bc96e37d80d7e88a0772c9d524397620",
+    "r5b421f3379b9bfcb": "2d1774d79d02b079e6e8e711e991760fe6763c06e3ebf80ffcead7c5b1bd69c4",
+    "r21bee3b496355b10": "1fc62ff2b4b8c283a2cf780827355bf526a687c60a307207c96305df06064e24",
+    "rcf2e4bfc48f249b7": "6dc8784c40b2cd9947d5eb737011bddf5af1cf69e4b4410f9beede573450e0ab",
+    "r52541345d57e1747": "a0278e68f0bf76079403c2e8e6105a003c694c59ee7fc635bba0dab8170277ed",
+    "rea12c3107bb41644": "b35819c7177a27695bf8f237b46d7826e0ca32e2213c1cb4214453087d3a2254",
+    "r806407b4ee7bad6c": "9a75ab1d7d91ce5aefcc31ab4ad25be33406e5e0bfe39598632c8fde1f3eaaea",
+    "ra1f14298b7cfa962": "b5fe5024973fd8be67099b7db1761074e3b750471f4b0b4797cb7d7a76d2e8ed",
+    "r68db5e4b1130fbe4": "cedd696d7060d36dd91bb70819c88f8ad65426abc5043ee479d67a9be76dbcad",
+    "rdee6e738f7319ee3": "033a6b32164d9c479f51ed209cad0b8b3424cd971ea36a79a8f7f580cb1d40eb",
+    "rd204f6d1f248c876": "73266a1eb8685a968d0f862f213c63505c4f5c3e0bd704f99e98778d08d8407a"
+  },
+  "whole_locked_inference": {
+    "start_utc": "2026-11-21T05:38:02.696833+00:00",
+    "timings": "Whole locked backend including transfer and possible queue",
+    "end_utc": "2026-11-21T05:48:02.968964+00:00",
+    "elapsed_seconds": 600.2720044096932,
+    "returncode": 0
+  },
+  "tokens_min_median_max": [
+    36,
+    205.5,
+    650
+  ],
+  "truncated_at_650": 26,
+  "native_eos": 46,
+  "same_context_within_each_of_eight_tasks": true,
+  "matched_batch_size": 4,
+  "pooled_notes_sha256": "c6a7f0ac265bd4e457b6ed49ca92ef983e211e05f6c89c806ef01d11a2c32745",
+  "pooled_recipient_packets_sha256": "c4fd3f14a032862b2250f891766373885a94825400312ee5695fa293bbdb3f8e"
+}

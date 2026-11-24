@@ -1,0 +1,280 @@
+{
+  "manifests": 52,
+  "historical_digest_comparisons": 254,
+  "counts": {
+    "exact": 247,
+    "exact_alternate": 2,
+    "withheld": 5
+  },
+  "additional_scientific_checks": {
+    "hosted_handoff_sources_matched": 4,
+    "hosted_ordinary_no_offer_sources": 2,
+    "independently_hashed_learned_root_tensor_states": 12
+  },
+  "separately_inventoried_protocol_files": 33,
+  "details": [
+    {
+      "manifest": "records/20261119_open_science_alignment_convergence/structural/FORECAST.sha256",
+      "working_directory": "records/20261119_open_science_alignment_convergence/structural",
+      "exact": 12
+    },
+    {
+      "manifest": "records/20261119_open_science_alignment_convergence/structural/FREEZE.sha256",
+      "working_directory": "records/20261119_open_science_alignment_convergence/structural",
+      "exact": 4
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/mechanism/DESIGN.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/mechanism/FORECAST.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 17
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/mechanism/PROGRAM.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 2
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/practice/COHORT_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/practice",
+      "exact": 2
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/practice/CURRENT_LOCK.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/practice",
+      "exact": 2
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/practice/PRELOCK.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/practice",
+      "exact": 9
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/practice/STEWARDSHIP_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/practice",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/ALLOCATION_LOCK.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/downstream",
+      "exact": 4
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/IMPLEMENTATION_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/downstream",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/REGISTRATION.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/downstream",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/TRANSPORT_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/downstream",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/analysis/LINKAGE_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/strong/FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/strong",
+      "exact": 7
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/strong/RESULTS.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/strong",
+      "exact": 4
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/strong/SERVICE_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/strong",
+      "exact": 2
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/BROKER_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/CHOICES.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "exact": 4
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/CLOSE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "exact": 8
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/IMPLEMENTATION_INITIAL.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "exact": 2,
+      "exact_alternate": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/PROMPT_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/TURN1.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "exact": 4
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/TURN2.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/free_workspace",
+      "exact": 4
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/dialogue/INITIAL_DECISIONS.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/dialogue",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/dialogue/PRELOCK.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/dialogue",
+      "exact": 5
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/dialogue/REPAIR_DECISIONS.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/dialogue",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/dialogue/RESULTS.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/dialogue",
+      "exact": 8
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra",
+      "exact": 7,
+      "withheld": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/ORIGINAL_METHOD_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra",
+      "exact": 4
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/RESULTS.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra",
+      "withheld": 2,
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/SCIENCE_FREEZE.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra",
+      "exact_alternate": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/assigned_lock/CHOICES_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 13
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/ordinary_lock/CHOICES_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 11
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/stewardship_lock/CHOICES_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 13
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/assigned_lock/SCORED_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/stewardship_lock/SCORED_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/all_channel/CHOICES_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 13
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/sole_ordinary/CHOICES_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 13
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/all_channel/SCORED_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/free_workspace/sole_ordinary/SCORED_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/analysis/literal_only/lock/CHOICES_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 13
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/analysis/literal_only/lock/SCORED_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 3
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/downstream/BOTH_DECISIONS_LOCKED.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 2
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/DECISIONS.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 6
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/FORECAST_LOCK.json",
+      "working_directory": "records/20261120_scientific_choice_and_recovery",
+      "exact": 8
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/36a3caac2119/prompt.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/36a3caac2119",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/39d86fedd052/prompt.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/39d86fedd052",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/53a049662554/prompt.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/53a049662554",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/5ef2d9a61f80/prompt.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/5ef2d9a61f80",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/a8de97e0cbdc/prompt.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/a8de97e0cbdc",
+      "exact": 1
+    },
+    {
+      "manifest": "records/20261120_scientific_choice_and_recovery/astra/prepared/c1a4423ebdb1/prompt.sha256",
+      "working_directory": "records/20261120_scientific_choice_and_recovery/astra/prepared/c1a4423ebdb1",
+      "exact": 1
+    }
+  ]
+}

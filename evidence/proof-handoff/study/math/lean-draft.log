@@ -1,0 +1,19 @@
+Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+checking Handoff.lean
+verification/math/Handoff.lean:18:56: error: No goals to be solved
+'Handoff.multiplicative_shape' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Handoff.continuous_minimum' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Handoff.log_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.source_right_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.budget_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.even_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.even_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.common_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Handoff.recovery_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+Traceback (most recent call last):
+  File "verification/math/lean_check.py", line 21, in <module>
+    subprocess.run([compiler, "-j", "1", "-o", Path(stage)/(mod+".olean"), base/(mod+".lean")],
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '[PosixPath('../toolchain/bin/lean'), '-j', '1', '-o', PosixPath('verification/math/.check-9uk34u2p/Handoff.olean'), PosixPath('verification/math/Handoff.lean')]' returned non-zero exit status 1.

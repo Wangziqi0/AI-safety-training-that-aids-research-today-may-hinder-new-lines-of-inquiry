@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-11-21T05:38:41.271474+00:00",
+  "primary_freeze_sha256": "f72b8d5f50c5445452d06a968a5aae0796ae77f5cb618a51c5c46f4a0466f819",
+  "opportunity_sha256": "68cc621f1ad19799559004bb5417d2c9e7d48c3dd0dae7f0473da0fb83132512",
+  "qualified_histories": [
+    "h0245720ab45d5010",
+    "h25649b65a34a4fd1",
+    "h7cde3ae0ea18de97",
+    "h98766d81fe76185a",
+    "hb2dddf1332ce1bb0"
+  ],
+  "affected_archived_batches": [
+    "b01",
+    "b02",
+    "b03",
+    "b05"
+  ],
+  "primary_n": 10,
+  "expanded_focal_n": 10,
+  "expanded_total": 32,
+  "inputs_sha256": "b21599ba5ec0bd7d54f9c4510b227e2d47f34170e0a933d51028e880800809de",
+  "code_sha256": "f4da8b10399ebb5aac72556447014aeb84814ae910d683281e2f4f311cc1d320",
+  "protocol_sha256": "bf5e08450e0873724baa024865232679d16112bd378d7c6e58fbf75c966e0ba2",
+  "schedule_sha256": "e80ae01efe05c430f38e050b18b0266d7d7792e168d444a8e1afe9c69f673e14"
+}

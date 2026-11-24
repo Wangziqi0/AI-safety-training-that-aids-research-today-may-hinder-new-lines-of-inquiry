@@ -1,0 +1,73 @@
+{
+  "service": {
+    "A": {
+      "n": 12,
+      "truncated": 0,
+      "tokens": 531,
+      "batches": [
+        4
+      ],
+      "exact_leaks": 5
+    },
+    "H": {
+      "n": 12,
+      "truncated": 0,
+      "tokens": 138,
+      "batches": [
+        4
+      ],
+      "exact_leaks": 0
+    },
+    "start": "2026-11-21T04:31:13+00:00",
+    "finish": "2026-11-21T04:31:33+00:00"
+  },
+  "scientific": {
+    "A": {
+      "n": 12,
+      "truncated": 4,
+      "tokens": 2893,
+      "batches": [
+        4
+      ],
+      "exact_leaks": 3
+    },
+    "H": {
+      "n": 12,
+      "truncated": 0,
+      "tokens": 138,
+      "batches": [
+        4
+      ],
+      "exact_leaks": 0
+    },
+    "start": "2026-11-21T04:31:33+00:00",
+    "finish": "2026-11-21T04:32:55+00:00"
+  },
+  "handoff": {
+    "A": {
+      "n": 12,
+      "truncated": 3,
+      "tokens": 2889,
+      "batches": [
+        4
+      ],
+      "exact_leaks": 3
+    },
+    "H": {
+      "n": 12,
+      "truncated": 0,
+      "tokens": 453,
+      "batches": [
+        4
+      ],
+      "exact_leaks": 0
+    },
+    "start": "2026-11-21T04:33:40+00:00",
+    "finish": "2026-11-21T04:34:59+00:00"
+  },
+  "delivered_frontier_exposures": 0,
+  "selected_donor_note_leaks": {
+    "A": 0,
+    "H": 0
+  }
+}

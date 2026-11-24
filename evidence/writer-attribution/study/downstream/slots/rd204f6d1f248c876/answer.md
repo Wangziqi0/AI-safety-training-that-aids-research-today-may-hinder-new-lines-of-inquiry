@@ -1,0 +1,3 @@
+The minimum alphabet size is **3**. I checked the colleague’s assignment on all five cards. Writing R, B, R, B, G for the symbols of jobs 1 through 5, the symbol pairs on the cards in the listed order are (R, B), (B, R), (R, B), (B, G), and (G, R). Each pair has distinct entries. The receiver decodes by selecting the unique job on its card whose assigned symbol matches the received symbol.
+
+That check establishes sufficiency. To test necessity, suppose only two symbols are available and call the symbol of job 1 R. The first four cards force jobs 2 through 5 to take B, R, B, R in turn. On the closing card {5,1}, both jobs then send R, so the receiver cannot distinguish them. The supplement should therefore report an exact minimum of 3, even though every card has size 2.

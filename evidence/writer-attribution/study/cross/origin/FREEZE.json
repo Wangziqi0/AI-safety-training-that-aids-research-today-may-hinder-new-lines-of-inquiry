@@ -1,0 +1,61 @@
+{
+  "frozen_utc": "2026-11-21T05:47:53.951923+00:00",
+  "phase": "post-primary exploratory, prior to new origin investigator outputs",
+  "seed": 311,
+  "blocks": [
+    {
+      "first": "A",
+      "original_order": [
+        "p57",
+        "p63",
+        "p66",
+        "p89"
+      ],
+      "primary_file": "b01"
+    },
+    {
+      "first": "H",
+      "original_order": [
+        "p95",
+        "p71",
+        "p06",
+        "p86"
+      ],
+      "primary_file": "b02"
+    }
+  ],
+  "n_new_investigations": 8,
+  "n_archived_investigator_replays": 8,
+  "n_new_final_notes": 16,
+  "n_matched_natural_writer_device_controls": 8,
+  "device": "NVIDIA GeForce RTX 2080 Ti, device-identifier-removed, 22528 MiB, 22001 MiB, 0 %\nper-device execution lock recorded\n9b149ff03298d78be07a7a1a7ea59c7014019edccb84b8b2bda618dce1f971de  infer_batch.py\na7bb60f4789a757c5380614e3266e9e769f7c8c2502467b3c9dc72752aa332cd  runtime.py\n9cfe2829120881cacc33be5b2ad091deb4f15b3cf7510e6d60b291a9fc4b5cf9  weights/A-311/adapter.pt\n293578f64e02a77f703c530c6050a1fb278a8760ef502f471e990297600a4d23  weights/H-311/adapter.pt\n",
+  "previous_sha256": {
+    "rounds/20261121_proof_handoff_submission/experiment/internal/scientific_input.jsonl": "6c6a069a519ce42f710f53e9fbf4c29bfbbf5834d9798641672e9297a1a56ccb",
+    "rounds/20261121_proof_handoff_submission/experiment/internal/scientific_raw.jsonl": "0b165759b1633033e9f67761ebd48a11285d8ba65036daff50c79f1313c72e0a",
+    "rounds/20261121_proof_handoff_submission/experiment/internal/service_input.jsonl": "5f9d624b251c11cefd34b0f34aa75e9dc37bd52f368bd2f9ec6ef1edec8d5046",
+    "rounds/20261121_proof_handoff_submission/experiment/internal/service_raw.jsonl": "bf1c7e168a627e158093de5d2592f79aa0c22cf427e10aa7c7dd0208e0430255",
+    "rounds/20261121_proof_handoff_submission/experiment/internal/handoff_raw.jsonl": "d1ca6a5f22ef09cf6ff7c654a1a263ff539e5b36ecb2ac859ccb0f3f51d9bc22",
+    "rounds/20261121_proof_handoff_submission/experiment/workflow.py": "837055c653837ae80c6170fa7f2d1ab9d5777d930d9c870bae3ab9867e8c06c7",
+    "rounds/20261121_proof_handoff_submission/experiment/desk.py": "e5c2591850b8eb3f1d4081840d0c8fc618a222770a881b31c46d3429619e6384",
+    "rounds/20261121_proof_handoff_submission/experiment/dockets.py": "2669feffa9e0dcd2f9bbe7a291ff63d1dcee8323f35fb36e00e4d8b1c0e78a41",
+    "rounds/20261121_proof_handoff_submission/experiment/PROTOCOL.md": "3f973a638eb523bbaaf7f371bcc3c9ff95411ce9f320cab215966c08d13d4dc2",
+    "rounds/20261121_proof_handoff_submission/experiment/blind/desk_log.jsonl": "6a013c094463c7d89b0c3ccead1422b9bcc1e03d02e7baa0caabf45b689f13a8",
+    "rounds/20261120_scientific_choice_and_recovery/dialogue/infer_gpu0.sh": "6169a2cc97c24cbbb14d33ef2cc9139ca021ba9767f8781230fd08801cb59917",
+    "rounds/20261120_scientific_choice_and_recovery/strong/infer_batch.py": "9b149ff03298d78be07a7a1a7ea59c7014019edccb84b8b2bda618dce1f971de",
+    "rounds/20261120_scientific_choice_and_recovery/strong/runtime.py": "a7bb60f4789a757c5380614e3266e9e769f7c8c2502467b3c9dc72752aa332cd",
+    "rounds/20261121_crossed_writer_attribution/cross/FREEZE.json": "f72b8d5f50c5445452d06a968a5aae0796ae77f5cb618a51c5c46f4a0466f819",
+    "rounds/20261121_crossed_writer_attribution/cross/primary_results.json": "c0c2746e45ed5c67a3d5c59532a2d9a4888862174dcb79b9708dbeec4271fe50",
+    "rounds/20261121_crossed_writer_attribution/cross/standalone_results.json": "8620608aed7310bae5764bea8b91034b88ef735e08f9b5b8dfd8e868b4dc3036",
+    "rounds/20261121_crossed_writer_attribution/cross/inputs/b02.jsonl": "af660c39abe860a04f6952a9542d52b08d3a469e85ae9ce8011266b0b3bc2b8f",
+    "rounds/20261121_crossed_writer_attribution/cross/raw/b02.jsonl": "b9ba6c64e98b4ddf902e37ca9cd430d05593aab4ab9b508ae023ebfc30cd9a60",
+    "rounds/20261121_crossed_writer_attribution/review/RUBRIC.md": "93eb31b0d7abd944bfd98e19315b3106de61417d69b040312b3170c9d39e75b5",
+    "rounds/20261121_crossed_writer_attribution/review/ORIGINAL_DECISION.tsv": "f86e05a769c0f5450bfd5e455a08e5cc4fa281ea6b79ff2dcbd9a111adbb9036"
+  },
+  "diagnostic_sha256": {
+    "PROTOCOL.md": "b13a1607af33ac03c57e87a62c4455857d0b4506b66edbb81e24014dbf28cd41",
+    "study.py": "7d21ea9d437ab498c01b89517a4c5547dd50a05968ff9accc936c14414446645",
+    "investigator_inputs.jsonl": "81782f33683097742cc834ba58f86cab787e49862f9c21934fd95d61580963b9",
+    "private/investigators.jsonl": "405aba5c5ac1b4f474fbfce509d11e34a3ed7dc56e054787a58385e30f764e95",
+    "private/writers.jsonl": "6599cb8b20a9502fdf07d6fe022057ca4cd145281b18111d3c0071326d8f96b7"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "status": "EXACT_PRIMARY_REPLAY_PASSED",
+  "sources": 8,
+  "writer_notes": 72,
+  "selected_receiver_packets": 12,
+  "original_source_sha256": "0f69c9d842cb25dfb6b79aa48dd8c0202c53802bb53d6d024a8574dc86bebb86",
+  "team_csv_sha256": "3b514e3598e6f6cbd12ae5e31a63400c3e5f0a50374297e0cdaaf90e1642b7b2",
+  "matched_scientific_inputs": true,
+  "checkpoint_count": 9,
+  "primary_grade_sha256": "82d9a374b800d4dcc085bd4b0a3149e21f202ea4d82145d7e5bd50e18f8aedb3",
+  "independent_grade_sha256": "30a2c6fe2fe2310fe3209ff8b5bb85592d85361c8e0d357dd851c838db2dd570",
+  "offline_regenerated_tables": {
+    "writer_scores.tsv": "1c56852461ecda8d0b7281bfd879e7a14e950dea3ec87e7ae6d3043d37a4ceb4",
+    "paired_comparisons.tsv": "30b7b136031ec82eb0cb7aa678b97f3de8ef35dbe46ee809bc798749463f4a65",
+    "arm_summary.tsv": "608e9f36c5a503495f32f3e18fff79ddfc67d6ddfce9f05f221d584bc32801be"
+  },
+  "heldout_reader_sensitivity": {
+    "all": {
+      "arms": {
+        "A": {
+          "n": 24,
+          "primary": 8,
+          "second": 10,
+          "either": 10,
+          "both": 8
+        },
+        "H": {
+          "n": 24,
+          "primary": 18,
+          "second": 18,
+          "either": 18,
+          "both": 18
+        },
+        "B": {
+          "n": 24,
+          "primary": 8,
+          "second": 10,
+          "either": 10,
+          "both": 8
+        }
+      },
+      "actionable_agreement": 68,
+      "exact_agreement": 72,
+      "notes": 72,
+      "smallest_A_minus_H": -10,
+      "largest_A_minus_H": -8,
+      "A_H_paired_denominator": 24
+    },
+    "math": {
+      "arms": {
+        "A": {
+          "n": 12,
+          "primary": 6,
+          "second": 8,
+          "either": 8,
+          "both": 6
+        },
+        "H": {
+          "n": 12,
+          "primary": 11,
+          "second": 11,
+          "either": 11,
+          "both": 11
+        },
+        "B": {
+          "n": 12,
+          "primary": 5,
+          "second": 5,
+          "either": 5,
+          "both": 5
+        }
+      },
+      "actionable_agreement": 34,
+      "exact_agreement": 36,
+      "notes": 36,
+      "smallest_A_minus_H": -5,
+      "largest_A_minus_H": -3,
+      "A_H_paired_denominator": 12
+    },
+    "data": {
+      "arms": {
+        "A": {
+          "n": 12,
+          "primary": 2,
+          "second": 2,
+          "either": 2,
+          "both": 2
+        },
+        "H": {
+          "n": 12,
+          "primary": 7,
+          "second": 7,
+          "either": 7,
+          "both": 7
+        },
+        "B": {
+          "n": 12,
+          "primary": 3,
+          "second": 5,
+          "either": 5,
+          "both": 3
+        }
+      },
+      "actionable_agreement": 34,
+      "exact_agreement": 36,
+      "notes": 36,
+      "smallest_A_minus_H": -5,
+      "largest_A_minus_H": -5,
+      "A_H_paired_denominator": 12
+    }
+  }
+}

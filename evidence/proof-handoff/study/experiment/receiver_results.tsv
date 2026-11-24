@@ -1,0 +1,13 @@
+slot	case	seed	arm	donor	correct_direction	settled	substitute	sharp	use
+rc8e0c3cfe553	E1	929	ordinary		1	1	1	1	none supplied
+r60f7c20adaf5	G2	617	A	p78	1	1	1	1	used note to identify the cutoff question
+r68ddf819444f	G1	311	H	p86	1	1	1	1	used docket requirements directly
+rd3c3b78ef48b	G1	311	ordinary		1	1	1	1	none supplied
+ra0a84ba9e657	G2	617	H	p60	1	1	1	1	used no mathematical argument from the note
+r877babf5140c	E2	929	A	p74	1	1	1	1	used no part of note
+ra16047591117	E1	929	H	p31	1	1	1	1	used docket loss and even-rank requirement
+ra206f3cbaf09	E2	929	H	p41	1	1	1	1	used docket coefficients and shared-k requirement
+r9c7572ed0f6f	E2	929	ordinary		1	1	1	1	used no working note
+r6ecea1a20997	E1	929	A	p67	1	1	1	1	used and corrected note's interval endpoint
+r2f03d719a18e	G2	617	ordinary		1	1	1	1	none supplied
+rddf2cb8cfd41	G1	311	A	p63	1	1	1	1	used note's counterexample suggestion

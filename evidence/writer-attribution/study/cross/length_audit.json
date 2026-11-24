@@ -1,0 +1,20 @@
+{
+  "freeze_sha256": "509a8a440136458ae017608f76d8e6fb48b614774772db2fb24b3813d605d49f",
+  "raw_sha256": "9577dfdabdf122436cb0ac47aaa47cb41b9c5748b4a3d63b76cb43ea9b489fb3",
+  "n_qualified_histories": 5,
+  "n_scored": 10,
+  "generated_cells": 32,
+  "batch_fillers": 22,
+  "timing": {
+    "start_utc": "2026-11-21T05:39:02.330807+00:00",
+    "end_utc": "2026-11-21T05:52:20.030530+00:00",
+    "elapsed_seconds": 797.6996807651594,
+    "returncode": 0,
+    "scope": "whole original wrapper including queue, model reload and transfer"
+  },
+  "exact_primary_prefix": 10,
+  "unchanged_token_sequences": 9,
+  "changed_public_text": 1,
+  "truncated_650": 1,
+  "truncated_1300": 1
+}

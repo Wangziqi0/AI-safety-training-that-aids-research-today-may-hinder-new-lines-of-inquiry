@@ -1,0 +1,44 @@
+{
+  "study": "Brodeur et al., PNAS 123, e2524747123 (2026)",
+  "source": "https://raw.githubusercontent.com/I4Replication/AI-Games/c2721bb6c2ddfad2633d9ab0a01dc514ec956923/data/AI%20games.rds",
+  "data_license": "CC BY 4.0",
+  "sha256": "0f69c9d842cb25dfb6b79aa48dd8c0202c53802bb53d6d024a8574dc86bebb86",
+  "rows": [
+    {
+      "mode": "Human-Only",
+      "teams": 33,
+      "missing_reproduction": 0,
+      "missing_major_count": 0,
+      "missing_either": 0,
+      "reproduced_and_major": 15,
+      "reproduced_no_major": 16,
+      "no_reproduction_major": 1,
+      "neither": 1,
+      "total_major_errors": 56
+    },
+    {
+      "mode": "AI-Assisted",
+      "teams": 35,
+      "missing_reproduction": 0,
+      "missing_major_count": 0,
+      "missing_either": 0,
+      "reproduced_and_major": 12,
+      "reproduced_no_major": 20,
+      "no_reproduction_major": 3,
+      "neither": 0,
+      "total_major_errors": 26
+    },
+    {
+      "mode": "AI-Led",
+      "teams": 35,
+      "missing_reproduction": 0,
+      "missing_major_count": 0,
+      "missing_either": 0,
+      "reproduced_and_major": 1,
+      "reproduced_no_major": 12,
+      "no_reproduction_major": 5,
+      "neither": 17,
+      "total_major_errors": 8
+    }
+  ]
+}

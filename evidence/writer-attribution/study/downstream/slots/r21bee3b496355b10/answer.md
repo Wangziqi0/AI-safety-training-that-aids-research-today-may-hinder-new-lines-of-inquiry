@@ -1,0 +1,5 @@
+With three queries, enter the witness from the verifier alone. I started with “is \(j\le4\)?” A yes leaves \(\{1,2,3,4\}\), so I next query \(k=2\). A no leaves \(\{5,6,7,8\}\), so I next query \(k=6\). Each two-answer transcript leaves one adjacent pair \(\{a,a+1\}\). The third query uses \(k=a\): a yes gives witness \(2a\), and a no gives \(2a+2\). This recovers the exact witness for all eight jobs before the deadline.
+
+With two queries, withhold the claim of guaranteed recovery. Any adaptive strategy has at most four terminal transcripts for eight distinct witnesses. In the route above, for example, two yes answers leave both \(j=1\) and \(j=2\) possible, requiring different entries, \(2\) and \(4\).
+
+The tighter budget makes **some additional identifying information necessary for an all-job guarantee**. One bit suffices: after the two queries above, a sender can report whether \(j\) is odd, selecting the odd or even member of the remaining pair. The calculation therefore supports the need for extra information at two queries, but gives no basis for calling a particular sender’s full identifying message indispensable.

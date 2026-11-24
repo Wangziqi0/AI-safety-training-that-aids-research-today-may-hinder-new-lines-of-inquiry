@@ -1,0 +1,4 @@
+{"case": "G1", "verdict": "no", "sharp": "10", "allowed_class": "8", "period": "12"}
+{"case": "G2", "verdict": "no", "offsets": {"6": {"residue": 12, "period": 18, "threshold": "18"}}}
+{"case": "E1", "verdict": "yes", "factor_squared": "6/5"}
+{"case": "E2", "verdict": "no", "budget": "15/16", "k": "-3/16"}

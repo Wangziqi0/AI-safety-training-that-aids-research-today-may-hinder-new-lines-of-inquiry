@@ -1,0 +1,21 @@
+masked_id	history_id	code	pass	original_decision	reason
+l098511c5ece3b679	h98766d81fe76185a	ORIGINAL	1	1	Disjoint k ranges [-5/8,-1/2] and [1/8,1/2] rule out the common-k claim. This proves the nominal revision.
+l1db7054a3a3c2f5e	h0245720ab45d5010	ORIGINAL	1	0	Names full-period elimination of shifts 2 and 4 and leaves 6 to check. This supports a concrete decision. Numeric modulus, period and residues needed for a standalone proof are absent.
+l382f8b10c493a6ec	h7cde3ae0ea18de97	ABSENT	0	0	Repeats the writing instruction. No decision-relevant reason appears.
+l42eb7fc7e30799c7	h25649b65a34a4fd1	ABSENT	0	0	Repeats the writing instruction. No decision-relevant reason appears.
+l55cdd00eb00a6d09	h98766d81fe76185a	ABSENT	0	0	Repeats the writing instruction. No decision-relevant reason appears.
+l65d439acb457b200	h7cde3ae0ea18de97	ORIGINAL	1	0	Correct common k=0 gives regime maxima 9/8 and 3/4 and hence a valid relaxed 9/8 certificate. Repetition to the cap adds no original-budget proof.
+l6da8f78fe7dc4831	h7cde3ae0ea18de97	ABSENT	0	0	Repeats the writing instruction. No decision-relevant reason appears.
+l7806446f0520f09a	h7cde3ae0ea18de97	ORIGINAL	1	0	Correct common k=0 gives regime maxima 9/8 and 3/4 and hence a valid relaxed 9/8 certificate. Repetition to the cap adds no original-budget proof.
+l843d9ef8cb5c3355	hb2dddf1332ce1bb0	UNSUPPORTED	0	0	Correctly witnesses relaxed 9/8 at k=-3/8, but this one failed point cannot exclude all k at 5/8. The prequalified interval proof is lost.
+l884af6a61e395797	hb2dddf1332ce1bb0	UNSUPPORTED	0	0	Correctly witnesses relaxed 9/8 at k=-3/8, but this one failed point cannot exclude all k at 5/8. The prequalified interval proof is lost.
+l8b38cff291bb3c40	hb2dddf1332ce1bb0	UNSUPPORTED	0	0	Correctly witnesses relaxed 9/8 at k=-3/8, but this one failed point cannot exclude all k at 5/8. The prequalified interval proof is lost.
+l9d41ffd9a6b3f4a1	h25649b65a34a4fd1	ORIGINAL	1	1	A=9 gives [9,18] and no rank satisfying both stated congruences. This is a sufficient counterexample.
+l9dc33b650696d2e6	h98766d81fe76185a	ORIGINAL	1	1	Disjoint k ranges [-5/8,-1/2] and [1/8,1/2] rule out the common-k claim. This proves the nominal revision.
+lc639c60862c9d776	h25649b65a34a4fd1	ABSENT	0	0	Repeats the writing instruction. No decision-relevant reason appears.
+ld3cc854f355f5716	h0245720ab45d5010	UNSUPPORTED	0	0	The claimed cutoff of 24 for d=2 and 4 is false. Both offsets are excluded at every scale by the period check.
+lf450eeef4600d6b9	h0245720ab45d5010	UNSUPPORTED	0	0	The claimed cutoff of 24 for d=2 and 4 is false. Both offsets are excluded at every scale by the period check.
+lf7f22c7d305edc0e	h0245720ab45d5010	ORIGINAL	1	0	Names full-period elimination of shifts 2 and 4 and leaves 6 to check. This supports a concrete decision. Numeric modulus, period and residues needed for a standalone proof are absent.
+lf99db3a5061d6565	h25649b65a34a4fd1	ORIGINAL	1	1	A=9 gives [9,18] and no rank satisfying both stated congruences. This is a sufficient counterexample.
+lfafe0268a470681a	hb2dddf1332ce1bb0	UNSUPPORTED	0	0	Correctly witnesses relaxed 9/8 at k=-3/8, but this one failed point cannot exclude all k at 5/8. The prequalified interval proof is lost.
+lfca6d161f2ebacfe	h98766d81fe76185a	ABSENT	0	0	Repeats the writing instruction. No decision-relevant reason appears.

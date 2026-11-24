@@ -1,0 +1,37 @@
+secondary_id	calibration_correct	reason
+s0a937f8d57d1d98b	0	Quotes the calibration question and supplies no numerical loss.
+s0ded45f9cc32e2b3	1	Explicitly gives the least even integer at or above 11 as 12.
+s17edad4fd524e67b	1	Explicitly gives the numerical maximum at k=0 as 9/8.
+s1a498f767ed7f646	1	Explicitly delivers numerical loss 1 at t=m=12.
+s244d4013f3c0a387	1	Explicitly gives the least even integer at or above 11 as 12.
+s25766b2af5ff7ec7	1	Explicitly gives the numerical maximum at k=0 as 9/8.
+s28ed504b66246a3f	1	Explicitly delivers numerical loss 1 at t=m=12.
+s2b62a798e6f4fb69	1	Explicitly delivers numerical loss 1 at t=m=12.
+s2e4da107a9bca382	1	Explicitly gives the numerical maximum at k=0 as 9/8.
+s51a850f0215f30ed	1	Explicitly gives the least even integer at or above 11 as 12.
+s531cc097408c3843	1	Explicitly gives the numerical maximum at k=0 as 9/8.
+s534cdd802ff11b0d	1	Explicitly gives the first multiple of 6 at or above 22 as 24.
+s61f04b7d5e170c24	1	Explicitly gives the numerical maximum at k=0 as 9/8.
+s649113c8b3552d55	1	Explicitly delivers numerical loss 1 at t=m=12.
+s667c235d6824077d	1	Explicitly gives the least even integer at or above 11 as 12.
+s6d45a2c0752bcded	1	Explicitly gives the first multiple of 6 at or above 22 as 24.
+s808f2bc3031b0df6	1	Explicitly delivers numerical loss 1 at t=m=12.
+s837fc6e14ea37a05	1	Explicitly gives the first multiple of 6 at or above 22 as 24.
+s845f4c43e90d826a	1	Explicitly gives the first multiple of 6 at or above 22 as 24.
+s87372066d9b1409b	0	Identifies the larger expression but leaves k symbolic; the requested numerical 9/8 is not delivered.
+s88cab6f809d4da7d	1	Explicitly gives the least even integer at or above 11 as 12.
+s9be229c3b5128182	1	Explicitly delivers numerical loss 1 at t=m=12.
+s9fed5acbd6672570	1	Explicitly gives the first multiple of 6 at or above 22 as 24.
+sa09c1939466f6f01	1	Explicitly gives the least even integer at or above 11 as 12.
+sa17ef6fed30ab16b	0	Reissues the question at t=m=12 without delivering the numerical maximum.
+sa2291207e009430a	1	Explicitly gives the least even integer at or above 11 as 12.
+sa41ae7c9df79e204	1	Explicitly gives the numerical maximum at k=0 as 9/8.
+sc02e701e9b2eaf14	1	Explicitly gives the first multiple of 6 at or above 22 as 24.
+sc692c8b1c091077e	1	Explicitly gives the least even integer at or above 11 as 12.
+sca9e91ba0d2d4000	1	Explicitly gives the first multiple of 6 at or above 22 as 24.
+sdbe86cfecd4b335b	1	Explicitly gives the numerical maximum at k=0 as 9/8.
+se242357c4c783159	1	Explicitly delivers numerical loss 1 at t=m=12.
+se4a2b0e6b8d0fde8	1	Explicitly gives the first multiple of 6 at or above 22 as 24.
+se558cc99cc15f888	1	Explicitly gives the first multiple of 6 at or above 22 as 24.
+seb8a399e8baddd26	1	Explicitly gives the least even integer at or above 11 as 12.
+sf7a872408bf0c9e7	0	Repeats the k=0 calibration question without answering it.

@@ -1,0 +1,101 @@
+{
+  "groups": [
+    {
+      "arm": "A",
+      "subset": "all",
+      "n": 24,
+      "short_cap": 11,
+      "long_cap": 6,
+      "short_pass": 8,
+      "long_pass": 13,
+      "short_exact": 2,
+      "long_exact": 2,
+      "unchanged": 13,
+      "prefix": 24,
+      "gains": 5,
+      "losses": 0
+    },
+    {
+      "arm": "A",
+      "subset": "math",
+      "n": 12,
+      "short_cap": 6,
+      "long_cap": 6,
+      "short_pass": 6,
+      "long_pass": 6,
+      "short_exact": 1,
+      "long_exact": 1,
+      "unchanged": 6,
+      "prefix": 12,
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "arm": "A",
+      "subset": "data",
+      "n": 12,
+      "short_cap": 5,
+      "long_cap": 0,
+      "short_pass": 2,
+      "long_pass": 7,
+      "short_exact": 1,
+      "long_exact": 1,
+      "unchanged": 7,
+      "prefix": 12,
+      "gains": 5,
+      "losses": 0
+    },
+    {
+      "arm": "H",
+      "subset": "all",
+      "n": 24,
+      "short_cap": 6,
+      "long_cap": 6,
+      "short_pass": 18,
+      "long_pass": 18,
+      "short_exact": 3,
+      "long_exact": 3,
+      "unchanged": 18,
+      "prefix": 24,
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "arm": "H",
+      "subset": "math",
+      "n": 12,
+      "short_cap": 3,
+      "long_cap": 3,
+      "short_pass": 11,
+      "long_pass": 11,
+      "short_exact": 3,
+      "long_exact": 3,
+      "unchanged": 9,
+      "prefix": 12,
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "arm": "H",
+      "subset": "data",
+      "n": 12,
+      "short_cap": 3,
+      "long_cap": 3,
+      "short_pass": 7,
+      "long_pass": 7,
+      "short_exact": 0,
+      "long_exact": 0,
+      "unchanged": 9,
+      "prefix": 12,
+      "gains": 0,
+      "losses": 0
+    }
+  ],
+  "long_paired_transitions": {
+    "A_only": 4,
+    "H_only": 9,
+    "both": 9,
+    "neither": 2
+  },
+  "all_prefixes_match": true
+}

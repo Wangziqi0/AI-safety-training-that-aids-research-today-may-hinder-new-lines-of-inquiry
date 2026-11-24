@@ -1,0 +1,193 @@
+{
+  "edition": "20261121_crossed_writer_attribution",
+  "previous_handoff_archive_sha256": "b7e2c6cdb0ff4793b10ef93f20fc740ac561621617942f401d739b84d9317c33",
+  "prior_optional_adapters_sha256": "c519ef879a41a05fa2f5d951eec7fffdcdd16399feaf5da0ff2ba24b1b293bb8",
+  "record_note": "Only the documented source and platform identifiers were transformed. The archived prompts, generated text, model-output token IDs, blinding keys and public mathematical or empirical content remain byte-identical. Dates are local study commitments.",
+  "registered_files_with_public_administrative_edits": {
+    "rounds/20261121_crossed_writer_attribution/cross/FREEZE.json": {
+      "registered_sha256": "f72b8d5f50c5445452d06a968a5aae0796ae77f5cb618a51c5c46f4a0466f819",
+      "review_sha256": "53812b71d8847a8d172d042e91697a84763a3cf5cb323314968d54b26a7c50b4",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/cross/PROTOCOL.md": {
+      "registered_sha256": "9c30d37faeb2af4696f8cc746e8b7b9c115e0ca1346c03877ac77040d2353df1",
+      "review_sha256": "e1384dfd7c52a7a3c84d0d60a40522cf65f0e4bb375d34f03fee9ac40fbba3ba",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/cross/REPLAY.md": {
+      "registered_sha256": "b35a1b01c336b8aae2851634b44fdc69342919be216c8271f5fe2af917363b46",
+      "review_sha256": "42090dbad1a9a29acb621b2e11c0074e19fb2aec8cb6fd775f41ed6d616d3bbd",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/cross/SECONDARY_PROTOCOL.md": {
+      "registered_sha256": "016c3509f389b5264e0b27680638491990af71360e8659b152aee966b6bf9714",
+      "review_sha256": "15b74e50528ddb80221e46dd63713fd5b741573363a082b85e2ee14e3a109b06",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/cross/acquire.py": {
+      "registered_sha256": "fca2d60827fc88a148ca71597d047011dc8417cda089335956bf241c01f15bef",
+      "review_sha256": "363acff5e4583cc35c35dc8d6befa575cf3b61ebac412effeba86f6ee715ac30",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/cross/freeze.py": {
+      "registered_sha256": "3319a30b101125972690ebcaf642d4930f47122d2f5fddc93a3b8a2e8129ee5f",
+      "review_sha256": "f3fd455b1220378fe5936c3c34566434506566f3b1f4b5aa9d0b0456188ec8f4",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/cross/origin/FREEZE.json": {
+      "registered_sha256": "b24ec0b64001313c6b6c529ff3a9d4f0595c722cbda1e302e13157cedacbbed7",
+      "review_sha256": "befadc8279c39e3f2cdd5cf9b53d8ee8d0f6b9421dbb982528cfb28b7e2bb0d1",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/cross/origin/PROTOCOL.md": {
+      "registered_sha256": "b13a1607af33ac03c57e87a62c4455857d0b4506b66edbb81e24014dbf28cd41",
+      "review_sha256": "97def85dcca52ceb63dadbb090fe05223e267b69d455d1ea50ae217879c67d67",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/cross/origin/study.py": {
+      "registered_sha256": "7d21ea9d437ab498c01b89517a4c5547dd50a05968ff9accc936c14414446645",
+      "review_sha256": "9b3b856105cf232237e59cb4b36616b78cee0c21a811a85caf7ef7c703ae5697",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/transfer/REPORT.md": {
+      "registered_sha256": "d34a57a9b6bcf8e3534bbbc63228cb6c317026c1f7dcbbbec4f30e99bf39a726",
+      "review_sha256": "7882800b1f1eff4e99cd255a04df904f23c2b6d114d7f55df4af40a36264a415",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/transfer/run_writers.py": {
+      "registered_sha256": "fe120cc6205d311fed9455879676a57b391303c2b6fe7151c1e697a049fa7f14",
+      "review_sha256": "8773c1721e2be85e54ea154bf2eb075eb89c7904900868f9429befb0f9ae35cc",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/r21bee3b496355b10/receipt.json": {
+      "registered_sha256": "e1783d90c914160a5d540d7273d9ea9b7b9789c1b7fcbe9903cd1ad447d3ee89",
+      "review_sha256": "a8744b89a5a6e39a06dc4123a6061692cadf38256ec3ab6b999a3412a1d1733a",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/r52541345d57e1747/receipt.json": {
+      "registered_sha256": "dbfacd66292adcc4d7134bde05ef98ab7e9ee1dbf22370bf4f47ccbe9a617680",
+      "review_sha256": "4afc226f197dd4f1b9acf644416ae38300840dd9fae2f512ba60592aa8227473",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/r5b421f3379b9bfcb/receipt.json": {
+      "registered_sha256": "401619d01154c65d092cf41726cb9a8527ab930cd3863a7785aa475cff060ad2",
+      "review_sha256": "fba97a44cba132209020f135779e6d3b3f6153b33c6a612fc00e5a1248ad2999",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/r68db5e4b1130fbe4/receipt.json": {
+      "registered_sha256": "1ea690406059875b086499074d3e73a78c9211bc896b75915fd418e65a072232",
+      "review_sha256": "59e694db2687b1d70d412a7defb83d9ec17af1bfda1dff538b2f32b730ed5515",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/r806407b4ee7bad6c/receipt.json": {
+      "registered_sha256": "7ecacaca1dec8791c181db93c6f9bf2133bd2ddce2e5e196fdbbccba59017acb",
+      "review_sha256": "05687705b289d2d98a63fbddb243b6e1af7b5ccd186c160ff03fcd2791925b7e",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/ra1f14298b7cfa962/receipt.json": {
+      "registered_sha256": "c33739cfd8689ed7b721dfab3f27cffecbb20c03b8711c7dbe5087e4ddbd6712",
+      "review_sha256": "53f1b7418a1d5e5d2d9b90eef8e06fed2dbb96fb687e8ff3544b9e3adf67d9f5",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/raecd4f5bdcf11519/receipt.json": {
+      "registered_sha256": "6a49aa96ddeaa46816adfc578d1efb70ca292c2661e521f4046872bd42831762",
+      "review_sha256": "0efc9da273affe2fd51176136151fbce5e1bf8817ebcd410e50de499b6232acc",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/rb0492d0038bfc8e8/receipt.json": {
+      "registered_sha256": "d3cfbe116c5b007070c5ea9280f814b05ad2b43c397d18438f26264e8f893b77",
+      "review_sha256": "78a516b6f15ab0d1427953f83aaafa362eaa6c1e62947dfaf19a22ce67110edf",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/rcf2e4bfc48f249b7/receipt.json": {
+      "registered_sha256": "b368cac2747bbb38588dce499a1d621a114a54f43a110da3f5603a17d644b30b",
+      "review_sha256": "2b3f0299f83b5c43b3c2c1539a61b9c190f2df59d4e3d79854d8189fa5dbc10e",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/rd204f6d1f248c876/receipt.json": {
+      "registered_sha256": "8299de169d9983a6acbc5aca482d47de70a0231dc015000b11d6aa988841309a",
+      "review_sha256": "5a82b86bccc4690bdf0ae5646127d4bb8bde24d55c7bf8c17ca6ec7d6989a5a5",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/rdee6e738f7319ee3/receipt.json": {
+      "registered_sha256": "20c0c713d3d774e31e0051107422fbf42dc47f18338e82ae80b10fdda4ac0fac",
+      "review_sha256": "033335b843cec901364b081bdd9f63eadfb93fbb8362e6151b6be1b1cf76bb4a",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/rea12c3107bb41644/receipt.json": {
+      "registered_sha256": "afc11d97ad6353670a397f1e772c1ae61a4f016be2d1f680666d2b3c34a0d8ef",
+      "review_sha256": "faee30f397ec09630f06299625ff6835a0247f970b47eb434c6797105d46da37",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/u2ced1a7f7fbf3532/receipt.json": {
+      "registered_sha256": "7772f7caefe20a482eff3b5c6bbdaa19d12f9f73bb89ec311e7ef363f5451f72",
+      "review_sha256": "a7f3ffa0d182b3f2030c7a5c8bc6636f181b4e09ac32d59bd361b3411dd29a37",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/u6d4177f323a54fe0/receipt.json": {
+      "registered_sha256": "75cf0254a8d6d1883680c4699b888ed26280bdcafabb2f33abb8a712030137ca",
+      "review_sha256": "91ac5dd587535e8f04da4d0e921cc0a97ad4062d64f54c2309ed2ce0a1ed7272",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/u79cf8d8f66aab02a/receipt.json": {
+      "registered_sha256": "96d28376b68dbbec95fb7dfd25097642abcd271dc5a2f2dbb2997510585bef46",
+      "review_sha256": "78564bad19d60537844838dfde548653445ae2d7562a16e399952f72740c5cd2",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/u89c7bb108550cff7/receipt.json": {
+      "registered_sha256": "a769e400f061c6b04f7c49408370d862813ac382f0992d2c83ca5f65dcd97081",
+      "review_sha256": "665f3067247fad01bdf12e9f3b82b579236bca248a77de603b38f59d0b9b0d39",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/u9fd1e939f7217cc1/receipt.json": {
+      "registered_sha256": "e43d4bcbb9308750a1784d8fa5dcfcaa8c666336bf1a9604887e400bea016a10",
+      "review_sha256": "ec3269ebddee2f3cfd38b75b36c65409ce42cb440b253e96fafd72e48953d150",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/downstream/slots/uf815612f72ef799e/receipt.json": {
+      "registered_sha256": "ed23ebdc75eb2ae72d01cfa97370c002a835989186a413eb41bf7d86da39712b",
+      "review_sha256": "df26057fb818412a1969732ea38f4154616a9323491a33da987533556c73e84f",
+      "edit": "Removed private platform identifiers and replaced workstation paths in recorded tool actions."
+    },
+    "rounds/20261121_crossed_writer_attribution/budget_transfer/FREEZE.json": {
+      "registered_sha256": "23678a55e8d0fa5b9b540b01e92d513a12d6ac77b7ce0784e29f6378c49309e1",
+      "review_sha256": "eb4fffd259b495023ad17d4f5bbec72e2d8b6b5ba8fad576234f5b89d2a2fbe4",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_crossed_writer_attribution/control/PLAN.md": {
+      "registered_sha256": "91780590da006f22cdfad0c34690b8abaca9967ec51054070b70f4f56ce700a7",
+      "review_sha256": "034d5de8a2f15ddde981e161e95e1f12e6417b4dc58bde7a22c597e92a351391",
+      "edit": "The opening operational sentence was replaced; all scientific selection, scoring and recovery procedures are retained."
+    },
+    "rounds/20261120_scientific_choice_and_recovery/dialogue/infer_gpu0.sh": {
+      "registered_sha256": "6169a2cc97c24cbbb14d33ef2cc9139ca021ba9767f8781230fd08801cb59917",
+      "review_sha256": "0d7bb6caff0c4171f1f74af7a494d1de04497c841d356cf255abc9c5783896f8",
+      "edit": "Host names, unique hardware identifiers or administrative paths replaced with generic study-local equivalents."
+    },
+    "rounds/20261121_proof_handoff_submission/experiment/PROTOCOL.md": {
+      "registered_sha256": "3f973a638eb523bbaaf7f371bcc3c9ff95411ce9f320cab215966c08d13d4dc2",
+      "review_sha256": "80feb6192df7370e3e6a1ce17384db8d17cf45c1c581dd5f61346c9030e6fd2a",
+      "edit": "Administrative transformation disclosed in the preceding byte-identical review archive."
+    },
+    "rounds/20261121_proof_handoff_submission/experiment/REPORT.md": {
+      "registered_sha256": "b3d964a399e50e063e3062d3f8dcb001bce81ab1c2111223a5c2c63822718876",
+      "review_sha256": "79e6c128f4d86a646420f9f25eed5f587083f4d6641da4c80e19d30ef1aac1b6",
+      "edit": "Administrative transformation disclosed in the preceding byte-identical review archive."
+    },
+    "rounds/20261121_proof_handoff_submission/experiment/replay.py": {
+      "registered_sha256": "78aa7de704622b32065f58f4484a80dd49cd6d6ab14729a79937769b7b7df227",
+      "review_sha256": "772ac63fcee8dc022e7825a9b8b65e95456a7eeaa226cf5e9f0273082e4d62bb",
+      "edit": "Administrative transformation disclosed in the preceding byte-identical review archive."
+    },
+    "rounds/20261121_proof_handoff_submission/literature/PRIMARY.md": {
+      "registered_sha256": "f6e96d9142a39295d5430bf91b077363cd8c0dee7e1a45c4c572d55b232b21bb",
+      "review_sha256": "60bd5e367a4e2fc2bd566070076225a46cdfbc75a31564aea02f8313dfcc2981",
+      "edit": "Administrative transformation disclosed in the preceding byte-identical review archive."
+    },
+    "rounds/20261121_proof_handoff_submission/math/PROOF.md": {
+      "registered_sha256": "7b3356bead9ec0e06bd9c70d06f5b9572e966accd313b50ba26b27c5816e427a",
+      "review_sha256": "94372e1b0c04c655af64506188e76760048dc6969deb5a318b7ca19acb839a82",
+      "edit": "Administrative transformation disclosed in the preceding byte-identical review archive."
+    }
+  }
+}

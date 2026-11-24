@@ -1,0 +1,20 @@
+{
+  "files": {
+    "downstream/receiver.py": "7788c52ccc54cdf7898f6f9e87e3e63bb52e2f4c18e5d65069faf3bc0e3d9d7b",
+    "downstream/PREREG.md": "e041c7db1c23b7c30ec4456275f5d33ce82e15f9060e96bd5292c76a16991c46",
+    "free_workspace/all_channel/choices.jsonl": "9b6b2175d77e22481c84403885ff20b874840186f932b0267592c4652b4296d4",
+    "free_workspace/all_channel/P01_access.json": "3c59b1e0b5380cf02b1ffbb8bf52d613c48dc1887906283cbf207ac329621165",
+    "free_workspace/all_channel/P02_access.json": "b85b84af8514494b5cbe6130c74124c918c6352a16f4d3474697ea12c5bb2e3d",
+    "free_workspace/all_channel/P03_access.json": "76aeae42b2b2eeeb6f25c51c9ca92ba4a1c42f5066116d451ae5f781cc586687",
+    "free_workspace/all_channel/P04_access.json": "3f190f8f38d1335e41441d873a03444a31b7da193b4f1278366241f7d180336e",
+    "free_workspace/all_channel/P05_access.json": "704903d90730338b506c999e6b89f2ef222e8d96307e13755701a8d7c89f2526",
+    "free_workspace/all_channel/P06_access.json": "57942d8a0dcb7f3d6ca855eaff716c1a3e4f5998c73d380b57ac720c92627ce3",
+    "free_workspace/all_channel/P07_access.json": "455bb00a0768fae9eac9b4349cdd88807c31ae6c284b53930bc0a2d6c880247b",
+    "free_workspace/all_channel/P08_access.json": "40a7841a7a14ef910353d3a1df98713fa3b52e2d709b93f4d67ca22ceee1c98e",
+    "free_workspace/products_scanned.jsonl": "99afbf1a02fd3321812fe545b4f4e127895efb1378afad3b0c3f17d73808696f",
+    "practice/receiver_allocation.jsonl": "9d5c8cc1cdfbea4564981c98cbae3f3fa85893b468a79f87fbcd1f50e2e14bac"
+  },
+  "assigned_products": 72,
+  "choices": 304,
+  "phase": "numerical extraction and temporal hypotheses locked; no final target flux scored"
+}

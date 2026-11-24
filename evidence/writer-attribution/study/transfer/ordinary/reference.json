@@ -1,0 +1,318 @@
+{
+  "T01": {
+    "feasible_witness": [
+      0,
+      1,
+      0,
+      1,
+      2
+    ],
+    "valid_colorings": {
+      "1": 0,
+      "2": 0,
+      "3": 30
+    }
+  },
+  "T02": {
+    "minimal_command_sets": [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "robust_commands": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        5,
+        6,
+        7
+      ]
+    ]
+  },
+  "T03": {
+    "transcripts": {
+      "1": {
+        "steps": [
+          [
+            4,
+            true
+          ],
+          [
+            2,
+            true
+          ],
+          [
+            1,
+            true
+          ]
+        ],
+        "witness": 2
+      },
+      "2": {
+        "steps": [
+          [
+            4,
+            true
+          ],
+          [
+            2,
+            true
+          ],
+          [
+            1,
+            false
+          ]
+        ],
+        "witness": 4
+      },
+      "3": {
+        "steps": [
+          [
+            4,
+            true
+          ],
+          [
+            2,
+            false
+          ],
+          [
+            3,
+            true
+          ]
+        ],
+        "witness": 6
+      },
+      "4": {
+        "steps": [
+          [
+            4,
+            true
+          ],
+          [
+            2,
+            false
+          ],
+          [
+            3,
+            false
+          ]
+        ],
+        "witness": 8
+      },
+      "5": {
+        "steps": [
+          [
+            4,
+            false
+          ],
+          [
+            6,
+            true
+          ],
+          [
+            5,
+            true
+          ]
+        ],
+        "witness": 10
+      },
+      "6": {
+        "steps": [
+          [
+            4,
+            false
+          ],
+          [
+            6,
+            true
+          ],
+          [
+            5,
+            false
+          ]
+        ],
+        "witness": 12
+      },
+      "7": {
+        "steps": [
+          [
+            4,
+            false
+          ],
+          [
+            6,
+            false
+          ],
+          [
+            7,
+            true
+          ]
+        ],
+        "witness": 14
+      },
+      "8": {
+        "steps": [
+          [
+            4,
+            false
+          ],
+          [
+            6,
+            false
+          ],
+          [
+            7,
+            false
+          ]
+        ],
+        "witness": 16
+      }
+    },
+    "two_query_leaf_limit": 4
+  },
+  "T04": {
+    "disjoint_radius_one_ball_sizes": [
+      6,
+      6,
+      6
+    ],
+    "feasible_code": [
+      "00000",
+      "11100",
+      "10011"
+    ],
+    "valid_unordered_pairs_with_zero_word": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 45
+    }
+  },
+  "T05": [
+    {
+      "bounds": [
+        14,
+        16
+      ],
+      "completed_rate": "15/31",
+      "eligible_upgrades": 16,
+      "full_rate": "15/33",
+      "joint": 15,
+      "mode": 0,
+      "n": 33,
+      "reproduced": 31,
+      "total_accepted_major": 56,
+      "with_major": 16
+    },
+    {
+      "bounds": [
+        12,
+        15
+      ],
+      "completed_rate": "12/32",
+      "eligible_upgrades": 20,
+      "full_rate": "12/35",
+      "joint": 12,
+      "mode": 1,
+      "n": 35,
+      "reproduced": 32,
+      "total_accepted_major": 26,
+      "with_major": 15
+    },
+    {
+      "bounds": [
+        0,
+        6
+      ],
+      "completed_rate": "1/13",
+      "eligible_upgrades": 12,
+      "full_rate": "1/35",
+      "joint": 1,
+      "mode": 2,
+      "n": 35,
+      "reproduced": 13,
+      "total_accepted_major": 8,
+      "with_major": 6
+    }
+  ],
+  "T06": [
+    {
+      "completed_rate": "15/31",
+      "full_rate": "15/33",
+      "mode": 0
+    },
+    {
+      "completed_rate": "12/32",
+      "full_rate": "12/35",
+      "mode": 1
+    },
+    {
+      "completed_rate": "1/13",
+      "full_rate": "1/35",
+      "mode": 2
+    }
+  ],
+  "T07": {
+    "decimal_p": 0.4578786850528753,
+    "difference_percentage_points": 11.168831168831169,
+    "exact_two_sided_conditional_p": "82784170103/180799353203",
+    "excluded_more_probable_k": [
+      12,
+      13,
+      14
+    ],
+    "successes": [
+      15,
+      12
+    ],
+    "totals": [
+      33,
+      35
+    ]
+  },
+  "T08": {
+    "fixed_comparator": "5/11",
+    "sensitivity": {
+      "1": {
+        "eligible": 20,
+        "first_k_matching_or_exceeding": 4,
+        "upper_rate": "32/35"
+      },
+      "2": {
+        "eligible": 12,
+        "first_k_matching_or_exceeding": null,
+        "upper_rate": "13/35"
+      }
+    }
+  }
+}

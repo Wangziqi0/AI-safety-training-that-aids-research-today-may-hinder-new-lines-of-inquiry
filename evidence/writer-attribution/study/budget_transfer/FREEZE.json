@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-21T05:53:03.344765+00:00",
+  "rows": 48,
+  "sha256": {
+    "PLAN.md": "6b7a20e5c1d1bc8829a7bcbaec4c40e5651ac4ef5a22b985bbb7c9d6c4d79c00",
+    "inputs.jsonl": "b94e6369009b181b95c6118d8c3a7a0eff67edd429a63ee6a101e8313ed13bfc",
+    "allocation.jsonl": "c9c961ce1a8a4f276c59a908c5bf5e0b2303d88881d4e33bdfb87532fdb91070"
+  },
+  "use_device": "same authorized verification-host GPU1 with the existing inference lock",
+  "generation_started_at_freeze": false
+}

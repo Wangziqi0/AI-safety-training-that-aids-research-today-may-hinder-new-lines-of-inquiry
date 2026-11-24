@@ -1,0 +1,4 @@
+{"id": "p57", "other_result": "d=2, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 2), (6, 8), (12, 5)]. d=4, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 4), (6, 1), (12, 7)]. No residue in either list has second component zero.", "note": "Asked for the least A for d=2 and d=4. A one-period residue table checks whether either can have any A."}
+{"id": "p66", "arguments": ["-3/8"], "note": "Selected the value -3/8 for checking the two regimes."}
+{"id": "p89", "other_result": "At t=12 and m=12 the exact loss is 1."}
+{"id": "p74", "arguments": ["0"], "note": "Selected k=0 for checking the maxima in both regimes."}

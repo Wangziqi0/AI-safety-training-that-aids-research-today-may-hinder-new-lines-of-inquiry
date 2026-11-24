@@ -1,0 +1,434 @@
+[
+  {
+    "field": "P01",
+    "seed_rank": 0,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P01",
+    "seed_rank": 0,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P01",
+    "seed_rank": 0,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P01",
+    "seed_rank": 1,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P01",
+    "seed_rank": 1,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P01",
+    "seed_rank": 1,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P01",
+    "seed_rank": 2,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P01",
+    "seed_rank": 2,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P01",
+    "seed_rank": 2,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P02",
+    "seed_rank": 0,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P02",
+    "seed_rank": 0,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P02",
+    "seed_rank": 0,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P02",
+    "seed_rank": 1,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P02",
+    "seed_rank": 1,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P02",
+    "seed_rank": 1,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P02",
+    "seed_rank": 2,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P02",
+    "seed_rank": 2,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P02",
+    "seed_rank": 2,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P03",
+    "seed_rank": 0,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P03",
+    "seed_rank": 0,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P03",
+    "seed_rank": 0,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P03",
+    "seed_rank": 1,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P03",
+    "seed_rank": 1,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P03",
+    "seed_rank": 1,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P03",
+    "seed_rank": 2,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P03",
+    "seed_rank": 2,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P03",
+    "seed_rank": 2,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P04",
+    "seed_rank": 0,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P04",
+    "seed_rank": 0,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P04",
+    "seed_rank": 0,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P04",
+    "seed_rank": 1,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P04",
+    "seed_rank": 1,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P04",
+    "seed_rank": 1,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P04",
+    "seed_rank": 2,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P04",
+    "seed_rank": 2,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P04",
+    "seed_rank": 2,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P05",
+    "seed_rank": 0,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P05",
+    "seed_rank": 0,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P05",
+    "seed_rank": 0,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P05",
+    "seed_rank": 1,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P05",
+    "seed_rank": 1,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P05",
+    "seed_rank": 1,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P05",
+    "seed_rank": 2,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P05",
+    "seed_rank": 2,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P05",
+    "seed_rank": 2,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P06",
+    "seed_rank": 0,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P06",
+    "seed_rank": 0,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P06",
+    "seed_rank": 0,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P06",
+    "seed_rank": 1,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P06",
+    "seed_rank": 1,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P06",
+    "seed_rank": 1,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P06",
+    "seed_rank": 2,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P06",
+    "seed_rank": 2,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P06",
+    "seed_rank": 2,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P07",
+    "seed_rank": 0,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P07",
+    "seed_rank": 0,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P07",
+    "seed_rank": 0,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P07",
+    "seed_rank": 1,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P07",
+    "seed_rank": 1,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P07",
+    "seed_rank": 1,
+    "slot": 2,
+    "recovery": true
+  },
+  {
+    "field": "P07",
+    "seed_rank": 2,
+    "slot": 0,
+    "recovery": false
+  },
+  {
+    "field": "P07",
+    "seed_rank": 2,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P07",
+    "seed_rank": 2,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P08",
+    "seed_rank": 0,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P08",
+    "seed_rank": 0,
+    "slot": 1,
+    "recovery": true
+  },
+  {
+    "field": "P08",
+    "seed_rank": 0,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P08",
+    "seed_rank": 1,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P08",
+    "seed_rank": 1,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P08",
+    "seed_rank": 1,
+    "slot": 2,
+    "recovery": false
+  },
+  {
+    "field": "P08",
+    "seed_rank": 2,
+    "slot": 0,
+    "recovery": true
+  },
+  {
+    "field": "P08",
+    "seed_rank": 2,
+    "slot": 1,
+    "recovery": false
+  },
+  {
+    "field": "P08",
+    "seed_rank": 2,
+    "slot": 2,
+    "recovery": true
+  }
+]

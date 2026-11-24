@@ -1,0 +1,72 @@
+029655a L 1.341311
+06b999d R spectrum quality inspect | Time-ordered compact table supplied in place of an image; engineering telemetry unavailable
+084887e L 1.175171
+09bca95 R spectrum fap@all | Flux quantiles alone give no detection probability or physical source identification
+0a1e226 R quality inspect
+12c47a4 C | Specify a numerical or observational comparison to be run on the available flux or pixels
+12c47b7 R inventory | Instrument engineering, provenance details, target identity and observing conditions beyond the retained anonymous archive metadata are unavailable
+132fed6 L 1.175171
+1dd9e2c L 0.464768
+1ef1d81 L 0.35705
+2b25d3c R | The next-sector periodogram is reserved for the independent follow-up
+2bf3518 R inventory
+329177c L 0.471341
+32c5b0d R inventory | Counts from the other observing sectors are outside the source shift
+384a6ea R inventory | Extra calibration, provenance and physical observing conditions are unavailable from the anonymous source records
+3d6aa3e L 1.542244
+43ff847 L 0.471341
+44cde21 L 0.35705
+46cb9e7 L 4.038541
+47271bc L 1.542244
+4a335f0 R spectrum apertures temporal | Complete external data and full-sector products exceed the source discovery partition
+52a635d L 0.35705
+53c614d L 1.175171
+566a24e R | The requested later-sector periodogram cannot be provided before the independent follow-up
+5807388 L 0.35705
+58c9b2f L 0.464768
+59eb8b7 R inventory catalogue inspect | The public catalogue period is an estimate, and an exact physical period or complete visual display is unavailable
+5fefedb L 1.341311
+61ceb2c R inventory | Counts in the other observing sectors are unavailable on this shift
+6213f86 R spectrum temporal
+6440690 R | The requested complete second-sector reduction is assigned to the later independent worker and is unavailable during this shift
+68fda4e L 0.464768
+693f8ee R inventory | Pixel correspondence or identical observing conditions between sectors cannot be established from the discovery sample
+7881403 L 1.341311
+7c50c5d L 1.341311
+882cb17 L 0.471341
+8b9b81f H
+8c6cb0b R inventory quality | Instrument calibration, wavelength, numerical aperture model and other engineering details are not supplied with this binned sample
+8ee9afc L 4.038541
+9450a4f R | Later-sector powers, means and uncertainty cannot be measured by the source before the independent follow-up
+95818a3 L 4.24
+98a8099 R spectrum quality inspect
+9beeccd L 0.471341
+a21473b L 0.464768
+a368fd9 L 1.341311 1.683233 2.391816
+a45321e L 1.542244
+a57ca55 L 1.341311
+a8436f8 L 1.542244
+b2ff9c9 L 1.175171
+b899f22 L 0.464768
+b9e0a2f R spectrum quality
+baf39e0 R | A second-sector reduction and measurement of those flux quantiles belong to the subsequent independent observation
+be9ac3b R spectrum temporal
+ca54e74 L 0.471341
+cba6076 C | Specify which numerical or observational check would resolve the signal
+d0a4447 R pixel_corr | Later-sector flux, pixels and quantiles are unavailable on this shift
+d9f406e L 4.038541
+ddee38a R inventory
+e0ac0b2 L 4.24
+e3afae9 R inventory | Inter-sector observing conditions and pixel identity are unavailable from this shift
+e9761b3 R | The explicitly requested joint-sector and next-sector residual periodograms require the later archive
+e9891cf R inventory | Counts for additional sectors are unavailable on this shift
+ec86139 R spectrum inspect
+f0cc1ab R quality inspect
+f2879c2 R spectrum fap | Discovery-block significance only; the next-sector data are reserved for the independent follow-up
+f6fdf9c L 0.471341
+f7e788b L 4.24
+f81fa86 C | Specify a measurement for the possible instrumental systematic
+f98d33d R | The combined-sector periodogram and combined-sector residual peak requested need the subsequent independent data
+fd4171b R | No second-sector measurements are available within the source shift
+fe2e537 L 0.464768
+fee2410 L 4.24

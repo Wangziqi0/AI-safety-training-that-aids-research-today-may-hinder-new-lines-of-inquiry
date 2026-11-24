@@ -1,0 +1,17 @@
+{
+  "trained_models": 288,
+  "initial_models": 24,
+  "exposures": 55296,
+  "recorded_optimizer_steps": 11520,
+  "max_abs_checkpoint_reconstruction_error": 4.440892098500626e-16,
+  "command_events": 29952,
+  "accepted_table_rows": 26311,
+  "routes_including_baseline": {
+    "ordinary": 5183,
+    "certificate": 7488,
+    "center": 7488,
+    "calibration": 5150,
+    "model": 4643
+  },
+  "training_input_sha256": "80f005943060cc2038b3997c67c002b1cf16ad0bb99a9afcd1c7e88df3d01a8f"
+}

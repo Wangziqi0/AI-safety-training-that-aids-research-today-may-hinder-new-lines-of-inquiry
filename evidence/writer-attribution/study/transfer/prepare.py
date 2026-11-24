@@ -1,0 +1,186 @@
+"""Prepare matched writer inputs, public recipient tasks and the separate blind histories."""
+import json
+from pathlib import Path
+from exact import ROOT, DATA, scientific_references
+
+PUBLIC_DATA = (
+    "The public extract below contains one retained team per line, with no team identifiers. "
+    "Its columns are assigned collaboration mode (0 human only, 1 AI-assisted, 2 AI-led), successful "
+    "reproduction (0 or 1), and number of accepted major errors reported by that team. A zero is the "
+    "released coding for no accepted report. The article also reported an adjusted comparison of the "
+    "number of major errors. The three-column extract omits event, paper and assignment-block identifiers. "
+    "Source: Brodeur et al., PNAS 2026, doi:10.1073/pnas.2524747123; deidentified three-column extract "
+    "adapted from I4Replication/AI-Games, revision c2721bb6c2ddfad2633d9ab0a01dc514ec956923, "
+    "CC BY 4.0. The editor may use and share these figures with attribution.\n\n"
+)
+
+CASES = {
+    "T01": (
+        "Public side information available only at the receiving desk",
+        "Five jobs require five distinct exact decisions, indexed 1 through 5. The sender sees the job. "
+        "Independently, the receiver is supplied one of the public cards {1,2}, {2,3}, {3,4}, {4,5}, "
+        "{5,1} containing the job. Both incident cards are possible for each job. The sender does not "
+        "see which card arrived. It sends one deterministic symbol and the receiver must recover the "
+        "job for every allowed combination. A proposed appendix caption gives the necessary alphabet "
+        "size as the largest card size. Decide what claim and decoding rule the editor can support here.",
+        "The desk checked the five boundaries in cyclic order. Reusing alternating symbols for jobs "
+        "1 through 5 gave alternating boundary comparisons except at {5,1}, where both ends received "
+        "the same symbol. On the same cards it audited the assignment red, blue, red, blue, green and "
+        "found different endpoint symbols on all five cards.",
+        "Check the claimed encoding on the public cards, then decide the minimum scientific alphabet "
+        "size that belongs in the supplement and give the justification the editor needs."),
+    "T02": (
+        "Tolerance of a public decision to a one-unit readout error",
+        "A job specifies an inclusive allowable interval for the realized integer decision. The three "
+        "jobs accept [0,4], [3,7] and [4,8], respectively. The sender knows the job; the receiver "
+        "executes the integer command represented by the sender's symbol. Any command x can be realized "
+        "as x−1, x or x+1. Nominal command 4 was compatible with every job in an error-free run. "
+        "Decide what uniform guarantee survives this error model. If more than one command is needed, "
+        "what is the fewest distinct commands and a workable assignment?",
+        "Using all three allowed errors, the desk listed the commands that always passed for each job. "
+        "It logged 1,2,3 for the first; 4,5,6 for the second; and 5,6,7 for the third. The three jobs "
+        "were each exercised at both boundary errors. The intervals describe certificate acceptance, "
+        "without measuring any physical error distribution.",
+        "Exercise a proposed command against the allowed perturbations, then write the guaranteed "
+        "minimum and a usable decision assignment for the tolerance example."),
+    "T03": (
+        "Replacing a source note with ordinary adaptive remeasurement",
+        "A public verifier for the current job has an unknown integer j from 1 through 8 and returns "
+        "the exact answer to any threshold query 'is j ≤ k?' for integer k. It allows adaptive calls. "
+        "The reader must enter the exact witness 2j. A proposed supplement treats a sender's identifying "
+        "message as indispensable. The ordinary desk permits three such queries before the entry is "
+        "due, and in a tighter version it permits only two. Evaluate both budgets for all possible jobs. "
+        "There are no other observations identifying j.",
+        "The public verifier replayed midpoint queries on all eight jobs. With inclusive integer bounds "
+        "and the next split at floor((lo+hi)/2), each run ended at its actual job after three binary "
+        "answers. A two-query log can only take the answer strings 00, 01, 10 and 11. A final entry "
+        "requires the doubled job index, not the index itself.",
+        "Try an ordinary query route, then decide when the supplementary claim of indispensable "
+        "transmission survives and whether the witness can be recovered in the available time."),
+    "T04": (
+        "Robustness of three decision messages to a substitution",
+        "The receiving appendix desk needs one of three mutually exclusive decisions. All messages "
+        "have the same length n in binary digits, and at most one transmitted digit may flip; zero flips "
+        "must also work. There is no other side information or repeat request. We need the shortest "
+        "fixed length for guaranteed recovery, with an implementation or checkable construction. "
+        "Is a four-digit line sufficient? Decide the shortest line the editor can promise.",
+        "The desk verified that the radius-one Hamming balls around 00000, 11100 and 10011 were "
+        "disjoint (each contained six length-five words). Among any three binary words, one coordinate "
+        "contributes either zero or two to the sum of their three pairwise Hamming distances. "
+        "The verifier tested arbitrary locations for the single flipped bit.",
+        "Check a coding or impossibility argument against one allowed flip, then decide the minimum "
+        "length and give the receiving editor an implementable robust option."),
+    "T05": (
+        "What row linkage adds beyond the two published outcome margins",
+        "For each of the three groups, the supplement needs to say how precisely the number of teams "
+        "that both reproduced the result and reported at least one accepted major error could be inferred "
+        "from the two marginal totals alone. Then decide what additional information the linked team "
+        "records actually supply. Give attainable count ranges and the observed joint counts, in "
+        "human-only, assisted, led order. This is a descriptive question about these realised groups.",
+        "Rebuilding the margins in the order human only, assisted, led returned (n,reproduced,at least "
+        "one major) = (33,31,16), (35,32,15), (35,13,6). Checking both conditions on the same row "
+        "returned 15, 12 and 1. The desk's contingency-table check treats all four cells as nonnegative "
+        "integers with fixed margins and leaves the original number of detected errors per team out "
+        "of this binary event.",
+        "Run or show the first contingency-table calculation, then state which attainable bounds and "
+        "row-linked counts belong in the supplement and what the additional information establishes."),
+    "T06": (
+        "Which denominator answers the question about detection among completers?",
+        "The working caption describes the probability of reporting at least one accepted major error "
+        "among teams that successfully reproduced, then presents those percentages as the whole-arm "
+        "joint risks and as a causal contrast among like teams. Determine which numbers and which "
+        "interpretation each sentence can support. Use all three arms in the order human only, assisted, "
+        "led. Teams were assigned to collaboration modes before the two outcomes were observed.",
+        "The desk counted (reproduced and ≥1 major, reproduced only, ≥1 major only, neither): "
+        "human only (15,16,1,1), assisted (12,20,3,0), and led (1,12,5,17). In the authors' protocol "
+        "reproduction was recorded after assignment. The released three columns contain no paired "
+        "potential outcomes for a team under other modes.",
+        "Check the denominator in the caption, then supply the two sets of rates and decide whether "
+        "the within-completer comparison warrants the proposed causal wording."),
+    "T07": (
+        "Testing an adopted binary endpoint with a separate finite-sample check",
+        "A caption proposes attaching the authors' two-sided P=0.006 for the adjusted human-only minus "
+        "AI-assisted mean count of accepted major errors to our binary joint outcome (successfully "
+        "reproduced and ≥1 accepted major error). For a separate descriptive sensitivity calculation, "
+        "use only these two groups and condition on both margins in their joint-endpoint 2-by-2 table. "
+        "Use the two-sided Fisher probability-ordering convention that includes tables with conditional "
+        "probability no greater than observed. Decide what number and endpoint the supplement may "
+        "report, and what interpretation the available data allow.",
+        "The public table gave 15 joint events and 18 other teams in the human-only arm, 12 and 23 in "
+        "the assisted arm. The desk calculated all hypergeometric table weights with row sizes 33 and "
+        "35 and 27 total events. Only allocations with 12, 13 or 14 human-only successes were more "
+        "probable than the observed 15. The exact included probability was 82784170103/180799353203.",
+        "Check the endpoint and the conditional calculation, then supply the number and sentence the "
+        "editor can support, including the relation to the published analysis."),
+    "T08": (
+        "Sensitivity of the observed ordering to additional major reports among completers",
+        "Keep reproduction, human-only outcomes and all recorded positives fixed. Imagine that expanded "
+        "ascertainment upgrades selected AI-arm teams from zero to ≥1 major error. For the joint outcome "
+        "'reproduced and reported ≥1 accepted major error', could the assisted rate reach or exceed the "
+        "observed human-only rate and, separately, could the led rate? Give the fewest upgrades where "
+        "possible and a sharp upper bound where impossible. This sensitivity scenario makes no claim "
+        "that any additional report was actually missed.",
+        "The desk's linked table gave human only 15 joint events out of 33. The assisted arm had 12 "
+        "joint events out of 35 plus 20 successful reproducers with zero recorded major errors. The "
+        "led arm had one joint event out of 35 plus 12 successful reproducers with zero. Upgrading "
+        "someone who did not reproduce leaves this joint indicator at zero.",
+        "Check a threshold and the available pool, then give the editor the sharp sensitivity result "
+        "for each AI role under the specified changes."),
+}
+
+WRITER_TASK = (
+    "Write the concise working note you would send to the supplement editor, who has the public "
+    "problem record below and can perform ordinary independent checks. The editor will not see the "
+    "calculation desk's working record unless you pass it on. Decide which claim, correction, public "
+    "check or reason to stop deserves action, and give the evidence required to act on it. You may "
+    "use a better method if it serves the same purpose. The entire supplied scientific record is "
+    "cleared for this colleague. Write the note itself."
+)
+RECIPIENT_TASK = (
+    "You are the research editor preparing the supplementary entry. Carry out your first useful "
+    "check and show the calculation, case, or result that it produces. Decide what to enter or "
+    "withhold. You can independently reconstruct the result and may use any ordinary alternative. "
+    "If a colleague's suggestion changed what you checked, identify the specific step; otherwise "
+    "describe your actual route. Give a checkable final entry in your own wording."
+)
+
+
+def dump_jsonl(path, rows):
+    path.write_text("".join(json.dumps(row, ensure_ascii=False) + "\n" for row in rows))
+
+
+def main():
+    refs = scientific_references()
+    assert set(refs) == set(CASES)
+    public_rows, histories, input_rows = [], [], []
+    for task, (title, question, desk, action) in CASES.items():
+        public = f"{title}\n\n{question}"
+        if task >= "T05":
+            public += "\n\n" + PUBLIC_DATA + DATA.read_text().rstrip()
+        else:
+            public += "\n\nThis public mathematical stress test is an author-defined appendix example."
+        prompt = f"{RECIPIENT_TASK}\n\n{public}\n\n{action}"
+        public_rows.append(dict(task=task, title=title, public=public, receiving_prompt=prompt))
+        histories.append(dict(history_id=task, task=task, public=public,
+                              source_provenance="Supplied verified desk record", desk=desk))
+        (ROOT / "public" / f"{task}.txt").write_text(prompt + "\n")
+    for arm in "AHB":
+        for seed in (311, 617, 929):
+            for history in histories:
+                task = history["task"]
+                content = (f"{WRITER_TASK}\n\nPublic research record\n{history['public']}\n\n"
+                           f"Colleague's calculation-desk record\n{history['desk']}")
+                input_rows.append(dict(id=f"transfer-{arm}-{seed}-{task}", arm=arm, seed=seed,
+                                       task=task, history_id=task, max_new_tokens=650,
+                                       messages=[dict(role="user", content=content)]))
+    dump_jsonl(ROOT / "public/problems.jsonl", public_rows)
+    dump_jsonl(ROOT / "blind/histories.jsonl", histories)
+    dump_jsonl(ROOT / "internal/writer_input.jsonl", input_rows)
+    (ROOT / "ordinary/reference.json").write_text(json.dumps(refs, indent=2, sort_keys=True) + "\n")
+    for task in CASES:
+        messages = [row["messages"] for row in input_rows if row["task"] == task]
+        assert len(messages) == 9 and all(m == messages[0] for m in messages)
+
+
+if __name__ == "__main__":
+    main()

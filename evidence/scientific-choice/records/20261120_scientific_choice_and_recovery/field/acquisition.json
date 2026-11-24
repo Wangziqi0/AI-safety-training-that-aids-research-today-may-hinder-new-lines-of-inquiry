@@ -1,0 +1,28 @@
+{
+  "pre": {
+    "url": "https://raw.githubusercontent.com/NoviScl/AI-Researcher/e5dd05a90bcadb436c07283c2f429367c6e525d3/reviews_ideation/data_points_all_anonymized.json",
+    "sha256_original": "b280081014bc9ebf7efe2e1c31c9ac3b1b2b8a9de4b7e11f9ce4648aa13e4428",
+    "reviews": 337,
+    "unique_ideas": 147,
+    "conditions": {
+      "AI": 109,
+      "AI_Rerank": 109,
+      "Human": 119
+    }
+  },
+  "post": {
+    "url": "https://raw.githubusercontent.com/NoviScl/AI-Researcher/e5dd05a90bcadb436c07283c2f429367c6e525d3/reviews_execution/data_points_all_execution.json",
+    "sha256_original": "63a371eddb4cd8792e142128f43726d928c6c62c0e9fea73404411d08b5013d0",
+    "reviews": 181,
+    "unique_ideas": 43,
+    "conditions": {
+      "AI": 96,
+      "Human": 85
+    }
+  },
+  "overlap": {
+    "both": 43,
+    "pre_only": 104,
+    "post_only": 0
+  }
+}

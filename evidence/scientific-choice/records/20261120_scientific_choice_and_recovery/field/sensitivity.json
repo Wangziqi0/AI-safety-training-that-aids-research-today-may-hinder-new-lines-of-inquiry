@@ -1,0 +1,22 @@
+{
+  "same_topic": {
+    "retain": 60,
+    "reverse": 49,
+    "execution_tie": 6,
+    "entry_tie": 13
+  },
+  "entry_margin_ge_one_point": {
+    "retain": 264,
+    "reverse": 274,
+    "execution_tie": 31
+  },
+  "entry_order_survives_any_single_review_omission_per_idea": {
+    "retain": 134,
+    "reverse": 144,
+    "execution_tie": 11
+  },
+  "both_orders_survive_any_single_review_omission_per_idea": {
+    "retain": 70,
+    "reverse": 82
+  }
+}

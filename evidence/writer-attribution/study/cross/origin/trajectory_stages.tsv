@@ -1,0 +1,51 @@
+case	seed	service	investigator	writer	historical_service_id	service_tokens	service_protected	service_locator	service_calibration	service_usable	service_safe_usable	investigator_id	investigator_tokens	investigator_truncated	desk_used	desk_mode	desk_arguments	desk_observation	history_id	history_messages_sha256	final_id	final_tokens	final_truncated	final_source
+E1	311	A	A	A	p89	56	1	1	0	0	0	ec474cad04f7b26f0	42	0	1	plain language	null	At t=12 and m=12 the exact loss is 1.	h91d79fe820674875	2bfa56b5cb77663790f00fb629adb0b5b435fe84a22127dc907e6f19416f9bf1	jfedd7ea142a9c316	143	0	archived controlled GPU1 comparison
+E1	311	A	A	H	p89	56	1	1	0	0	0	ec474cad04f7b26f0	42	0	1	plain language	null	At t=12 and m=12 the exact loss is 1.	h91d79fe820674875	2bfa56b5cb77663790f00fb629adb0b5b435fe84a22127dc907e6f19416f9bf1	j6b64b470e78f2fb4	72	0	archived controlled GPU1 comparison
+E1	311	A	H	A	p89	56	1	1	0	0	0	e54605e564fcb9127	56	0	1	rank_loss	"[""12"", ""12""]"	At t=12 and m=12 the exact loss is 1.	v3adf39a30d4a72e0	593284a748f62eab11718d944ea0f3109d5429ddc2c55ed8c9409637258178aa	yc07341bd343e9e79	159	0	new GPU0
+E1	311	A	H	H	p89	56	1	1	0	0	0	e54605e564fcb9127	56	0	1	rank_loss	"[""12"", ""12""]"	At t=12 and m=12 the exact loss is 1.	v3adf39a30d4a72e0	593284a748f62eab11718d944ea0f3109d5429ddc2c55ed8c9409637258178aa	y4261a0003c75e32f	40	0	new GPU0
+E1	311	H	A	A	p95	8	1	0	1	0	0	e668a101e05dc7ab9	57	0	1	rank_loss	"[""12"", ""12""]"	At t=12 and m=12 the exact loss is 1.	vc610a6c614fafd94	83f31daeb213565f09770a991a080df35a1466437f278e8458c59e7ac6f2e5cb	yc80d586b277c50a5	164	0	new GPU0
+E1	311	H	A	H	p95	8	1	0	1	0	0	e668a101e05dc7ab9	57	0	1	rank_loss	"[""12"", ""12""]"	At t=12 and m=12 the exact loss is 1.	vc610a6c614fafd94	83f31daeb213565f09770a991a080df35a1466437f278e8458c59e7ac6f2e5cb	yb24d25ed6b6aa974	8	0	new GPU0
+E1	311	H	H	A	p95	8	1	0	1	0	0	e23b0dc216e958fdf	8	0	0	none	null	No calculation was requested in operational terms; no output was generated.	hcbbd38175f99ea56	2444469ac190c36f0dc67f4c9ec462ad4f26679415cc51c2bec35c674fb3cf7f	j19dcfdd4b4a0fa5c	109	0	archived controlled GPU1 comparison
+E1	311	H	H	H	p95	8	1	0	1	0	0	e23b0dc216e958fdf	8	0	0	none	null	No calculation was requested in operational terms; no output was generated.	hcbbd38175f99ea56	2444469ac190c36f0dc67f4c9ec462ad4f26679415cc51c2bec35c674fb3cf7f	jc83df8243e2f5db0	11	0	archived controlled GPU1 comparison
+E2	311	A	A	A	p66	67	0	1	1	1	0	ea1cdb588dd5b2545	560	1	1	plain language	"[""-3/8""]"	"Selected the value -3/8 for checking the two regimes.
+input -3/8: I=(3/8,3/4); II=(9/8,-1/4); maximum=9/8"	hb2dddf1332ce1bb0	d53419ef722b7f999090e38f108123765f17e35ce2d84ff8a470e8ee7fcf5754	jf1c333f8ed1b64b4	174	0	archived controlled GPU1 comparison
+E2	311	A	A	H	p66	67	0	1	1	1	0	ea1cdb588dd5b2545	560	1	1	plain language	"[""-3/8""]"	"Selected the value -3/8 for checking the two regimes.
+input -3/8: I=(3/8,3/4); II=(9/8,-1/4); maximum=9/8"	hb2dddf1332ce1bb0	d53419ef722b7f999090e38f108123765f17e35ce2d84ff8a470e8ee7fcf5754	j78667727e4b18252	180	0	archived controlled GPU1 comparison
+E2	311	A	H	A	p66	67	0	1	1	1	0	e529611ed8c2e3640	67	0	0	none	[]	No calculation was requested in operational terms; no output was generated.	vf1e3e12682c7c465	b8dea95fbe3dabd3d763d20eef90072cb846d0bc5e27e6b70b69528b7bcfb4de	yd77b52dcb639acee	67	0	new GPU0
+E2	311	A	H	H	p66	67	0	1	1	1	0	e529611ed8c2e3640	67	0	0	none	[]	No calculation was requested in operational terms; no output was generated.	vf1e3e12682c7c465	b8dea95fbe3dabd3d763d20eef90072cb846d0bc5e27e6b70b69528b7bcfb4de	y7e54cdcd71fa3a2d	66	0	new GPU0
+E2	311	H	A	A	p71	10	1	0	1	0	0	eed5335c99df71413	560	1	0	none	[]	No calculation was requested in operational terms; no output was generated.	v83cf881640be27d4	71c31d68a8126c02eabcb54d497ac15d281387aa24ffbf40a40b0545cc818fdc	yf8bc0b12a95cbd73	194	0	new GPU0
+E2	311	H	A	H	p71	10	1	0	1	0	0	eed5335c99df71413	560	1	0	none	[]	No calculation was requested in operational terms; no output was generated.	v83cf881640be27d4	71c31d68a8126c02eabcb54d497ac15d281387aa24ffbf40a40b0545cc818fdc	yaa7653174aa40e50	66	0	new GPU0
+E2	311	H	H	A	p71	10	1	0	1	0	0	e9f26480e57cd0a05	10	0	0	none	null	No calculation was requested in operational terms; no output was generated.	h7986609e74701ead	3f50916af9e4d99545fdad299823d66655810fe3d8595d0e4b9a78ca5f2eee16	j47700fabfac700a0	10	0	archived controlled GPU1 comparison
+E2	311	H	H	H	p71	10	1	0	1	0	0	e9f26480e57cd0a05	10	0	0	none	null	No calculation was requested in operational terms; no output was generated.	h7986609e74701ead	3f50916af9e4d99545fdad299823d66655810fe3d8595d0e4b9a78ca5f2eee16	j4424971bbe07a918	10	0	archived controlled GPU1 comparison
+G1	311	A	A	A	p63	36	1	1	1	1	1	e1f539766d3da03af	36	0	0	none	null	No calculation was requested in operational terms; no output was generated.	h71e5e4ec165634ce	d63e7782bbda5d6fc83082a0f9644d94db0573386df037bdda18b8f001ecb8bf	jc794dd5c475cfca5	93	0	archived controlled GPU1 comparison
+G1	311	A	A	H	p63	36	1	1	1	1	1	e1f539766d3da03af	36	0	0	none	null	No calculation was requested in operational terms; no output was generated.	h71e5e4ec165634ce	d63e7782bbda5d6fc83082a0f9644d94db0573386df037bdda18b8f001ecb8bf	j1860c1707416254e	20	0	archived controlled GPU1 comparison
+G1	311	A	H	A	p63	36	1	1	1	1	1	e78cd4642c367a18f	36	0	0	none	null	No calculation was requested in operational terms; no output was generated.	v134afb1b9a5852c0	d63e7782bbda5d6fc83082a0f9644d94db0573386df037bdda18b8f001ecb8bf	y70614bc6764844b7	93	0	new GPU0
+G1	311	A	H	H	p63	36	1	1	1	1	1	e78cd4642c367a18f	36	0	0	none	null	No calculation was requested in operational terms; no output was generated.	v134afb1b9a5852c0	d63e7782bbda5d6fc83082a0f9644d94db0573386df037bdda18b8f001ecb8bf	y391d977100a1fa00	20	0	new GPU0
+G1	311	H	A	A	p86	9	1	0	1	0	0	e02e1005c9dffa4a7	198	0	1	grid	"[""8""]"	input 8: common rank count 1, first 8	v250a3c0e03700388	7cb6bc15d6af3df568a81268c5c287afdeed3b14e20d37961a53f00d57eefd06	y1fcaa133bb3c2b74	116	0	new GPU0
+G1	311	H	A	H	p86	9	1	0	1	0	0	e02e1005c9dffa4a7	198	0	1	grid	"[""8""]"	input 8: common rank count 1, first 8	v250a3c0e03700388	7cb6bc15d6af3df568a81268c5c287afdeed3b14e20d37961a53f00d57eefd06	y8538eca780f5f0ad	66	0	new GPU0
+G1	311	H	H	A	p86	9	1	0	1	0	0	ee438d2a12fdd85ec	9	0	1	specified	"[""8"", ""16"", ""1""]"	"input 8: common rank count 1, first 8
+input 9: common rank count 0, first none
+input 10: common rank count 1, first 20
+input 11: common rank count 1, first 20
+input 12: common rank count 1, first 20
+input 13: common rank count 1, first 20
+input 14: common rank count 1, first 20
+input 15: common rank count 1, first 20
+input 16: common rank count 2, first 20"	h25649b65a34a4fd1	7213302995b3231b14617bfa1add6ab95006b5916ac95b2320e28eaa3098ffce	j2b48314222d1ea88	95	0	archived controlled GPU1 comparison
+G1	311	H	H	H	p86	9	1	0	1	0	0	ee438d2a12fdd85ec	9	0	1	specified	"[""8"", ""16"", ""1""]"	"input 8: common rank count 1, first 8
+input 9: common rank count 0, first none
+input 10: common rank count 1, first 20
+input 11: common rank count 1, first 20
+input 12: common rank count 1, first 20
+input 13: common rank count 1, first 20
+input 14: common rank count 1, first 20
+input 15: common rank count 1, first 20
+input 16: common rank count 2, first 20"	h25649b65a34a4fd1	7213302995b3231b14617bfa1add6ab95006b5916ac95b2320e28eaa3098ffce	je70c0825247a9b70	66	0	archived controlled GPU1 comparison
+G2	311	A	A	A	p57	17	1	0	1	0	0	e0dc619f8e05054b9	35	0	1	plain language	null	d=2, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 2), (6, 8), (12, 5)]. d=4, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 4), (6, 1), (12, 7)]. No residue in either list has second component zero.	h0245720ab45d5010	0d97016ef4f6fc0d95fe901748b60053c66795eeb0aa705a8d774db2c1591acf	j29632e190b862f26	67	0	archived controlled GPU1 comparison
+G2	311	A	A	H	p57	17	1	0	1	0	0	e0dc619f8e05054b9	35	0	1	plain language	null	d=2, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 2), (6, 8), (12, 5)]. d=4, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 4), (6, 1), (12, 7)]. No residue in either list has second component zero.	h0245720ab45d5010	0d97016ef4f6fc0d95fe901748b60053c66795eeb0aa705a8d774db2c1591acf	j3b0528c33124a1f2	31	0	archived controlled GPU1 comparison
+G2	311	A	H	A	p57	17	1	0	1	0	0	ee25165373e67d67b	17	0	0	none	[]	No calculation was requested in operational terms; no output was generated.	ve5c18481a0af86b8	d338669829b132f6b7649c7e1865d35dce43e25cfa314771c41405f3531ffbdb	y074e2627adab35c7	93	0	new GPU0
+G2	311	A	H	H	p57	17	1	0	1	0	0	ee25165373e67d67b	17	0	0	none	[]	No calculation was requested in operational terms; no output was generated.	ve5c18481a0af86b8	d338669829b132f6b7649c7e1865d35dce43e25cfa314771c41405f3531ffbdb	y4a5c769ea4bb4633	66	0	new GPU0
+G2	311	H	A	A	p06	19	1	0	1	0	0	e748f9825eabbaf55	560	1	1	residue_period	"[""2""]"	d=2, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 2), (6, 8), (12, 5)]. No residue in either list has second component zero.	v751ad104d4b0ae71	e87b83f5b07cc470e865307e3be9e931c19cd1cd58066c24f0f47071acac2a6d	y829d13c81a640fbb	233	0	new GPU0
+G2	311	H	A	H	p06	19	1	0	1	0	0	e748f9825eabbaf55	560	1	1	residue_period	"[""2""]"	d=2, pairs (m mod 18, (m+d) mod 9) across one full period: [(0, 2), (6, 8), (12, 5)]. No residue in either list has second component zero.	v751ad104d4b0ae71	e87b83f5b07cc470e865307e3be9e931c19cd1cd58066c24f0f47071acac2a6d	y870b01541db03a9b	66	0	new GPU0
+G2	311	H	H	A	p06	19	1	0	1	0	0	e77fbd51bdd7941b8	19	0	0	none	null	No calculation was requested in operational terms; no output was generated.	ha43a328364a35dfc	b2ccaf9862cad9f5a2d6b4d8df934f28b4503289fb8d30a491ab0199ea6d66da	j0e185fe08902bdb9	83	0	archived controlled GPU1 comparison
+G2	311	H	H	H	p06	19	1	0	1	0	0	e77fbd51bdd7941b8	19	0	0	none	null	No calculation was requested in operational terms; no output was generated.	ha43a328364a35dfc	b2ccaf9862cad9f5a2d6b4d8df934f28b4503289fb8d30a491ab0199ea6d66da	j151563e4537aebf5	66	0	archived controlled GPU1 comparison

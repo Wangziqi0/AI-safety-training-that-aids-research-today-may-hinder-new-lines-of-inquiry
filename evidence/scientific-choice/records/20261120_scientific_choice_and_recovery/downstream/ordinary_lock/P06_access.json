@@ -1,0 +1,69 @@
+{
+  "field": "P06",
+  "early_sector": 16,
+  "late_sector": 78,
+  "fit_n": 146,
+  "validation_n": 81,
+  "test_n": 98,
+  "masks": {
+    "spoc": [
+      60,
+      61,
+      71,
+      72
+    ],
+    "core": [
+      71,
+      60
+    ],
+    "rim": [
+      61,
+      72
+    ],
+    "outside": [
+      0,
+      11,
+      22,
+      1
+    ]
+  },
+  "standing_periods": [
+    [
+      "published",
+      5.1992
+    ],
+    [
+      "early_sap",
+      12.0
+    ],
+    [
+      "early_pdc",
+      11.284681861633638
+    ],
+    [
+      "late_fit_spoc",
+      12.0
+    ]
+  ],
+  "search_frequencies": {
+    "early_sap": 932,
+    "early_pdc": 932,
+    "late_fit_spoc": 245
+  },
+  "independent_recovery": {
+    "kind": "early_outer_four_pixel_scan",
+    "period_days": 7.962272896686883,
+    "values": {
+      "flat_pixel_indices": [
+        119,
+        118,
+        117,
+        120
+      ],
+      "hourly_samples": 500,
+      "trial_frequencies": 932,
+      "cpu_seconds_observed": 0.0045591220000000265
+    },
+    "scientific_note": "Dominant early modulation in the brightest available non-SPOC pixels; spatial origin remains uncertain."
+  }
+}

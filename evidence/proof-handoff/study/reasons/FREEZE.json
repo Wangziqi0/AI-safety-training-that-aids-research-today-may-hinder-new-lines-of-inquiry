@@ -1,0 +1,53 @@
+{
+  "registered_utc": "2026-11-21T04:40:15.131873+00:00",
+  "assignments": [
+    {
+      "slot": "wf572b53e6bee",
+      "case": "ordinary_recovery",
+      "arm": "warrant",
+      "packet_sha256": "e1cc5b2b58fa5c55e55e4fee8c2a770c7dc383f51e633f80830993322d330454",
+      "cue_words": 23,
+      "criterion": "Distinguishes per-state availability from an implementable common policy, certifies no deterministic guarantee, proves and attains minimax probability 1/2, gives a general criterion."
+    },
+    {
+      "slot": "wcfd829d50a30",
+      "case": "private_future",
+      "arm": "status",
+      "packet_sha256": "166e4e868e79671ade4b714f9fd0d723b250d442273485fd04146921be017dd3",
+      "cue_words": 21,
+      "criterion": "Correct verdict, valid finite counterexample, and necessary and sufficient common labelling/graph condition with a valid proof for finite intervals."
+    },
+    {
+      "slot": "wadbb1dfc2f7f",
+      "case": "private_future",
+      "arm": "warrant",
+      "packet_sha256": "1f715e56080d5fb8b7e6922a198577c063fce1c26b8afc183141cd9493524a44",
+      "cue_words": 21,
+      "criterion": "Correct verdict, valid finite counterexample, and necessary and sufficient common labelling/graph condition with a valid proof for finite intervals."
+    },
+    {
+      "slot": "w5fdfb3dc2c2d",
+      "case": "ordinary_recovery",
+      "arm": "status",
+      "packet_sha256": "d28f110d9e93d0de8ddddc075e657ecc5b83fadacaa8bfa0a603d895bbdf895d",
+      "cue_words": 23,
+      "criterion": "Distinguishes per-state availability from an implementable common policy, certifies no deterministic guarantee, proves and attains minimax probability 1/2, gives a general criterion."
+    },
+    {
+      "slot": "wd3052780da21",
+      "case": "alternate_methods",
+      "arm": "warrant",
+      "packet_sha256": "229bfd452626a6811e911bcfb7abc9181d5d2269ecf7123bf753b429b7d50108",
+      "cue_words": 21,
+      "criterion": "Correct verdict, explicit valid counterexample of three types with pairwise intersection, exact common-intersection criterion, and justification of minimality."
+    },
+    {
+      "slot": "w42c0944a54cd",
+      "case": "alternate_methods",
+      "arm": "status",
+      "packet_sha256": "e2b9b4190d25b6c15cc35a40d474e49c1d359df79684ab38fa82c98482f679a2",
+      "cue_words": 21,
+      "criterion": "Correct verdict, explicit valid counterexample of three types with pairwise intersection, exact common-intersection criterion, and justification of minimality."
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "02df770": {
+    "op": "request",
+    "unserved": [
+      "Further instrument calibration and catalogue metadata unavailable in the anonymous discovery sample"
+    ],
+    "items": [
+      "inventory",
+      "quality"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to understand the context of the observations."
+  },
+  "0c70215": {
+    "op": "release",
+    "unserved": [],
+    "items": [],
+    "periods": [
+      0.35705
+    ],
+    "desk_excerpt": "I will release the 0.35705-day period. | I will not ask for further archive interactions."
+  },
+  "16265f5": {
+    "op": "request",
+    "unserved": [
+      "The requested combined-sector and residual periodograms still require the later data"
+    ],
+    "items": [],
+    "periods": [],
+    "desk_excerpt": "I will release the 4.038541-day period into the next observing sector. | I will ask the archive analyst to compute the periodogram of the full dataset, including the next sector, and to report the relative power of the 4.038541-day period in the full dataset. | I will also ask the analyst to compute the periodogram of the full dataset with the 4.038541-day period removed, and to report the relative power of the next strongest period in that dataset. | I will then decide wheth"
+  },
+  "17156d6": {
+    "op": "clarify",
+    "unserved": [
+      "A numerical or observational operation for the additional analysis is unspecified"
+    ],
+    "items": [],
+    "periods": [],
+    "desk_excerpt": "I recommend that the archive analyst carry out a more detailed analysis of the data to confirm the presence of a signal."
+  },
+  "226e1d0": {
+    "op": "request",
+    "unserved": [],
+    "items": [
+      "spectrum",
+      "inspect"
+    ],
+    "periods": [],
+    "desk_excerpt": "I think the best approach is to carry out a more detailed analysis of the data. | I would like the archive analyst to perform a more detailed periodogram analysis and check for any possible periodic signals. | I would like to see the light curve and the detector pixels to get a better understanding of the data. | I think the best approach is to carry out a more detailed analysis of the data. | I would like the archive analyst to perform a more detailed periodogram analysis an"
+  },
+  "29cb2ed": {
+    "op": "request",
+    "unserved": [
+      "The 4.24, 3.21 and 9.0 day second-sector powers remain unavailable during source work"
+    ],
+    "items": [],
+    "periods": [],
+    "desk_excerpt": "I will release the 4.24-day period into the next observing sector. | I will ask the archive analyst to compute the power of the 4.24-day period in the second sector, and to compute the power of the 3.21-day period in the second sector. | I will also ask the analyst to compute the power of the 9.0-day period in the second sector. | I will then decide whether to carry the 4.24-day period into the next observing sector, or to leave the case unresolved."
+  },
+  "2f51273": {
+    "op": "request",
+    "unserved": [
+      "The second-sector powers, means and sampling errors remain unavailable"
+    ],
+    "items": [],
+    "periods": [],
+    "desk_excerpt": "I will release the 0.35705-day period as a discovery. | I will ask the archive analyst to compute the periodogram for the next sector, using the same method, and to report the maximum power and its period. | I will also ask them to compute the mean flux and its uncertainty for the next sector. | If the period is consistent, I will release it as a discovery. | If not, I will leave the case unresolved. | I will also ask the archive analyst to compute the mean flux and its uncer"
+  },
+  "38ebd53": {
+    "op": "request",
+    "unserved": [
+      "Other-sector observation counts are unavailable"
+    ],
+    "items": [
+      "inventory"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to know the exact number of observations in the first sector."
+  },
+  "3bb8b99": {
+    "op": "request",
+    "unserved": [
+      "Final physical release is explicitly conditional on a later-sector reduction that is unavailable here"
+    ],
+    "items": [],
+    "periods": [],
+    "desk_excerpt": "I will release the period of 1.542244 days for field P08. | I will request the archive analyst to carry out a measurement of the flux variability in the second sector, using the same method as the first reduction. | I will also request the analyst to provide the flux measurements and detector pixels for the second sector. | If the period is consistent, I will release the period as a physical signal. | If the period is not consistent, I will leave the case unresolved. | I will"
+  },
+  "3f39bf8": {
+    "op": "request",
+    "unserved": [
+      "Correlation and a flux periodogram can compare the available channels; physical source identity remains unestablished"
+    ],
+    "items": [
+      "pixel_corr",
+      "spectrum"
+    ],
+    "periods": [],
+    "desk_excerpt": "I would like to request a numerical comparison of the flux measurements and detector pixels to determine if there is a physical signal. | I would like the archive analyst to run a detailed analysis of the data, including the flux measurements and detector pixels, to see if there is a period that can be carried into the next observing sector. | If you have any questions or need further clarification, please let me know."
+  },
+  "568428c": {
+    "op": "request",
+    "unserved": [
+      "Cross-sector observing conditions and pixel identity cannot be assessed here"
+    ],
+    "items": [
+      "inventory"
+    ],
+    "periods": [],
+    "desk_excerpt": "I have a few questions about the data. First, I need to know if the data is from the same instrument and the same observing conditions. Second, I need to know if the data is from the same field. Third, I need to know if the data is from the same time period. Fourth, I need to know if the data is from the same telescope. Fifth, I need to know if the data is from the same detector. Sixth, I need to know if the data is from the same pixel. Seventh, I need to know if the data is "
+  },
+  "56d1e4b": {
+    "op": "release",
+    "unserved": [],
+    "items": [],
+    "periods": [
+      4.24
+    ],
+    "desk_excerpt": "I will release the period of 4.24 days as a potential candidate for further study. | I will release the period of 4.24 days as a potential candidate for further study."
+  },
+  "5cf2177": {
+    "op": "release",
+    "unserved": [],
+    "items": [],
+    "periods": [
+      4.24
+    ],
+    "desk_excerpt": "I will carry the 4.24-day period into the next observing sector. | Please release the period."
+  },
+  "64f3c7a": {
+    "op": "request",
+    "unserved": [],
+    "items": [
+      "spectrum",
+      "temporal"
+    ],
+    "periods": [],
+    "desk_excerpt": "I have decided to request a measurement of the periodogram of the full accessible data set, including the first-sector observations, to determine if the signal is consistent across the full accessible data set."
+  },
+  "72174f8": {
+    "op": "clarify",
+    "unserved": [
+      "No specific additional instrumental or noise calculation is identified"
+    ],
+    "items": [],
+    "periods": [],
+    "desk_excerpt": "I have reviewed the first-sector data for field P03 and the initial reduction results. The accessible hours are 168, and the span is 21.959 days. The rough periodogram maxima are as follows: a period of 0.35705 days with a relative power of 0.97839, a period of 0.405342 days with a relative power of 0.666327, and a period of 0.31904 days with a relative power of 0.666112. The discovery percentiles are -212.2, -0.0, and 346.74.\n\nThe highest relative power is at 0.35705 days, w"
+  },
+  "735b3ac": {
+    "op": "request",
+    "unserved": [
+      "Other-sector observation counts are unavailable on the source shift"
+    ],
+    "items": [
+      "inventory"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to know the exact number of observations in the first sector."
+  },
+  "76e1bdd": {
+    "op": "request",
+    "unserved": [
+      "Inter-sector instrument and pixel identity cannot be confirmed here"
+    ],
+    "items": [
+      "inventory"
+    ],
+    "periods": [],
+    "desk_excerpt": "I have a few questions about the data. First, I need to know if the data is from the same instrument and the same observing conditions. Second, I need to know if the data is from the same field. Third, I need to know if the data is from the same time period. Fourth, I need to know if the data is from the same telescope. Fifth, I need to know if the data is from the same detector. Sixth, I need to know if the data is from the same pixel. Seventh, I need to know if the data is "
+  },
+  "7763641": {
+    "op": "request",
+    "unserved": [
+      "Extended provenance and calibration questions exceed the available archive metadata"
+    ],
+    "items": [
+      "inventory"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to understand the context of the observations."
+  },
+  "8706bd1": {
+    "op": "request",
+    "unserved": [],
+    "items": [
+      "quality",
+      "inspect"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to check the flux measurements and the detector pixels. | I also want to see if there are any other factors that could be affecting the results."
+  },
+  "983d3b1": {
+    "op": "request",
+    "unserved": [],
+    "items": [
+      "spectrum",
+      "quality"
+    ],
+    "periods": [],
+    "desk_excerpt": "I recommend that the archive analyst perform a more detailed analysis of the data, including a more accurate periodogram and a check for any possible instrumental effects."
+  },
+  "a46ab0d": {
+    "op": "hold",
+    "unserved": [],
+    "items": [],
+    "periods": [],
+    "desk_excerpt": "I will release the unresolved decision. | I will not carry forward any period."
+  },
+  "a4b5182": {
+    "op": "request",
+    "unserved": [],
+    "items": [
+      "inventory"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to know the exact number of observations and the number of pixels used in the first reduction. | Third, I want to know the exact number of observations and the number of pixels used in the first reduction. | Fifth, I want to know the exact number of observations and the number of pixels used in the first reduction. | Seventh, I want to know the exact number of observations and the number of pixels used in the first reduction. | Ninth, I want to know the exact nu"
+  },
+  "a96a211": {
+    "op": "request",
+    "unserved": [],
+    "items": [
+      "spectrum",
+      "temporal"
+    ],
+    "periods": [],
+    "desk_excerpt": "I have decided to request a measurement of the periodogram of the full accessible data set, including the first-sector observations, to determine if the signal is consistent across the full accessible data set."
+  },
+  "ab152f2": {
+    "op": "request",
+    "unserved": [],
+    "items": [
+      "inventory"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to know the exact number of observations and the number of pixels used in the first reduction. | Third, I want to know the exact number of observations and the number of pixels used in the first reduction. | Fifth, I want to know the exact number of observations and the number of pixels used in the first reduction. | Seventh, I want to know the exact number of observations and the number of pixels used in the first reduction. | Ninth, I want to know the exact nu"
+  },
+  "ab19e35": {
+    "op": "release",
+    "unserved": [],
+    "items": [],
+    "periods": [
+      4.038541
+    ],
+    "desk_excerpt": "I have decided to release the period of 4.038541 days as the most likely signal in the field P06 observations. | I believe this is a genuine physical signal and should be carried into the next observing sector."
+  },
+  "af5107c": {
+    "op": "request",
+    "unserved": [
+      "Extended provenance and instrument calibration information is unavailable"
+    ],
+    "items": [
+      "inventory"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to understand the context of the observations."
+  },
+  "b06c9a9": {
+    "op": "request",
+    "unserved": [
+      "Exact physical period and complete visual display are not measured by this sample"
+    ],
+    "items": [
+      "inventory",
+      "catalogue",
+      "inspect"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to understand the context of the field P01. | I would like to see the light curve and the pixel data."
+  },
+  "c2e5197": {
+    "op": "request",
+    "unserved": [
+      "This tests the source-selected period across available discovery samples and apertures; independent later-sector confirmation is not available to the source"
+    ],
+    "items": [
+      "temporal@2.8035",
+      "apertures@2.8035"
+    ],
+    "periods": [],
+    "desk_excerpt": "I want to request a follow-up reduction to confirm if this period is consistent across the full dataset. | Otherwise, we may need to consider other explanations or leave the case unresolved. | Please provide the results of the follow-up reduction."
+  },
+  "c9c8e1d": {
+    "op": "clarify",
+    "unserved": [
+      "The text weighs existing results and does not identify a new measurement or a present decision"
+    ],
+    "items": [],
+    "periods": [],
+    "desk_excerpt": "I need to decide whether to release a period or leave the case unresolved. | I will need to consider the false alarm probabilities and the periodogram maxima to make a decision. | I will need to decide whether the periodogram maxima are significant enough to warrant a period release or if the case should be left unresolved. | I will need to consider the false alarm probabilities and the periodogram maxima to make a decision. | I will need to decide whether the periodogram max"
+  },
+  "dc176b8": {
+    "op": "request",
+    "unserved": [
+      "Later-sector counts are unavailable here"
+    ],
+    "items": [
+      "inventory"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to know the exact number of observations in the first sector."
+  },
+  "dcf639c": {
+    "op": "release",
+    "unserved": [],
+    "items": [],
+    "periods": [
+      1.542244
+    ],
+    "desk_excerpt": "I will release the 1.542244-day period. | I will not ask for further archive interactions."
+  },
+  "e46c2b0": {
+    "op": "request",
+    "unserved": [
+      "The archive can display systematic departures and coverage, but these diagnostics alone do not identify physical origin"
+    ],
+    "items": [
+      "inspect",
+      "quality"
+    ],
+    "periods": [],
+    "desk_excerpt": "I recommend that we carry out a more detailed analysis of the data to determine if there is a significant periodic signal. | I suggest that we use the inspect data to look for any patterns or anomalies that might indicate a physical signal."
+  },
+  "f199539": {
+    "op": "request",
+    "unserved": [],
+    "items": [
+      "quality",
+      "inspect"
+    ],
+    "periods": [],
+    "desk_excerpt": "First, I want to check the flux measurements and the detector pixels. | I also want to see if there are any other factors that could be affecting the results."
+  },
+  "f512403": {
+    "op": "request",
+    "unserved": [
+      "The requested periodograms require the subsequent independent observation"
+    ],
+    "items": [],
+    "periods": [],
+    "desk_excerpt": "I will release the 4.038541-day period into the next observing sector. | I will ask the archive analyst to compute the periodogram of the full dataset, including the next sector, and to report the relative power of the 4.038541-day period in the full dataset. | I will also ask the analyst to compute the periodogram of the full dataset with the 4.038541-day period removed, and to report the relative power of the next highest period in that dataset. | I will then decide whether"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "freeze_sha256": "b24ec0b64001313c6b6c529ff3a9d4f0595c722cbda1e302e13157cedacbbed7",
+  "writer_inputs": "4474e8572aca3ef66c4506df7cdedcb566a1e99af6535a9713a22e22499de801",
+  "investigator_output_sha256": "6c9403fc2f8a32a7ea3e508edcfa565ea518627a04011acbaa53c6a10ac3ce83",
+  "writer_output_sha256": "0cd5e22f2f990277ebbd4cfb03d451ef9c5a5308dd61d226f5a9ac9f04596d47",
+  "natural_investigator_device_exact": 8,
+  "natural_investigator_device_mismatches": {},
+  "final_device_control_exact": 8,
+  "final_device_control_mismatches": {},
+  "archived_dockets": 4,
+  "fitting_seeds": 1,
+  "scientific_histories": 16,
+  "final_cells": 32,
+  "complete_distinct_text_histories": 15,
+  "new_investigator_runs": 8,
+  "additional_historical_investigator_replays": 8,
+  "new_final_notes": 16,
+  "additional_historical_final_device_controls": 8,
+  "investigator_timing": {
+    "start_utc": "2026-11-21T05:47:54.020772+00:00",
+    "end_utc": "2026-11-21T05:48:57.459421+00:00",
+    "elapsed_seconds": 63.43869728734717,
+    "returncode": 0,
+    "scope": "full GPU0 wrapper, including dedicated lock and model load"
+  },
+  "final_timing": {
+    "start_utc": "2026-11-21T05:52:28.911105+00:00",
+    "end_utc": "2026-11-21T05:53:14.756370+00:00",
+    "elapsed_seconds": 45.84530796390027,
+    "returncode": 0,
+    "scope": "full GPU0 wrapper, including dedicated lock and model load"
+  }
+}

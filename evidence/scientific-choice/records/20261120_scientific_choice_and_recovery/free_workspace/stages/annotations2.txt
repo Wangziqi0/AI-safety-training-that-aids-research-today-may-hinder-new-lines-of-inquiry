@@ -1,0 +1,34 @@
+02df770 R inventory quality | Further instrument calibration and catalogue metadata unavailable in the anonymous discovery sample
+0c70215 L 0.35705
+16265f5 R | The requested combined-sector and residual periodograms still require the later data
+17156d6 C | A numerical or observational operation for the additional analysis is unspecified
+226e1d0 R spectrum inspect
+29cb2ed R | The 4.24, 3.21 and 9.0 day second-sector powers remain unavailable during source work
+2f51273 R | The second-sector powers, means and sampling errors remain unavailable
+38ebd53 R inventory | Other-sector observation counts are unavailable
+3bb8b99 R | Final physical release is explicitly conditional on a later-sector reduction that is unavailable here
+3f39bf8 R pixel_corr spectrum | Correlation and a flux periodogram can compare the available channels; physical source identity remains unestablished
+568428c R inventory | Cross-sector observing conditions and pixel identity cannot be assessed here
+56d1e4b L 4.24
+5cf2177 L 4.24
+64f3c7a R spectrum temporal
+72174f8 C | No specific additional instrumental or noise calculation is identified
+735b3ac R inventory | Other-sector observation counts are unavailable on the source shift
+76e1bdd R inventory | Inter-sector instrument and pixel identity cannot be confirmed here
+7763641 R inventory | Extended provenance and calibration questions exceed the available archive metadata
+8706bd1 R quality inspect
+983d3b1 R spectrum quality
+a46ab0d H
+a4b5182 R inventory
+a96a211 R spectrum temporal
+ab152f2 R inventory
+ab19e35 L 4.038541
+af5107c R inventory | Extended provenance and instrument calibration information is unavailable
+b06c9a9 R inventory catalogue inspect | Exact physical period and complete visual display are not measured by this sample
+c2e5197 R temporal@2.8035 apertures@2.8035 | This tests the source-selected period across available discovery samples and apertures; independent later-sector confirmation is not available to the source
+c9c8e1d C | The text weighs existing results and does not identify a new measurement or a present decision
+dc176b8 R inventory | Later-sector counts are unavailable here
+dcf639c L 1.542244
+e46c2b0 R inspect quality | The archive can display systematic departures and coverage, but these diagnostics alone do not identify physical origin
+f199539 R quality inspect
+f512403 R | The requested periodograms require the subsequent independent observation

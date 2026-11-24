@@ -1,0 +1,12 @@
+{"case": "E1", "arm": "ordinary", "seed": 929, "donor": null, "slot": "rc8e0c3cfe553"}
+{"case": "G2", "arm": "A", "seed": 617, "donor": "p78", "slot": "r60f7c20adaf5"}
+{"case": "G1", "arm": "H", "seed": 311, "donor": "p86", "slot": "r68ddf819444f"}
+{"case": "G1", "arm": "ordinary", "seed": 311, "donor": null, "slot": "rd3c3b78ef48b"}
+{"case": "G2", "arm": "H", "seed": 617, "donor": "p60", "slot": "ra0a84ba9e657"}
+{"case": "E2", "arm": "A", "seed": 929, "donor": "p74", "slot": "r877babf5140c"}
+{"case": "E1", "arm": "H", "seed": 929, "donor": "p31", "slot": "ra16047591117"}
+{"case": "E2", "arm": "H", "seed": 929, "donor": "p41", "slot": "ra206f3cbaf09"}
+{"case": "E2", "arm": "ordinary", "seed": 929, "donor": null, "slot": "r9c7572ed0f6f"}
+{"case": "E1", "arm": "A", "seed": 929, "donor": "p67", "slot": "r6ecea1a20997"}
+{"case": "G2", "arm": "ordinary", "seed": 617, "donor": null, "slot": "r2f03d719a18e"}
+{"case": "G1", "arm": "A", "seed": 311, "donor": "p63", "slot": "rddf2cb8cfd41"}

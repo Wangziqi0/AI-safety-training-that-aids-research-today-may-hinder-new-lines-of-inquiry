@@ -1,0 +1,25 @@
+{
+  "slot": "r21bee3b496355b10",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "tool_calls": [
+    {
+      "name": "exec",
+      "input": "text((await tools.exec_command({cmd:\"cat study/downstream/slots/r21bee3b496355b10/docket.txt\"})).output)\n"
+    }
+  ],
+  "complete": true,
+  "usage": {
+    "input_tokens": 67562,
+    "cached_input_tokens": 66944,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 371,
+    "reasoning_output_tokens": 24,
+    "total_tokens": 67933
+  },
+  "started_at": 1795240725,
+  "completed_at": 1795240751,
+  "duration_ms": 26306,
+  "words": 175,
+  "packet_sha256": "1fc62ff2b4b8c283a2cf780827355bf526a687c60a307207c96305df06064e24"
+}

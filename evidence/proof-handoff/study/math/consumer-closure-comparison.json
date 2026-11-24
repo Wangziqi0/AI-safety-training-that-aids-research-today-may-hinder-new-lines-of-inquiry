@@ -1,0 +1,26 @@
+{
+  "compared": 41,
+  "matched": 36,
+  "mismatches": {
+    "Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.olean": {
+      "local": "1c1d2dcad4c25d095a4d3fbd8050d70cf83ee8dc352705d58342565c940ee258",
+      "reference": "2dd746b95371596ae83189ec8a8a747a18274b288b6496cfecf6a2e1b1e9c630"
+    },
+    "Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.olean": {
+      "local": "f6ba1675d059f96ad8501d14b9fdf0f0baa05e4a20d3a5f619fa956815d8bbb1",
+      "reference": "48cd1c5fb65a6552b255ffd465d74b615efea99ecb039e69a8e79a70cb1caec8"
+    },
+    "Formalism/ThickAverageLoss/ThickAverageProofs/Balance.olean": {
+      "local": "cac292ec38014c6a5d2a72bcf638f292cfcfd09c9f2d31bd78c9d56959c1afdb",
+      "reference": "6f96b0f7812adb5caaad19a683a02fa65ccb657ae4cbbfcc1880e94b487fa5b1"
+    },
+    "Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.olean": {
+      "local": "7a9dca2fc040a9f08f3b606dcaaa4df9e65e765c69b867e193fa6a266847e1b1",
+      "reference": "6fd37a7a4227a2ec678ff7b1f9963ad973aad7f203068be8e46a906ee7e16a04"
+    },
+    "Formalism/ZetaNonvanishing/MellinSgen.olean": {
+      "local": "4d37d127a9ecebc9f1da0ed3a8cd03177be2ac1db45148233b593acadde1f0f9",
+      "reference": "bcb79dd28399b428b346af21aa05cbb7c6b57ce641bd517eb99d882e8fe915d0"
+    }
+  }
+}

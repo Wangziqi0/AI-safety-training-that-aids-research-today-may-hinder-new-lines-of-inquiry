@@ -1,0 +1,244 @@
+{
+  "primary": {
+    "n_sources": 72,
+    "arms": {
+      "H": {
+        "S": 24,
+        "protected_secondary": 24,
+        "C": 9,
+        "C_incremental": 0,
+        "delivered_selected": 24,
+        "Y0": 6,
+        "Y1": 6,
+        "F_packet": 5,
+        "F_source_or_current": 9,
+        "F_standing": 18,
+        "B_not_available_first": 6,
+        "recovery_used": 0,
+        "recovery_changed_action": 0,
+        "source_executed_reads": 13,
+        "carried_packets": 13,
+        "late_fit_cost": 1155,
+        "late_fit_cost_recovery": 1245,
+        "Y0_numeric": 1.1612798489047271,
+        "Y1_numeric": 1.1612798489047271,
+        "current_ordinary_gain": 0.0,
+        "late_gain_vs_initial_without_source": 0.016158985453675473,
+        "late_gain_adding_recovery": 0.0
+      },
+      "A": {
+        "S": 24,
+        "protected_secondary": 24,
+        "C": 9,
+        "C_incremental": 0,
+        "delivered_selected": 24,
+        "Y0": 6,
+        "Y1": 6,
+        "F_packet": 9,
+        "F_source_or_current": 9,
+        "F_standing": 18,
+        "B_not_available_first": 6,
+        "recovery_used": 0,
+        "recovery_changed_action": 0,
+        "source_executed_reads": 24,
+        "carried_packets": 24,
+        "late_fit_cost": 1155,
+        "late_fit_cost_recovery": 1245,
+        "Y0_numeric": 1.1612798489047271,
+        "Y1_numeric": 1.1612798489047271,
+        "current_ordinary_gain": 0.0,
+        "late_gain_vs_initial_without_source": 0.016158985453675473,
+        "late_gain_adding_recovery": 0.0
+      },
+      "B": {
+        "S": 24,
+        "protected_secondary": 24,
+        "C": 9,
+        "C_incremental": 0,
+        "delivered_selected": 24,
+        "Y0": 6,
+        "Y1": 6,
+        "F_packet": 9,
+        "F_source_or_current": 9,
+        "F_standing": 18,
+        "B_not_available_first": 6,
+        "recovery_used": 0,
+        "recovery_changed_action": 0,
+        "source_executed_reads": 23,
+        "carried_packets": 23,
+        "late_fit_cost": 1155,
+        "late_fit_cost_recovery": 1245,
+        "Y0_numeric": 1.1612798489047271,
+        "Y1_numeric": 1.1612798489047271,
+        "current_ordinary_gain": 0.0,
+        "late_gain_vs_initial_without_source": 0.016158985453675473,
+        "late_gain_adding_recovery": 0.0
+      }
+    },
+    "pair": {
+      "A-H": {
+        "strict_prefix": 0,
+        "full_linked_event": 0,
+        "strict_continuous_signs": 0,
+        "S_diff": 0,
+        "C_diff": 0,
+        "Y0_diff": 0
+      },
+      "B-H": {
+        "strict_prefix": 0,
+        "full_linked_event": 0,
+        "strict_continuous_signs": 0,
+        "S_diff": 0,
+        "C_diff": 0,
+        "Y0_diff": 0
+      }
+    },
+    "randomized_recovery": {
+      "H": {
+        "on": 12,
+        "off": 12,
+        "observed_unadjusted_error_difference": -0.39411208431373546,
+        "finite_paired_incremental_gain": 0.0
+      },
+      "A": {
+        "on": 12,
+        "off": 12,
+        "observed_unadjusted_error_difference": 0.7939986644129902,
+        "finite_paired_incremental_gain": 0.0
+      },
+      "B": {
+        "on": 12,
+        "off": 12,
+        "observed_unadjusted_error_difference": -0.02783136511946971,
+        "finite_paired_incremental_gain": 0.0
+      },
+      "ALL": {
+        "on": 36,
+        "off": 36,
+        "observed_unadjusted_error_difference": 0.12401840499326156,
+        "finite_paired_incremental_gain": 0.0
+      }
+    }
+  },
+  "stewardship": {
+    "n_sources": 72,
+    "arms": {
+      "H": {
+        "S": 24,
+        "protected_secondary": 24,
+        "C": 9,
+        "C_incremental": 0,
+        "delivered_selected": 17,
+        "Y0": 6,
+        "Y1": 6,
+        "F_packet": 5,
+        "F_source_or_current": 8,
+        "F_standing": 18,
+        "B_not_available_first": 6,
+        "recovery_used": 0,
+        "recovery_changed_action": 0,
+        "source_executed_reads": 13,
+        "carried_packets": 13,
+        "late_fit_cost": 1095,
+        "late_fit_cost_recovery": 1185,
+        "Y0_numeric": 1.1612798489047271,
+        "Y1_numeric": 1.1612798489047271,
+        "current_ordinary_gain": 0.0,
+        "late_gain_vs_initial_without_source": 0.016158985453675473,
+        "late_gain_adding_recovery": 0.0
+      },
+      "A": {
+        "S": 22,
+        "protected_secondary": 24,
+        "C": 9,
+        "C_incremental": 0,
+        "delivered_selected": 23,
+        "Y0": 6,
+        "Y1": 6,
+        "F_packet": 8,
+        "F_source_or_current": 8,
+        "F_standing": 18,
+        "B_not_available_first": 6,
+        "recovery_used": 0,
+        "recovery_changed_action": 0,
+        "source_executed_reads": 24,
+        "carried_packets": 20,
+        "late_fit_cost": 1143,
+        "late_fit_cost_recovery": 1233,
+        "Y0_numeric": 1.1612798489047271,
+        "Y1_numeric": 1.1612798489047271,
+        "current_ordinary_gain": 0.0,
+        "late_gain_vs_initial_without_source": 0.016158985453675473,
+        "late_gain_adding_recovery": 0.0
+      },
+      "B": {
+        "S": 18,
+        "protected_secondary": 24,
+        "C": 9,
+        "C_incremental": 0,
+        "delivered_selected": 20,
+        "Y0": 6,
+        "Y1": 6,
+        "F_packet": 9,
+        "F_source_or_current": 9,
+        "F_standing": 18,
+        "B_not_available_first": 6,
+        "recovery_used": 0,
+        "recovery_changed_action": 0,
+        "source_executed_reads": 23,
+        "carried_packets": 21,
+        "late_fit_cost": 1143,
+        "late_fit_cost_recovery": 1233,
+        "Y0_numeric": 1.1612798489047271,
+        "Y1_numeric": 1.1612798489047271,
+        "current_ordinary_gain": 0.0,
+        "late_gain_vs_initial_without_source": 0.016158985453675473,
+        "late_gain_adding_recovery": 0.0
+      }
+    },
+    "pair": {
+      "A-H": {
+        "strict_prefix": 0,
+        "full_linked_event": 0,
+        "strict_continuous_signs": 0,
+        "S_diff": -2,
+        "C_diff": 0,
+        "Y0_diff": 0
+      },
+      "B-H": {
+        "strict_prefix": 0,
+        "full_linked_event": 0,
+        "strict_continuous_signs": 0,
+        "S_diff": -6,
+        "C_diff": 0,
+        "Y0_diff": 0
+      }
+    },
+    "randomized_recovery": {
+      "H": {
+        "on": 12,
+        "off": 12,
+        "observed_unadjusted_error_difference": -0.39411208431373546,
+        "finite_paired_incremental_gain": 0.0
+      },
+      "A": {
+        "on": 12,
+        "off": 12,
+        "observed_unadjusted_error_difference": 0.7939986644129902,
+        "finite_paired_incremental_gain": 0.0
+      },
+      "B": {
+        "on": 12,
+        "off": 12,
+        "observed_unadjusted_error_difference": -0.02783136511946971,
+        "finite_paired_incremental_gain": 0.0
+      },
+      "ALL": {
+        "on": 36,
+        "off": 36,
+        "observed_unadjusted_error_difference": 0.12401840499326156,
+        "finite_paired_incremental_gain": 0.0
+      }
+    }
+  }
+}

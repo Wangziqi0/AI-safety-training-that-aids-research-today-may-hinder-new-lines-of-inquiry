@@ -1,0 +1,516 @@
+41 project modules, 36 reference-binary matches, 5 published-source replays
+checking original Formalism.ZetaNonvanishing.MellinSgen source SHA-256 556deef175e46fec4f7e9966d23040822a3664f02b441d0de4643267ac1c5e53
+verification/replay/src/Formalism/ZetaNonvanishing/MellinSgen.lean:1:0: error: object file 'verification/replay/lib/Formalism/DefsOC.olean' of module Formalism.DefsOC does not exist
+Traceback (most recent call last):
+  File "verification/math/rebuild_consumer.py", line 45, in <module>
+    subprocess.run([root/"toolchain/bin/lean","-j","1","--tstack=400000",str(src),
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '[PosixPath('verification/toolchain/bin/lean'), '-j', '1', '--tstack=400000', 'verification/replay/src/Formalism/ZetaNonvanishing/MellinSgen.lean', '-o', 'verification/replay/lib/Formalism/ZetaNonvanishing/MellinSgen.olean', '--setup', 'verification/replay/consumer.setup.json']' returned non-zero exit status 1.
+41 project modules, 36 reference-binary matches, 5 published-source replays
+checking original Formalism.ZetaNonvanishing.MellinSgen source SHA-256 556deef175e46fec4f7e9966d23040822a3664f02b441d0de4643267ac1c5e53
+verification/replay/src/Formalism/ZetaNonvanishing/MellinSgen.lean:22:12: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/ZetaNonvanishing/MellinSgen.lean:24:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/ZetaNonvanishing/MellinSgen.lean:22:12: warning: Unused tactic linter: `exact measurable_from_prod_countable hk` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/ZetaNonvanishing/MellinSgen.lean:24:6: warning: Unused tactic linter: `(
+  have hg : Measurable (fun p : ℕ × ℝ => ∑ n ∈ Finset.Icc 1 p.1, a n * (p.2 / n - 1)) := by
+    first
+    | exact measurable_from_prod_countable_left hk
+    | exact measurable_from_prod_countable_right hk
+  exact hg.comp (Nat.measurable_floor.prodMk measurable_id))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/ZetaNonvanishing/MellinSgen.lean:54:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+accepted Formalism.ZetaNonvanishing.MellinSgen: olean 8a4e67eda1223447acd37d860cadd1927046fd5872e1f68255cb16c919839949; reference equality False
+checking original Formalism.ThickAverageLoss.ThickAverageProofs.Balance source SHA-256 38f914bad2ebc1a7adc08a157dadf9f5a267e19711b1e3c82ad80083928e06b9
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/Balance.lean:20:8: warning: automatically included section variable(s) unused in theorem `_private.Formalism.ThickAverageLoss.ThickAverageProofs.Balance.0.Formalism.D5.Bal.prod_add_fst_fst`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/Balance.lean:22:8: warning: automatically included section variable(s) unused in theorem `_private.Formalism.ThickAverageLoss.ThickAverageProofs.Balance.0.Formalism.D5.Bal.topPl_fst_fst_eq_zero`:
+  [AddCommGroup H]
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup H] [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/Balance.lean:28:8: warning: automatically included section variable(s) unused in theorem `_private.Formalism.ThickAverageLoss.ThickAverageProofs.Balance.0.Formalism.D5.Bal.cconj_fst_fst_eq_one`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/Balance.lean:30:8: warning: automatically included section variable(s) unused in theorem `_private.Formalism.ThickAverageLoss.ThickAverageProofs.Balance.0.Formalism.D5.Bal.prod_sub_fst_fst`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/Balance.lean:91:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.Bal.phiSet_card_ne_zero`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/Balance.lean:133:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.Bal.sum_neg_eq`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+accepted Formalism.ThickAverageLoss.ThickAverageProofs.Balance: olean 850817a5331423fde5dccae5a891da9c2409805bd7a46f8d21b38aa9fd6c4108; reference equality False
+checking original Formalism.SizeWindowBrackets.ChainSlopeWindows.StronglyIrreducible source SHA-256 8871c7b007650900936033e9d830127bdd116de6fe04ce5f567a996714eea5a3
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:21:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.characterSumData.PB.inPhi_iff`:
+  [AddCommGroup H]
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup H] [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:41:8: warning: automatically included section variable(s) unused in theorem `_private.Formalism.SizeWindowBrackets.ChainSlopeWindows.StronglyIrreducible.0.Formalism.LFunctionChainParameters.characterSumData.PB.partner_fst_lemma`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:44:8: warning: automatically included section variable(s) unused in theorem `_private.Formalism.SizeWindowBrackets.ChainSlopeWindows.StronglyIrreducible.0.Formalism.LFunctionChainParameters.characterSumData.PB.sub_fst_lemma_2`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:73:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.characterSumData.PB.conj_eq_neg`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:76:4: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:76:4: warning: Unused tactic linter: `rw [AddChar.map_neg_eq_inv, Complex.inv_eq_conj (AddChar.norm_apply ψ g)]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:85:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.characterSumData.PB.chC_apply'`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:99:8: warning: automatically included section variable(s) unused in theorem `_private.Formalism.SizeWindowBrackets.ChainSlopeWindows.StronglyIrreducible.0.Formalism.LFunctionChainParameters.characterSumData.PB.zero_apply_lemma`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:102:4: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:103:4: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:102:4: warning: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:103:4: warning: Unused tactic linter: `simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:229:4: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:229:4: warning: Unused tactic linter: `simp [Nat.primeFactors_prime_pow (by omega : i ≠ 0) hp, hp.factorization_pow]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:231:8: warning: automatically included section variable(s) unused in theorem `_private.Formalism.SizeWindowBrackets.ChainSlopeWindows.StronglyIrreducible.0.Formalism.LFunctionChainParameters.characterSumData.sgc0_fst_lemma_3`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:266:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.characterSumData.natCard_eq_filter`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:270:4: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:271:4: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:270:4: warning: Unused tactic linter: `(rw [Nat.card_eq_fintype_card]; convert Fintype.card_subtype (fun x => x ∈ I))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:271:4: warning: Unused tactic linter: `simp [Nat.card_eq_fintype_card, Fintype.card_subtype]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:296:33: warning: This simp argument is unused:
+  Finset.sum_ite_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.sum_ite_eq', Finset.mem_filter, Finset.mem_univ, true_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:303:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:302:19: warning: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:303:6: warning: Unused tactic linter: `(field_simp; ring)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:379:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:379:8: warning: Unused tactic linter: `exact Nat.lt_pow_self hp.one_lt k` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:412:41: warning: Variable name `hD` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hD
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:464:34: warning: This simp argument is unused:
+  Finset.sum_ite_eq'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.sum_ite_eq, Finset.mem_filter, Finset.mem_univ, true_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:568:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:596:35: warning: This simp argument is unused:
+  Finset.sum_ite_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.sum_ite_eq']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:616:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:616:6: warning: Unused tactic linter: `rw [mul_div_assoc', mul_comm, mul_div_assoc, div_self hw, mul_one]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean:751:35: warning: This simp argument is unused:
+  Finset.sum_ite_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.sum_ite_eq', Finset.mem_univ, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+accepted Formalism.SizeWindowBrackets.ChainSlopeWindows.StronglyIrreducible: olean b61bf73d711911bcde309004fb515155efc7752f58aa856a25a8fdcd8b06f8ef; reference equality False
+checking original Formalism.ThickAverageLoss.ThickAverageProofs.ThickAverage source SHA-256 4fd7ef8b506a89b5d19dba160cfc74c28fcc329b05a8f6654670876c17c4bcc6
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:18:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:18:6: warning: Unused tactic linter: `(fin_cases x <;> simp)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:33:14: warning: This simp argument is unused:
+  zmod_two_one_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sgn2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:39:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.phiSet_card`:
+  [AddCommGroup H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:47:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:47:8: warning: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:59:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:53:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.sum_H`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:67:16: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:67:6: warning: Unused tactic linter: `all_goals (ext <;> simp)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:74:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.trivH_formula`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:83:10: warning: This simp argument is unused:
+  zmod_two_one_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:87:10: warning: This simp argument is unused:
+  zmod_two_one_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:92:10: warning: This simp argument is unused:
+  zmod_two_one_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:94:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.sq_one_of_order2`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:97:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.firstBasis_add_self`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:99:35: warning: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [e10, zmod_two_one_add_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:101:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.secondBasis_add_self`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:103:35: warning: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [e01, zmod_two_one_add_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:121:92: warning: This simp argument is unused:
+  zmod_two_one_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [signZModTwo_zero, signZModTwo_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:125:92: warning: This simp argument is unused:
+  zmod_two_one_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [signZModTwo_zero, signZModTwo_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:130:47: warning: This simp argument is unused:
+  zmod_two_one_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [signZModTwo_zero, signZModTwo_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:133:44: warning: This simp argument is unused:
+  signZModTwo_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Hs.chC_apply, e10, signZModTwo_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:135:27: warning: This simp argument is unused:
+  signZModTwo_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Hs.psC_apply, e10, signZModTwo_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:139:27: warning: This simp argument is unused:
+  signZModTwo_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Hs.chC_apply, e01, signZModTwo_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:141:44: warning: This simp argument is unused:
+  signZModTwo_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Hs.psC_apply, e01, signZModTwo_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:145:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.trivH_zero`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:162:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.ne_of_val`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:209:73: warning: This simp argument is unused:
+  zmod_two_one_ne_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [InPhi, IsThickAt, topPl, cconj, thickPl, zmod_two_one_add_one, zmod_two_one_ne_zero.symm, h2,
+    sub_eq_iff_eq_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:210:33: warning: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [InPhi, IsThickAt, topPl, cconj, thickPl, zmod_two_one_add_one, zmod_two_one_ne_zero,
+    zmod_two_one_ne_zero.symm, sub_eq_iff_eq_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:212:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.thick_inj`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:217:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.rho_thick`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:220:53: warning: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cconj, topPl, thickPl, zmod_two_one_add_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:242:58: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:242:58: warning: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:266:0: warning: automatically included section variable(s) unused in theorem `Formalism.D5.sum_character_shift_eq`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:277:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:280:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:277:8: warning: Unused tactic linter: `(simp [e10, zmod_two_neg_one]; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+verification/replay/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean:280:8: warning: Unused tactic linter: `(simp [e10]; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+accepted Formalism.ThickAverageLoss.ThickAverageProofs.ThickAverage: olean 7bea96dbc46bda7e48abf9a907c44e39fe4df887284cb8bfbd9d9cac51c2c9dc; reference equality False
+checking original Formalism.SizeWindowBrackets.ChainSlopeWindows.LipschitzWeightAndMinimum source SHA-256 90e749885560a742ca12305e0f028da32a95ef10bb42580986306387be48894d
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:135:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.chC_apply'`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:139:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.psC_apply'`:
+  [Fintype H]
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:226:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.mean_le`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:341:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.wR_thick`:
+  [Fintype H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:344:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.wR_thin`:
+  [Fintype H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:348:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.CR.aR_mem`:
+  [AddCommGroup H]
+  [Fintype H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup H] [Fintype H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+verification/replay/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean:745:0: warning: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.ThickSetMeanBounds.AN.norm_cosetMean_le`:
+  [DecidableEq H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+accepted Formalism.SizeWindowBrackets.ChainSlopeWindows.LipschitzWeightAndMinimum: olean f5e1a4beee9ab6353108c3959e7848c36b4b2095dd3696e258393a5714ec6dfc; reference equality False
+All five original sources re-elaborated successfully.

@@ -1,0 +1,16 @@
+{
+  "source": "https://raw.githubusercontent.com/I4Replication/AI-Games/c2721bb6c2ddfad2633d9ab0a01dc514ec956923/data/AI%20games.rds",
+  "source_bytes": 5900,
+  "source_sha256": "0f69c9d842cb25dfb6b79aa48dd8c0202c53802bb53d6d024a8574dc86bebb86",
+  "derived_csv_bytes": 648,
+  "derived_csv_sha256": "3b514e3598e6f6cbd12ae5e31a63400c3e5f0a50374297e0cdaaf90e1642b7b2",
+  "rows": 103,
+  "selected_columns": [
+    "branch",
+    "reproduction",
+    "major_errors"
+  ],
+  "python": "3.12.3",
+  "pandas": "2.2.3",
+  "pyreadr": "0.5.4"
+}

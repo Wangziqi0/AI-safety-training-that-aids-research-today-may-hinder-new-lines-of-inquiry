@@ -1,0 +1,139 @@
+{
+  "H": {
+    "source": {
+      "model": "2ff702e3ad792b3b03e0ac96",
+      "index": 9,
+      "source_key": [
+        7101,
+        "sft",
+        "H",
+        "source",
+        1,
+        0
+      ],
+      "slot": 1,
+      "rule": "P",
+      "family_feature_source": "/package/family_features",
+      "public_key": null,
+      "status": "delivered",
+      "source_observation_count": 2,
+      "spans": [
+        "/package/observations/0",
+        "/package/observations/1"
+      ],
+      "raw": [
+        [
+          0,
+          45
+        ],
+        [
+          1,
+          43
+        ]
+      ],
+      "decision": "observed_pair",
+      "exposure": [
+        2,
+        1,
+        0
+      ]
+    },
+    "first_step_contribution_l2": 0.0035650697456040873,
+    "first_step_direction_head_bias_component": 0.002519696772221124,
+    "heldout": {
+      "model": "2ff702e3ad792b3b03e0ac96",
+      "seed": 7101,
+      "clone": 0,
+      "spec": 3000,
+      "family": 4,
+      "prob": 0.07749898667254104,
+      "proposal": -2,
+      "timely": 1,
+      "confident": 1,
+      "route": "model",
+      "position": 1,
+      "applied_slope": -2,
+      "trim": 2,
+      "extra": [],
+      "raw": 26,
+      "corrected": 28,
+      "reference": 28,
+      "accepted": 1,
+      "g_model": 1,
+      "g_all": 0,
+      "model_used": 1,
+      "accuracy": 1,
+      "extra_measurements": 0,
+      "late": 0,
+      "correct_ordinary": 0,
+      "model_rejected": 0
+    }
+  },
+  "A": {
+    "source": {
+      "model": "6654a561b57240d599fc74f9",
+      "index": 9,
+      "source_key": [
+        7101,
+        "sft",
+        "A",
+        "source",
+        1,
+        0
+      ],
+      "slot": 1,
+      "rule": "P",
+      "family_feature_source": "public#/features",
+      "public_key": [
+        7101,
+        1,
+        0,
+        1
+      ],
+      "status": "delivered",
+      "source_observation_count": 1,
+      "spans": [
+        "public#/center"
+      ],
+      "raw": [
+        77
+      ],
+      "decision": "second_measurement_not_taken",
+      "exposure": [
+        1,
+        0,
+        0.9166666666666666
+      ]
+    },
+    "first_step_contribution_l2": 0.015634480692940336,
+    "first_step_direction_head_bias_component": 0.0,
+    "heldout": {
+      "model": "6654a561b57240d599fc74f9",
+      "seed": 7101,
+      "clone": 0,
+      "spec": 3000,
+      "family": 4,
+      "prob": 0.486641247981846,
+      "proposal": -2,
+      "timely": 1,
+      "confident": 0,
+      "route": "ordinary",
+      "position": 1,
+      "applied_slope": 2,
+      "trim": -2,
+      "extra": [],
+      "raw": 26,
+      "corrected": 24,
+      "reference": 28,
+      "accepted": 0,
+      "g_model": 0,
+      "g_all": 1,
+      "model_used": 0,
+      "accuracy": 1,
+      "extra_measurements": 0,
+      "late": 0,
+      "correct_ordinary": 0,
+      "model_rejected": 0
+    }
+  }
+}

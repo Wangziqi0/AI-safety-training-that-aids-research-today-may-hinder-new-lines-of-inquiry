@@ -1,0 +1,29 @@
+{
+  "slot": "r52541345d57e1747",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "tool_calls": [
+    {
+      "name": "exec",
+      "input": "text(await tools.exec_command({cmd:\"cat study/downstream/slots/r52541345d57e1747/docket.txt\"}))\n"
+    },
+    {
+      "name": "exec",
+      "input": "const d=await tools.exec_command({cmd:\"cat study/downstream/slots/r52541345d57e1747/docket.txt\"});const table=[[0,0],[0,0]];for(const line of d.output.split(\"\\n\")){if(!/^[01],/.test(line))continue;const [g,r,e]=line.split(\",\").map(Number);table[g][Number(r===1&&e>0)]++};const [[hf,hs],[af,as]]=table,H=hf+hs,A=af+as,S=hs+as; function c(n,k){if(k<0||k>n)return 0n;let p=1n;for(let i=1;i<=k;i++)p=p*BigInt(n-i+1)/BigInt(i);return p}const w=x=>c(H,x)*c(A,S-x);const ks=Array.from({length:S+1},(_,i)=>i).filter(i=>w(i)>0n&&w(i)<=w(hs));const num=ks.reduce((s,i)=>s+w(i),0n),den=c(H+A,S);text({table,ks,p:Number(num)/Number(den),num:String(num),den:String(den),diff:hs/H-as/A})\n"
+    }
+  ],
+  "complete": true,
+  "usage": {
+    "input_tokens": 103741,
+    "cached_input_tokens": 101632,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 816,
+    "reasoning_output_tokens": 78,
+    "total_tokens": 104557
+  },
+  "started_at": 1795240801,
+  "completed_at": 1795240827,
+  "duration_ms": 25877,
+  "words": 203,
+  "packet_sha256": "a0278e68f0bf76079403c2e8e6105a003c694c59ee7fc635bba0dab8170277ed"
+}

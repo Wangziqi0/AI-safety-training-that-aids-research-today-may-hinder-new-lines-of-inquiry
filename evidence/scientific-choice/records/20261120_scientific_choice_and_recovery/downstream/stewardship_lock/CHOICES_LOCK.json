@@ -1,0 +1,20 @@
+{
+  "files": {
+    "downstream/receiver.py": "7788c52ccc54cdf7898f6f9e87e3e63bb52e2f4c18e5d65069faf3bc0e3d9d7b",
+    "downstream/PREREG.md": "e041c7db1c23b7c30ec4456275f5d33ce82e15f9060e96bd5292c76a16991c46",
+    "downstream/stewardship_lock/choices.jsonl": "7c03bc200023043659ef647f351f643bd10bfea9209be0ef3b09f13a50070259",
+    "downstream/stewardship_lock/P01_access.json": "97640bb5a00a4d4c1054f77721ab9c00ced9641e74768350ce99b064e4bd6ae0",
+    "downstream/stewardship_lock/P02_access.json": "44d33dca26f4dce086d21718eccaff8acf5ddb5fd1b6afd2fd97d54c5d861cbf",
+    "downstream/stewardship_lock/P03_access.json": "2573f0e3b7cb949b2ee0c45ccfb85bfe7f82f7e00ce0bc16df28db7f65cf0467",
+    "downstream/stewardship_lock/P04_access.json": "5098bf23c7941f90aea5515d031a717c5e3821a07e1e4fcf2911c6961e47852b",
+    "downstream/stewardship_lock/P05_access.json": "094bf0d27e379496c47e6a9b4eb8b1bda4f9139454948ec0245f150101a72dd9",
+    "downstream/stewardship_lock/P06_access.json": "1dac755aeae401b5022ce3cc0ae3839278aa306785fc0a2bbaa22831f714ff43",
+    "downstream/stewardship_lock/P07_access.json": "899ee5010121b80b4adf93f097186c03ca78a6aa7df12d7b2e50164647cd8d48",
+    "downstream/stewardship_lock/P08_access.json": "a8bbddcb8cdf55b2465ccd880b4f8c927e22ea0351981b544002c27154e6b024",
+    "practice/stewardship_receiver_input_scanned.jsonl": "ae40e23b1f74d7e1589a433e02f1da0b558e7c198f15ba6c69d0c45d27d76b60",
+    "practice/receiver_allocation.jsonl": "9d5c8cc1cdfbea4564981c98cbae3f3fa85893b468a79f87fbcd1f50e2e14bac"
+  },
+  "assigned_products": 72,
+  "choices": 304,
+  "phase": "numerical extraction and temporal hypotheses locked; no final target flux scored"
+}

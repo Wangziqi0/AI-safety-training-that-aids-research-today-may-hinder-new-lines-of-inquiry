@@ -1,0 +1,17 @@
+{
+  "algo": "rl",
+  "arm": "A",
+  "seed": 1901,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.14.1",
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "steps": 8,
+  "adapter_parameters": 1089536,
+  "total_parameters": 1544803840,
+  "source_sha256": "8e6bf1905d125820c0dcb4689f098ad0dc27001881230b32cc3ded735ffda13c",
+  "weight_sha256": "58b0ceadd71f922acc4bd7be5d533c5724f5c1c5c34b7aad3129912f90f1b060",
+  "file_sha256": "66292aec27eb141a83f27b59e198f30bb17643ed2dfc4fcb2582e6f93755c6ea",
+  "base_sha256": "c1b9b30e907950516ba3c646bdf570d8084c25a6410a0cdca80cf04b11bc13a8",
+  "delta_l2": 0.12104035499829985,
+  "wall_seconds": 5.3906434699893
+}

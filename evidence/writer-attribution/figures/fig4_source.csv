@@ -1,0 +1,360 @@
+panel,record,task,source_arm,seed,writer,slot,budget,opportunity,qualified,measure,value,total,detail,source
+a,archive_writer,E1,A,311,A,jfedd7ea142a9c316,650,PARTIAL,0,usable_reason,0,1,"p89, PARTIAL",cross/paired_outcomes.tsv
+a,archive_writer,E1,A,311,H,j6b64b470e78f2fb4,650,PARTIAL,0,usable_reason,0,1,"p89, PARTIAL",cross/paired_outcomes.tsv
+a,archive_writer,E1,H,311,A,j19dcfdd4b4a0fa5c,650,ABSENT,0,usable_reason,0,1,"p95, PARTIAL",cross/paired_outcomes.tsv
+a,archive_writer,E1,H,311,H,jc83df8243e2f5db0,650,ABSENT,0,usable_reason,0,1,"p95, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E1,A,617,A,ja17b378c7836edfd,650,ABSENT,0,usable_reason,0,1,"p83, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E1,A,617,H,j4cbac1f765943e18,650,ABSENT,0,usable_reason,0,1,"p83, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E1,H,617,A,jb4502c5bbc4a44af,650,ABSENT,0,usable_reason,0,1,"p87, PARTIAL",cross/paired_outcomes.tsv
+a,archive_writer,E1,H,617,H,ja20a7ae4c9cb2261,650,ABSENT,0,usable_reason,0,1,"p87, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E1,A,929,A,j32edcd85eb30c3a7,650,INVALID,0,usable_reason,0,1,"p67, UNSUPPORTED",cross/paired_outcomes.tsv
+a,archive_writer,E1,A,929,H,jf45f310603e52398,650,INVALID,0,usable_reason,0,1,"p67, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E1,H,929,A,j04c49c86c305c245,650,ABSENT,0,usable_reason,0,1,"p31, UNSUPPORTED",cross/paired_outcomes.tsv
+a,archive_writer,E1,H,929,H,j960b5e1ed1e83e91,650,ABSENT,0,usable_reason,0,1,"p31, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E2,A,311,A,jf1c333f8ed1b64b4,650,QUALIFIED,1,usable_reason,0,1,"p66, UNSUPPORTED",cross/paired_outcomes.tsv
+a,archive_writer,E2,A,311,H,j78667727e4b18252,650,QUALIFIED,1,usable_reason,0,1,"p66, UNSUPPORTED",cross/paired_outcomes.tsv
+a,archive_writer,E2,H,311,A,j47700fabfac700a0,650,ABSENT,0,usable_reason,0,1,"p71, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E2,H,311,H,j4424971bbe07a918,650,ABSENT,0,usable_reason,0,1,"p71, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E2,A,617,A,j56a10571088fd6ef,650,QUALIFIED,1,usable_reason,1,1,"p23, ORIGINAL",cross/paired_outcomes.tsv
+a,archive_writer,E2,A,617,H,j44ee9f34ce43f6ed,650,QUALIFIED,1,usable_reason,0,1,"p23, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E2,H,617,A,j1b0e9cd8f5cd14d9,650,ABSENT,0,usable_reason,0,1,"p05, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E2,H,617,H,jd4fb549e2100516d,650,ABSENT,0,usable_reason,0,1,"p05, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E2,A,929,A,j8a12c20928df85b4,650,QUALIFIED,1,usable_reason,1,1,"p74, ORIGINAL",cross/paired_outcomes.tsv
+a,archive_writer,E2,A,929,H,jb2fe99347e90f3fd,650,QUALIFIED,1,usable_reason,0,1,"p74, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E2,H,929,A,j7b27a74452edd58c,650,ABSENT,0,usable_reason,0,1,"p41, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,E2,H,929,H,jd1752d1a2f10dd96,650,ABSENT,0,usable_reason,0,1,"p41, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,A,311,A,jc794dd5c475cfca5,650,ABSENT,0,usable_reason,0,1,"p63, PARTIAL",cross/paired_outcomes.tsv
+a,archive_writer,G1,A,311,H,j1860c1707416254e,650,ABSENT,0,usable_reason,0,1,"p63, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,H,311,A,j2b48314222d1ea88,650,QUALIFIED,1,usable_reason,1,1,"p86, ORIGINAL",cross/paired_outcomes.tsv
+a,archive_writer,G1,H,311,H,je70c0825247a9b70,650,QUALIFIED,1,usable_reason,0,1,"p86, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,A,617,A,j0fea60ab50d6b57c,650,ABSENT,0,usable_reason,0,1,"p56, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,A,617,H,j092f906659f43033,650,ABSENT,0,usable_reason,0,1,"p56, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,H,617,A,j2ae2c9f51de664df,650,ABSENT,0,usable_reason,0,1,"p03, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,H,617,H,j72082986553cf822,650,ABSENT,0,usable_reason,0,1,"p03, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,A,929,A,jf17355fb7c756577,650,ABSENT,0,usable_reason,0,1,"p43, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,A,929,H,jebd84846e3d7a4b8,650,ABSENT,0,usable_reason,0,1,"p43, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,H,929,A,j78a553cbdfa6c6ee,650,ABSENT,0,usable_reason,0,1,"p39, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G1,H,929,H,j2bad0a0fa6cc188c,650,ABSENT,0,usable_reason,0,1,"p39, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G2,A,311,A,j29632e190b862f26,650,QUALIFIED,1,usable_reason,1,1,"p57, ORIGINAL",cross/paired_outcomes.tsv
+a,archive_writer,G2,A,311,H,j3b0528c33124a1f2,650,QUALIFIED,1,usable_reason,0,1,"p57, UNSUPPORTED",cross/paired_outcomes.tsv
+a,archive_writer,G2,H,311,A,j0e185fe08902bdb9,650,ABSENT,0,usable_reason,0,1,"p06, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G2,H,311,H,j151563e4537aebf5,650,ABSENT,0,usable_reason,0,1,"p06, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G2,A,617,A,j46b8a13c210cf414,650,PARTIAL,0,usable_reason,0,1,"p78, PARTIAL",cross/paired_outcomes.tsv
+a,archive_writer,G2,A,617,H,j72dc6230a60306fc,650,PARTIAL,0,usable_reason,0,1,"p78, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G2,H,617,A,jcaf520a9f7ee7cbd,650,ABSENT,0,usable_reason,0,1,"p60, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G2,H,617,H,je00ff2ceb2530580,650,ABSENT,0,usable_reason,0,1,"p60, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G2,A,929,A,je35b1299f588d089,650,ABSENT,0,usable_reason,0,1,"p76, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G2,A,929,H,jaea92a7f725551a2,650,ABSENT,0,usable_reason,0,1,"p76, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G2,H,929,A,jd516d025f6817d6e,650,ABSENT,0,usable_reason,0,1,"p79, ABSENT",cross/paired_outcomes.tsv
+a,archive_writer,G2,H,929,H,j4853e6faf96f7a3d,650,ABSENT,0,usable_reason,0,1,"p79, ABSENT",cross/paired_outcomes.tsv
+a,archive_summary,A-origin,,,A,,650,,,usable_reason,3,12,,cross/paired_outcomes.tsv
+a,archive_summary,A-origin,,,H,,650,,,usable_reason,0,12,,cross/paired_outcomes.tsv
+a,archive_summary,H-origin,,,A,,650,,,usable_reason,1,12,,cross/paired_outcomes.tsv
+a,archive_summary,H-origin,,,H,,650,,,usable_reason,0,12,,cross/paired_outcomes.tsv
+a,archive_summary,all,,,A,,650,,,usable_reason,4,24,,cross/paired_outcomes.tsv
+a,archive_summary,all,,,H,,650,,,usable_reason,0,24,,cross/paired_outcomes.tsv
+a,archive_summary,qualified,,,A,,650,,,usable_reason,4,5,,cross/paired_outcomes.tsv
+a,archive_summary,qualified,,,H,,650,,,usable_reason,0,5,,cross/paired_outcomes.tsv
+a,focal_example,G1,H,311,,p86,,QUALIFIED,1,scale,Counterexample at scale 9,,"H obtained the counterexample. A passed it on with
+its mathematical basis. H omitted it.",cross/PRIMARY_REPORT.md; cross/graded_cells.tsv
+a,focal_example,E2,A,311,,p66,,QUALIFIED,1,exponent,One exponent across two regimes,,"Both writers lost the incompatibility at 5/8 and
+retained a valid weaker budget of 9/8.",cross/PRIMARY_REPORT.md; cross/graded_cells.tsv
+b,supplied_writer,T01,,311,A,t699c57680b51bf53,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T01,,311,B,t599e1d52cce2fad4,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T01,,311,H,t9c4bc258ca4341b2,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T01,,617,A,ta73e2b18a373af4d,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T01,,617,B,tab92e65acc6c0769,650,,,usable_reason,0,1,PARTIAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T01,,617,H,t48fc97649b8a389a,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T01,,929,A,ta44d2f5f049402ad,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T01,,929,B,t5a2c88975389ee58,650,,,usable_reason,1,1,EQUIVALENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T01,,929,H,t2f18ca8eb48514f0,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T02,,311,A,tb87e12d9bbf53463,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T02,,311,B,t30b34dfebd53eb32,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T02,,311,H,tef7c934e8dfe556d,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T02,,617,A,t2b0ce23bd44c439e,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T02,,617,B,t39704188974a4525,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T02,,617,H,t86efb49c81662070,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T02,,929,A,t34c4206d4d0b9ec0,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T02,,929,B,t8b96f59706dfc343,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T02,,929,H,td51f644877130abc,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T03,,311,A,tcf6d670642835f7b,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T03,,311,B,taa16062ad0cc701e,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T03,,311,H,t6a908a4af5961da9,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T03,,617,A,taaaeca2242edde94,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T03,,617,B,t29128e77db24dcf7,650,,,usable_reason,0,1,PARTIAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T03,,617,H,t1aaa448c8c766db1,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T03,,929,A,t85d896af8bf22fe3,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T03,,929,B,tbd33dd89e26bac9b,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T03,,929,H,t14b74c9e1b122609,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T04,,311,A,tdb4c70c5d9d1a6d2,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T04,,311,B,t13a2b428535b3808,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T04,,311,H,t6e802fa2dc71393f,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T04,,617,A,t18a9c1a9b8169654,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T04,,617,B,tbecdd56e7037c2ec,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T04,,617,H,tcdc554c93a67dcd8,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T04,,929,A,t076c8ccdcd891097,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T04,,929,B,t58eae9800e988170,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T04,,929,H,tb2989aa39e193a62,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T05,,311,A,t98644ca00939f6ce,650,,,usable_reason,0,1,ABSENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T05,,311,B,td226a2e2e53bcdcf,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T05,,311,H,t4b83a904c43b6781,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T05,,617,A,t7bbefd27be0eae5f,650,,,usable_reason,0,1,ABSENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T05,,617,B,t29a16f9ccd1cf638,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T05,,617,H,t995cdd310c484d4e,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T05,,929,A,t3020f5b91f6127bf,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T05,,929,B,t3d82c33c23136301,650,,,usable_reason,0,1,ABSENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T05,,929,H,t2079741d85da7724,650,,,usable_reason,0,1,ABSENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T06,,311,A,t9a00878fadd721ec,650,,,usable_reason,0,1,ABSENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T06,,311,B,tdf1f90237fb43a72,650,,,usable_reason,0,1,ABSENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T06,,311,H,tab0572578745c65e,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T06,,617,A,tce4ec3386c05655f,650,,,usable_reason,0,1,PARTIAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T06,,617,B,t33d0e2e3a3a3ae75,650,,,usable_reason,0,1,PARTIAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T06,,617,H,t35d304568babc15f,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T06,,929,A,t34e3bfd89041dea3,650,,,usable_reason,0,1,ABSENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T06,,929,B,t089d498aa75b9fc5,650,,,usable_reason,0,1,PARTIAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T06,,929,H,tfb6c34df1de5dfc8,650,,,usable_reason,0,1,ABSENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T07,,311,A,tf37d3a7c7f3b6cde,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T07,,311,B,t433cb4110fce9d12,650,,,usable_reason,0,1,PARTIAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T07,,311,H,t013aefd775e763dd,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T07,,617,A,te65e786f63c16a81,650,,,usable_reason,0,1,ABSENT,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T07,,617,B,tb3c77e0ed44bc2bc,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T07,,617,H,t352e08b81333bd64,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T07,,929,A,t155ef060a415faaf,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T07,,929,B,tbbd45a0c1ff9e2d0,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T07,,929,H,tb371222ba6955e78,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T08,,311,A,t700eadfa26cea555,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T08,,311,B,tc47eff44b9aeed2f,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T08,,311,H,t61a58a569bde071e,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T08,,617,A,t25b1e96406e04788,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T08,,617,B,td58b155735e65a62,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T08,,617,H,taf40444372c4cdd5,650,,,usable_reason,0,1,PARTIAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T08,,929,A,t805186124784c12d,650,,,usable_reason,0,1,UNSUPPORTED,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T08,,929,B,td8594114ba732c76,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,supplied_writer,T08,,929,H,t2fd0ddf8bb63010d,650,,,usable_reason,1,1,ORIGINAL,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T01,,311,,,650,,,paired_state,both,,Five-cycle messages,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T01,,617,,,650,,,paired_state,both,,Five-cycle messages,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T01,,929,,,650,,,paired_state,H_only,,Five-cycle messages,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T02,,311,,,650,,,paired_state,A_only,,Commands with error,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T02,,617,,,650,,,paired_state,H_only,,Commands with error,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T02,,929,,,650,,,paired_state,H_only,,Commands with error,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T03,,311,,,650,,,paired_state,H_only,,Threshold queries,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T03,,617,,,650,,,paired_state,H_only,,Threshold queries,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T03,,929,,,650,,,paired_state,both,,Threshold queries,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T04,,311,,,650,,,paired_state,both,,One-bit error code,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T04,,617,,,650,,,paired_state,H_only,,One-bit error code,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T04,,929,,,650,,,paired_state,both,,One-bit error code,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T05,,311,,,650,,,paired_state,H_only,,Joint outcome counts,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T05,,617,,,650,,,paired_state,H_only,,Joint outcome counts,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T05,,929,,,650,,,paired_state,A_only,,Joint outcome counts,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T06,,311,,,650,,,paired_state,neither,,Conditional denominators,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T06,,617,,,650,,,paired_state,H_only,,Conditional denominators,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T06,,929,,,650,,,paired_state,neither,,Conditional denominators,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T07,,311,,,650,,,paired_state,neither,,Binary endpoint test,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T07,,617,,,650,,,paired_state,H_only,,Binary endpoint test,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T07,,929,,,650,,,paired_state,both,,Binary endpoint test,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T08,,311,,,650,,,paired_state,H_only,,Reporting sensitivity,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T08,,617,,,650,,,paired_state,neither,,Reporting sensitivity,analysis/transfer_initial/writer_scores.tsv
+b,paired_seed,T08,,929,,,650,,,paired_state,H_only,,Reporting sensitivity,analysis/transfer_initial/writer_scores.tsv
+b,paired_total,,,,,,650,,,A_only,2,24,,analysis/transfer_initial/paired_comparisons.tsv
+b,paired_total,,,,,,650,,,H_only,12,24,,analysis/transfer_initial/paired_comparisons.tsv
+b,paired_total,,,,,,650,,,both,6,24,,analysis/transfer_initial/paired_comparisons.tsv
+b,paired_total,,,,,,650,,,neither,4,24,,analysis/transfer_initial/paired_comparisons.tsv
+b,supplied_summary,all,,,A,,650,,,usable_reason,8,24,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,all,,,H,,650,,,usable_reason,18,24,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,all,,,B,,650,,,usable_reason,8,24,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,math,,,A,,650,,,usable_reason,6,12,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,math,,,H,,650,,,usable_reason,11,12,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,math,,,B,,650,,,usable_reason,5,12,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,data,,,A,,650,,,usable_reason,2,12,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,data,,,H,,650,,,usable_reason,7,12,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,data,,,B,,650,,,usable_reason,3,12,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T01,,,A,,650,,,usable_reason,2,3,Five-cycle messages,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T01,,,H,,650,,,usable_reason,3,3,Five-cycle messages,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T01,,,B,,650,,,usable_reason,1,3,Five-cycle messages,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T02,,,A,,650,,,usable_reason,1,3,Commands with error,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T02,,,H,,650,,,usable_reason,2,3,Commands with error,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T02,,,B,,650,,,usable_reason,2,3,Commands with error,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T03,,,A,,650,,,usable_reason,1,3,Threshold queries,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T03,,,H,,650,,,usable_reason,3,3,Threshold queries,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T03,,,B,,650,,,usable_reason,0,3,Threshold queries,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T04,,,A,,650,,,usable_reason,2,3,One-bit error code,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T04,,,H,,650,,,usable_reason,3,3,One-bit error code,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T04,,,B,,650,,,usable_reason,2,3,One-bit error code,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T05,,,A,,650,,,usable_reason,1,3,Joint outcome counts,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T05,,,H,,650,,,usable_reason,2,3,Joint outcome counts,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T05,,,B,,650,,,usable_reason,1,3,Joint outcome counts,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T06,,,A,,650,,,usable_reason,0,3,Conditional denominators,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T06,,,H,,650,,,usable_reason,1,3,Conditional denominators,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T06,,,B,,650,,,usable_reason,0,3,Conditional denominators,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T07,,,A,,650,,,usable_reason,1,3,Binary endpoint test,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T07,,,H,,650,,,usable_reason,2,3,Binary endpoint test,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T07,,,B,,650,,,usable_reason,1,3,Binary endpoint test,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T08,,,A,,650,,,usable_reason,0,3,Reporting sensitivity,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T08,,,H,,650,,,usable_reason,2,3,Reporting sensitivity,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,T08,,,B,,650,,,usable_reason,1,3,Reporting sensitivity,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,seed_311,,,A,,650,,,usable_reason,3,8,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,seed_311,,,H,,650,,,usable_reason,5,8,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,seed_311,,,B,,650,,,usable_reason,2,8,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,seed_617,,,A,,650,,,usable_reason,1,8,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,seed_617,,,H,,650,,,usable_reason,7,8,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,seed_617,,,B,,650,,,usable_reason,3,8,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,seed_929,,,A,,650,,,usable_reason,4,8,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,seed_929,,,H,,650,,,usable_reason,6,8,,analysis/transfer_initial/arm_summary.tsv
+b,supplied_summary,seed_929,,,B,,650,,,usable_reason,3,8,,analysis/transfer_initial/arm_summary.tsv
+c,budget_writer,T01,,311,A,transfer-A-311-T01,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T01,,311,A,L018143c9b4c82bef,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T02,,311,A,transfer-A-311-T02,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T02,,311,A,L91bc87c8fdbb5f63,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T03,,311,A,transfer-A-311-T03,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T03,,311,A,L30f1df1a75beeceb,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T04,,311,A,transfer-A-311-T04,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T04,,311,A,L9ffb89e7defa61a2,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T05,,311,A,transfer-A-311-T05,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T05,,311,A,L0a521ccb5f3199c3,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T06,,311,A,transfer-A-311-T06,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T06,,311,A,L67b46f6a6f39a985,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T07,,311,A,transfer-A-311-T07,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T07,,311,A,Lcc07df35dbc84190,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,311,A,transfer-A-311-T08,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,311,A,Ldeae4e4c80d463c4,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T01,,617,A,transfer-A-617-T01,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T01,,617,A,L4c14cc0a016226a9,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T02,,617,A,transfer-A-617-T02,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T02,,617,A,L3c8eb4184657110a,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T03,,617,A,transfer-A-617-T03,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T03,,617,A,L7108f8852f331414,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T04,,617,A,transfer-A-617-T04,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T04,,617,A,Lbe9e99022569dc1d,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T05,,617,A,transfer-A-617-T05,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T05,,617,A,Lbdc2cf6cce99cb2b,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T06,,617,A,transfer-A-617-T06,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T06,,617,A,L1845ece417407e76,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T07,,617,A,transfer-A-617-T07,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T07,,617,A,Lbd9456b6afa1f078,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T08,,617,A,transfer-A-617-T08,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,617,A,L7e0ce1848c4c4eb4,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T01,,929,A,transfer-A-929-T01,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T01,,929,A,Lb40ab72dc26a6565,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T02,,929,A,transfer-A-929-T02,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T02,,929,A,Lbfb3d278b53a5542,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T03,,929,A,transfer-A-929-T03,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T03,,929,A,Le1bca0ff09a07778,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T04,,929,A,transfer-A-929-T04,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T04,,929,A,Ld6bf2c767f0501b4,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T05,,929,A,transfer-A-929-T05,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T05,,929,A,L86e391993aec16ad,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T06,,929,A,transfer-A-929-T06,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T06,,929,A,Lf5e9b34fd68d1602,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T07,,929,A,transfer-A-929-T07,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T07,,929,A,L8f65a01e322a812e,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,929,A,transfer-A-929-T08,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,929,A,Lb8743af6fa95fa5b,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T01,,311,H,transfer-H-311-T01,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T01,,311,H,Laeb408af29cafc17,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T02,,311,H,transfer-H-311-T02,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T02,,311,H,Ld2355eafb8d52cca,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T03,,311,H,transfer-H-311-T03,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T03,,311,H,La9428849356467c3,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T04,,311,H,transfer-H-311-T04,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T04,,311,H,Lf7bd5b632d92d40d,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T05,,311,H,transfer-H-311-T05,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T05,,311,H,L00ec119fbdb73c0c,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T06,,311,H,transfer-H-311-T06,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T06,,311,H,L00436b87d6b589bb,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T07,,311,H,transfer-H-311-T07,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T07,,311,H,L6243ac038d9d3b99,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,311,H,transfer-H-311-T08,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,311,H,Ld14c6ac4d52e5847,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T01,,617,H,transfer-H-617-T01,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T01,,617,H,L3859dd35779c6cbb,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T02,,617,H,transfer-H-617-T02,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T02,,617,H,Lfa1c3772206a7784,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T03,,617,H,transfer-H-617-T03,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T03,,617,H,L0d05008dfdf07441,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T04,,617,H,transfer-H-617-T04,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T04,,617,H,L9407755acfadf890,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T05,,617,H,transfer-H-617-T05,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T05,,617,H,L150c5da2cf1289ad,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T06,,617,H,transfer-H-617-T06,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T06,,617,H,Ld4507479247f2da8,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T07,,617,H,transfer-H-617-T07,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T07,,617,H,L7c5a1c1b900c7979,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,617,H,transfer-H-617-T08,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,617,H,Ld1b966b57ed1527f,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T01,,929,H,transfer-H-929-T01,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T01,,929,H,L05b2ac495ea008ec,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T02,,929,H,transfer-H-929-T02,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T02,,929,H,L856893da821349c5,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T03,,929,H,transfer-H-929-T03,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T03,,929,H,La99b50db786ec5f7,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T04,,929,H,transfer-H-929-T04,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T04,,929,H,L3d385047d403887b,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T05,,929,H,transfer-H-929-T05,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T05,,929,H,L1d29c46cc747c818,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T06,,929,H,transfer-H-929-T06,650,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T06,,929,H,Le86319c18f1f5595,1300,,,usable_reason,0,1,"token_prefix_match=1, identical_output=0",analysis/heldout_budget.tsv
+c,budget_writer,T07,,929,H,transfer-H-929-T07,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T07,,929,H,Ld2afb8db423356b2,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,929,H,transfer-H-929-T08,650,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_writer,T08,,929,H,Ldc2ce776928071c9,1300,,,usable_reason,1,1,"token_prefix_match=1, identical_output=1",analysis/heldout_budget.tsv
+c,budget_summary,all,,,A,,650,,,usable_reason,8,24,,analysis/heldout_budget.tsv
+c,budget_summary,all,,,A,,1300,,,usable_reason,13,24,,analysis/heldout_budget.tsv
+c,budget_summary,math,,,A,,650,,,usable_reason,6,12,,analysis/heldout_budget.tsv
+c,budget_summary,math,,,A,,1300,,,usable_reason,6,12,,analysis/heldout_budget.tsv
+c,budget_summary,data,,,A,,650,,,usable_reason,2,12,,analysis/heldout_budget.tsv
+c,budget_summary,data,,,A,,1300,,,usable_reason,7,12,,analysis/heldout_budget.tsv
+c,budget_summary,all,,,H,,650,,,usable_reason,18,24,,analysis/heldout_budget.tsv
+c,budget_summary,all,,,H,,1300,,,usable_reason,18,24,,analysis/heldout_budget.tsv
+c,budget_summary,math,,,H,,650,,,usable_reason,11,12,,analysis/heldout_budget.tsv
+c,budget_summary,math,,,H,,1300,,,usable_reason,11,12,,analysis/heldout_budget.tsv
+c,budget_summary,data,,,H,,650,,,usable_reason,7,12,,analysis/heldout_budget.tsv
+c,budget_summary,data,,,H,,1300,,,usable_reason,7,12,,analysis/heldout_budget.tsv
+c,paired_total,,,,,,1300,,,both,9,24,,analysis/heldout_budget.tsv
+c,paired_total,,,,,,1300,,,H_only,9,24,,analysis/heldout_budget.tsv
+c,paired_total,,,,,,1300,,,A_only,4,24,,analysis/heldout_budget.tsv
+c,paired_total,,,,,,1300,,,neither,2,24,,analysis/heldout_budget.tsv
+c,sequence_check,,,,,,,,,unchanged_outputs,31,48,,analysis/heldout_budget.tsv
+c,sequence_check,,,,,,,,,prefix_matches,48,48,,analysis/heldout_budget.tsv
+c,assessor_summary,archive,,,A,,650,,,primary,4,24,,analysis/rating_sensitivity.json
+c,assessor_summary,archive,,,A,,650,,,independent,6,24,,analysis/rating_sensitivity.json
+c,assessor_summary,archive,,,H,,650,,,primary,0,24,,analysis/rating_sensitivity.json
+c,assessor_summary,archive,,,H,,650,,,independent,0,24,,analysis/rating_sensitivity.json
+c,assessor_summary,archive_primary_qualified,,,A,,650,,,primary,4,5,,analysis/rating_sensitivity.json
+c,assessor_summary,archive_primary_qualified,,,A,,650,,,independent,4,5,,analysis/rating_sensitivity.json
+c,assessor_summary,archive_primary_qualified,,,H,,650,,,primary,0,5,,analysis/rating_sensitivity.json
+c,assessor_summary,archive_primary_qualified,,,H,,650,,,independent,0,5,,analysis/rating_sensitivity.json
+c,assessor_summary,heldout,,,A,,650,,,primary,8,24,,analysis/rating_sensitivity.json
+c,assessor_summary,heldout,,,A,,650,,,independent,10,24,,analysis/rating_sensitivity.json
+c,assessor_summary,heldout,,,B,,650,,,primary,8,24,,analysis/rating_sensitivity.json
+c,assessor_summary,heldout,,,B,,650,,,independent,10,24,,analysis/rating_sensitivity.json
+c,assessor_summary,heldout,,,H,,650,,,primary,18,24,,analysis/rating_sensitivity.json
+c,assessor_summary,heldout,,,H,,650,,,independent,18,24,,analysis/rating_sensitivity.json
+c,assessor_range,heldout,,,,,650,,,A-H_low_difference_count,-10,24,,analysis/rating_sensitivity.json
+c,assessor_range,heldout,,,,,650,,,A-H_high_difference_count,-8,24,,analysis/rating_sensitivity.json
+d,recipient,T03,heldout,,ordinary,r21bee3b496355b10,,,,full_decision,1,1,Three adaptive thresholds recover 2j for every job. Two binary queries yield at most four transcripts for eight witnesses. One extra bit resolves the final adjacent pair.,downstream/recipients.tsv
+d,recipient,T07,heldout,,ordinary,r52541345d57e1747,,,,full_decision,1,1,Joint proportions 15/33 and 12/35 differ by 11.1688 percentage points. Conditional two-sided Fisher P=.457878685. The adjusted count-endpoint P=.006 cannot be transferred.,downstream/recipients.tsv
+d,recipient,T03,heldout,,A,r5b421f3379b9bfcb,,,,full_decision,1,1,Three adaptive thresholds recover 2j for every job. Two binary queries yield at most four transcripts for eight witnesses. One extra bit resolves the final adjacent pair.,downstream/recipients.tsv
+d,recipient,T05,heldout,,ordinary,r68db5e4b1130fbe4,,,,full_decision,1,1,"Attainable overlaps 14–16, 12–15, 0–6; linked counts 15,12,1. Nonnegative four-cell construction proves every integer in each interval attainable.",downstream/recipients.tsv
+d,recipient,T05,heldout,,H,r806407b4ee7bad6c,,,,full_decision,1,1,"Attainable overlaps 14–16, 12–15, 0–6; linked counts 15,12,1. Nonnegative four-cell construction proves every integer in each interval attainable.",downstream/recipients.tsv
+d,recipient,T05,heldout,,A,ra1f14298b7cfa962,,,,full_decision,1,1,"Attainable overlaps 14–16, 12–15, 0–6; linked counts 15,12,1. Nonnegative four-cell construction proves every integer in each interval attainable.",downstream/recipients.tsv
+d,recipient,T03,heldout,,H,raecd4f5bdcf11519,,,,full_decision,1,1,Three adaptive thresholds recover 2j for every job. Two binary queries yield at most four transcripts for eight witnesses. One extra bit resolves the final adjacent pair.,downstream/recipients.tsv
+d,recipient,T07,heldout,,H,rb0492d0038bfc8e8,,,,full_decision,1,1,Joint proportions 15/33 and 12/35 differ by 11.1688 percentage points. Conditional two-sided Fisher P=.457878685. The adjusted count-endpoint P=.006 cannot be transferred.,downstream/recipients.tsv
+d,recipient,T07,heldout,,A,rcf2e4bfc48f249b7,,,,full_decision,1,1,Joint proportions 15/33 and 12/35 differ by 11.1688 percentage points. Conditional two-sided Fisher P=.457878685. The adjusted count-endpoint P=.006 cannot be transferred.,downstream/recipients.tsv
+d,recipient,T01,heldout,,H,rd204f6d1f248c876,,,,full_decision,1,1,"Minimum three: alternating two labels forces a collision on {5,1}, and a proper five-job three-symbol assignment permits unique endpoint decoding.",downstream/recipients.tsv
+d,recipient,T01,heldout,,ordinary,rdee6e738f7319ee3,,,,full_decision,1,1,"Minimum three: alternating two labels forces a collision on {5,1}, and a proper five-job three-symbol assignment permits unique endpoint decoding.",downstream/recipients.tsv
+d,recipient,T01,heldout,,A,rea12c3107bb41644,,,,full_decision,1,1,"Minimum three: alternating two labels forces a collision on {5,1}, and a proper five-job three-symbol assignment permits unique endpoint decoding.",downstream/recipients.tsv
+d,recipient,E2,historic,,A,u2ced1a7f7fbf3532,,,,full_decision,1,1,Incompatible conditions k≤−1/2 and k≥1/8 rule out 5/8. The sharp shared budget is 15/16 at −3/16. Separate witnesses can achieve 5/8 if permitted.,downstream/recipients.tsv
+d,recipient,E2,historic,,H,u6d4177f323a54fe0,,,,full_decision,1,1,Incompatible conditions k≤−1/2 and k≥1/8 rule out 5/8. The sharp shared budget is 15/16 at −3/16. Separate witnesses can achieve 5/8 if permitted.,downstream/recipients.tsv
+d,recipient,G1,historic,,H,u79cf8d8f66aab02a,,,,full_decision,1,1,"A=9 invalidates the draft. Common ranks are 8+12j, j≥0. They cover precisely [4,8] union [10,infinity), so 10 is the sharp universal start.",downstream/recipients.tsv
+d,recipient,G1,historic,,A,u89c7bb108550cff7,,,,full_decision,1,1,"A=9 invalidates the draft. Common ranks are 8+12j, j≥0. They cover precisely [4,8] union [10,infinity), so 10 is the sharp universal start.",downstream/recipients.tsv
+d,recipient,E2,historic,,ordinary,u9fd1e939f7217cc1,,,,full_decision,1,1,Incompatible conditions k≤−1/2 and k≥1/8 rule out 5/8. The sharp shared budget is 15/16 at −3/16. Separate witnesses can achieve 5/8 if permitted.,downstream/recipients.tsv
+d,recipient,G1,historic,,ordinary,uf815612f72ef799e,,,,full_decision,1,1,"A=9 invalidates the draft. Common ranks are 8+12j, j≥0. They cover precisely [4,8] union [10,infinity), so 10 is the sharp universal start.",downstream/recipients.tsv
+d,recipient_summary,all,,,A,,,,,full_decision,6,6,,downstream/recipients.tsv
+d,recipient_summary,all,,,H,,,,,full_decision,6,6,,downstream/recipients.tsv
+d,recipient_summary,all,,,ordinary,,,,,full_decision,6,6,,downstream/recipients.tsv
+d,recipient_summary,historic,,,A,,,,,full_decision,2,2,,downstream/recipients.tsv
+d,recipient_summary,historic,,,H,,,,,full_decision,2,2,,downstream/recipients.tsv
+d,recipient_summary,historic,,,ordinary,,,,,full_decision,2,2,,downstream/recipients.tsv
+d,recipient_summary,heldout,,,A,,,,,full_decision,4,4,,downstream/recipients.tsv
+d,recipient_summary,heldout,,,H,,,,,full_decision,4,4,,downstream/recipients.tsv
+d,recipient_summary,heldout,,,ordinary,,,,,full_decision,4,4,,downstream/recipients.tsv

@@ -1,0 +1,9 @@
+{
+  "disposition": "Fit one regularized additive waveform directly to nominal-aperture counts.",
+  "aperture": "spoc",
+  "period_days": [2.99685, 1.175171, 0.8375894217, 13.7],
+  "harmonics": 1,
+  "method": "Use elapsed days and fit an intercept plus one sine and cosine pair per listed period. Minimize mean squared error plus lambda_short times the sum of squared coefficients for the first three pairs and lambda_orbit times the sum for the 13.7-day pair. Leave the intercept unpenalized. Choose both penalties from [0.01, 0.1, 1, 10, 100] using only the chronological 70% training prefix. In three validation folds, fit on the first 50%, 60%, and 70% of that prefix, respectively, and score on the next 30% of the prefix in each case. Minimize average fold mean absolute error, breaking ties toward larger lambda_orbit, then larger lambda_short. Refit on the full prefix and evaluate at the final held-out times to obtain electrons/s.",
+  "rationale": "The two 12-day maxima lie at the search boundary, and the later development span covers less than one such cycle. I use 13.7 days to model possible TESS-orbit background variation. The published 2.99685-day signal has greater absolute semiamplitude in the faint rim than in the bright core (0.572 versus 0.320 electrons/s). The separate 1.175171-day image also peaks outside the early pipeline aperture. Fitting nominal counts lets either modulation contribute in proportion to its measured imprint. For physical follow-up, I would obtain resolved time-series photometry of the nucleus and neighboring stars and compare their phases with the strongest repeatable short-period component before assigning it to the nucleus.",
+  "used_material": "Supplied period maxima, later development aperture photometry, and the first-sector 1.175171-day harmonic image summary. The 13.7-day term comes from the approximate TESS orbital period."
+}

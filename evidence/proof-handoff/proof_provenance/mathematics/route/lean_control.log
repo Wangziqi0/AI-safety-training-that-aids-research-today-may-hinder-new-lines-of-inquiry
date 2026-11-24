@@ -1,0 +1,6 @@
+VALUE DirichletLZerosOnLine count=29 selected=[DirichletCharacter.LFunction]
+VALUE PrimitiveDirichletLZerosOnLine count=30 selected=[DirichletCharacter.IsPrimitive, DirichletCharacter.LFunction]
+VALUE Formalism.VW.rh_of_right count=339 selected=[riemannZeta_zero,
+ riemannZeta_one_sub,
+ Complex.Gamma_ne_zero_of_re_pos,
+ Complex.cos_eq_zero_iff]

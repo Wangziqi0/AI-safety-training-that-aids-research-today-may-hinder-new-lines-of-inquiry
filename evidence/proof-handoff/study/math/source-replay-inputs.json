@@ -1,0 +1,37 @@
+[
+  {
+    "module": "Formalism.SizeWindowBrackets.ChainSlopeWindows.LipschitzWeightAndMinimum",
+    "source_sha256": "90e749885560a742ca12305e0f028da32a95ef10bb42580986306387be48894d",
+    "source_bytes": 52352,
+    "source_url": "https://raw.githubusercontent.com/Deicyde/riemann-hypothesis/e50d09817ad81469f737e8f637561e6ccf86c670/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LipschitzWeightAndMinimum.lean",
+    "reference_olean_sha256": "2dd746b95371596ae83189ec8a8a747a18274b288b6496cfecf6a2e1b1e9c630"
+  },
+  {
+    "module": "Formalism.SizeWindowBrackets.ChainSlopeWindows.StronglyIrreducible",
+    "source_sha256": "8871c7b007650900936033e9d830127bdd116de6fe04ce5f567a996714eea5a3",
+    "source_bytes": 32069,
+    "source_url": "https://raw.githubusercontent.com/Deicyde/riemann-hypothesis/e50d09817ad81469f737e8f637561e6ccf86c670/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/StronglyIrreducible.lean",
+    "reference_olean_sha256": "48cd1c5fb65a6552b255ffd465d74b615efea99ecb039e69a8e79a70cb1caec8"
+  },
+  {
+    "module": "Formalism.ThickAverageLoss.ThickAverageProofs.Balance",
+    "source_sha256": "38f914bad2ebc1a7adc08a157dadf9f5a267e19711b1e3c82ad80083928e06b9",
+    "source_bytes": 14325,
+    "source_url": "https://raw.githubusercontent.com/Deicyde/riemann-hypothesis/e50d09817ad81469f737e8f637561e6ccf86c670/src/Formalism/ThickAverageLoss/ThickAverageProofs/Balance.lean",
+    "reference_olean_sha256": "6f96b0f7812adb5caaad19a683a02fa65ccb657ae4cbbfcc1880e94b487fa5b1"
+  },
+  {
+    "module": "Formalism.ThickAverageLoss.ThickAverageProofs.ThickAverage",
+    "source_sha256": "4fd7ef8b506a89b5d19dba160cfc74c28fcc329b05a8f6654670876c17c4bcc6",
+    "source_bytes": 15210,
+    "source_url": "https://raw.githubusercontent.com/Deicyde/riemann-hypothesis/e50d09817ad81469f737e8f637561e6ccf86c670/src/Formalism/ThickAverageLoss/ThickAverageProofs/ThickAverage.lean",
+    "reference_olean_sha256": "6fd37a7a4227a2ec678ff7b1f9963ad973aad7f203068be8e46a906ee7e16a04"
+  },
+  {
+    "module": "Formalism.ZetaNonvanishing.MellinSgen",
+    "source_sha256": "556deef175e46fec4f7e9966d23040822a3664f02b441d0de4643267ac1c5e53",
+    "source_bytes": 8124,
+    "source_url": "https://raw.githubusercontent.com/Deicyde/riemann-hypothesis/e50d09817ad81469f737e8f637561e6ccf86c670/src/Formalism/ZetaNonvanishing/MellinSgen.lean",
+    "reference_olean_sha256": "bcb79dd28399b428b346af21aa05cbb7c6b57ce641bd517eb99d882e8fe915d0"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "n_products": 72,
+  "n_decisions": 304,
+  "n_unique_predictions": 9,
+  "scores_sha256": "e94d80eeffdb4fa96cea5124db1670d763e3b94761a1f2997b31ea6a6ad14765",
+  "choices_lock_sha256": "dc919fdeb5d63ac18b0509a964e93279cec5bcc7766cff8be52d72fcdeba13d3",
+  "implementation_sha256": "0015f75d9eb259e29f4f60f5fba6a43a5c91d1e1497624e9e648072224619db6"
+}

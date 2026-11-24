@@ -1,0 +1,7 @@
+{
+  "start_utc": "2026-11-21T05:47:54.020772+00:00",
+  "end_utc": "2026-11-21T05:48:57.459421+00:00",
+  "elapsed_seconds": 63.43869728734717,
+  "returncode": 0,
+  "scope": "full GPU0 wrapper, including dedicated lock and model load"
+}

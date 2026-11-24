@@ -1,0 +1,7 @@
+**Suggested supplement entry.** Among retained teams, 15 of 33 human-only teams (45.5%) and 12 of 35 AI-assisted teams (34.3%) both successfully reproduced the result and reported at least one accepted major error. The observed difference was 11.2 percentage points (human-only minus AI-assisted). A two-sided Fisher exact test conditioning on both margins gave **\(P=0.458\)** for this joint endpoint. The published \(P=0.006\) applies to the authors’ adjusted comparison of mean error counts. Data adapted from Brodeur et al., [PNAS (2026)](https://doi.org/10.1073/pnas.2524747123).
+
+I independently checked the endpoint row by row. For example, the human-only team coded `0,0,2` reported two accepted major errors but did not successfully reproduce the result, so it counted among the 18 human-only teams that did not meet the joint endpoint. The corresponding AI-assisted count was 23.
+
+With 27 teams meeting the endpoint across both groups, the conditional probability that exactly \(x\) of them were human-only is \(\binom{33}{x}\binom{35}{27-x}/\binom{68}{27}\). The tables with probability no greater than the observed table’s (\(x=15\)) have \(x=0,\ldots,11\) or \(x=15,\ldots,27\). Their probabilities sum to \(0.457879\).
+
+The observed proportion was higher in the human-only group, but this descriptive check does not establish a difference or equivalence between modes. The extract lacks the event, paper, and assignment-block identifiers needed for a design-aware analysis.

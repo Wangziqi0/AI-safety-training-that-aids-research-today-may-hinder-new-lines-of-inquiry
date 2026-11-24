@@ -1,0 +1,9 @@
+# Reverse communication, proposed recipient test only
+
+These notes illustrate what the archive could communicate using the ordinary measurements actually performed. Neither was sent. No model authored these examples, no human evaluated them, and no follow-up expenditure occurred in this branch.
+
+**P01.** At 0.471341 d the brightest variable pixel is the bright pipeline core, row 4, column 4. Its fitted amplitude is 14.80 electrons/s; the strongest outside pixel reaches 2.91 electrons/s. Carry the candidate forward provisionally with the pipeline extraction. The image does not resolve blended objects within that extraction.
+
+**P04.** At 1.175171 d the strongest pixel is outside the pipeline mask at row 10, column 3, near the boundary of the 11-by-11 stamp. Its fitted amplitude is 0.317 electrons/s; the bright core reaches 0.074 electrons/s. Before assigning the signal to the target, compare a core-centered extraction and an independent extraction around the outside peak. An edge artifact or nearby source could account for the observation.
+
+A separate human experiment would require consent and a realistic finite allocation of analyst time. Randomize receipt of the evidence-bearing note versus a comparable note carrying the same candidate without the localization result, while offering the same ordinary archive, other collaborators and resources. Record an actual extraction order, delay, origin of any substitute and whether the next worker uses the result. Repeated encounters and a record of freely offered anomalies before formal proposals would be needed to address changes in willingness to raise questions. Cross-note effects on action would test communication of evidence; attribution to a training process would additionally require notes produced under the matched training intervention. None of those human or repeated-use outcomes has been measured here.

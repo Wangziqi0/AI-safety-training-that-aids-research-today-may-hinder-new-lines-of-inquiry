@@ -1,0 +1,49 @@
+joint_id	history_id	family	original_decision	reason
+j04c49c86c305c245	h2f7767fad6664d13	rounding	0	The correct interval has length 21t/110, but length greater than one does not guarantee an even integer. The printed proof for all real t fails.
+j092f906659f43033	hc232bb9eb6e8d84e	grids	0	Routing and calibration do not settle the scientific publication decision.
+j0e185fe08902bdb9	ha43a328364a35dfc	reindex	0	Restates the quantifiers and asks for evidence without supplying it.
+j0fea60ab50d6b57c	hc232bb9eb6e8d84e	grids	0	Routing and calibration do not settle the scientific publication decision.
+j151563e4537aebf5	ha43a328364a35dfc	reindex	0	Repeats the instructions without addressing the original publication sentence.
+j1860c1707416254e	h71e5e4ec165634ce	grids	0	Routing and calibration do not settle the scientific publication decision.
+j19dcfdd4b4a0fa5c	hcbbd38175f99ea56	rounding	0	One calibration and a request for proof leave the universal sentence open.
+j1b0e9cd8f5cd14d9	h00531d4d6366387b	regimes	0	An isolated calibration value does not resolve the original quantified sentence.
+j29632e190b862f26	h0245720ab45d5010	reindex	0	Eliminating d=2,4 on a zero-residue criterion directs a sound next check. The note gives neither the moduli and compatible residue classes, a modular contradiction, nor the exhaustive list. It proposes confirming the period and is insufficient as a standalone proof.
+j2ae2c9f51de664df	h89816e507f399eb0	grids	0	An isolated calibration value does not resolve the original quantified sentence.
+j2b48314222d1ea88	h25649b65a34a4fd1	grids	1	A=9 is an explicit counterexample: [9,18] contains only 12 and 16 divisible by 4, and neither is 2 modulo 6. This settles revision of the original A≥8 sentence.
+j2bad0a0fa6cc188c	h3596e0320f058c2f	grids	0	An isolated calibration value does not resolve the original quantified sentence.
+j32edcd85eb30c3a7	h6e8663c1ca11dd16	rounding	0	In the claimed equivalence the upper endpoint is 10t/9. The required endpoint is 11t/10. There is no proof for all real t.
+j3b0528c33124a1f2	h0245720ab45d5010	reindex	0	It asserts a cutoff of 24 for d=2 and d=4, contradicting the common divisor 3 at all scales.
+j4424971bbe07a918	h7986609e74701ead	regimes	0	An isolated calibration value does not resolve the original quantified sentence.
+j44ee9f34ce43f6ed	h98766d81fe76185a	regimes	0	Repeats the instructions without addressing the original publication sentence.
+j46b8a13c210cf414	h8dbec10f4dac133e	reindex	0	Five low scales without pairs do not reject or certify eventual feasibility.
+j47700fabfac700a0	h7986609e74701ead	regimes	0	An isolated calibration value does not resolve the original quantified sentence.
+j4853e6faf96f7a3d	h00d7ed235ae3f39c	reindex	0	Repeats the instructions without addressing the original publication sentence.
+j4cbac1f765943e18	h7f9f71c318a3d0c8	rounding	0	Repeats the instructions without addressing the original publication sentence.
+j56a10571088fd6ef	h98766d81fe76185a	regimes	1	At budget 5/8 the note gives two incompatible closed intervals for the same k. The upper end of the first is below the lower end of the second. This settles revision of the original shared-budget guarantee.
+j6b64b470e78f2fb4	h91d79fe820674875	rounding	0	A single even calibration point leaves the all-real claim open.
+j72082986553cf822	h89816e507f399eb0	grids	0	An isolated calibration value does not resolve the original quantified sentence.
+j72dc6230a60306fc	h8dbec10f4dac133e	reindex	0	Repeats the instructions without addressing the original publication sentence.
+j78667727e4b18252	hb2dddf1332ce1bb0	regimes	0	One failed k cannot exclude the existence of another k meeting 5/8. The valid relaxed witness at 9/8 answers a different question.
+j78a553cbdfa6c6ee	h3596e0320f058c2f	grids	0	An isolated calibration value does not resolve the original quantified sentence.
+j7b27a74452edd58c	h8ba729be9d0be60e	regimes	0	An isolated calibration value does not resolve the original quantified sentence.
+j8a12c20928df85b4	h7cde3ae0ea18de97	regimes	0	At k=0 the common budget 9/8 is feasible. This does not determine whether some k reaches the original budget 5/8.
+j960b5e1ed1e83e91	h2f7767fad6664d13	rounding	0	Repeats the instructions without addressing the original publication sentence.
+ja17b378c7836edfd	h7f9f71c318a3d0c8	rounding	0	Routing and calibration do not settle the scientific publication decision.
+ja20a7ae4c9cb2261	hb33ccef58f8722fa	rounding	0	An isolated calibration value does not resolve the original quantified sentence.
+jaea92a7f725551a2	hdcafe3dbe357d977	reindex	0	Repeats the instructions without addressing the original publication sentence.
+jb2fe99347e90f3fd	h7cde3ae0ea18de97	regimes	0	Repeats the instructions without addressing the original publication sentence.
+jb4502c5bbc4a44af	hb33ccef58f8722fa	rounding	0	Nearest-even rounding is a correct constructive rule, but the note only treats integer parity and invokes a false optimization principle for real t. It supplies no valid uniform 11/10 inequality.
+jc794dd5c475cfca5	h71e5e4ec165634ce	grids	0	It proposes searching for a first offending real scale without exhibiting one, and failures above 8 have no least element.
+jc83df8243e2f5db0	hcbbd38175f99ea56	rounding	0	Acknowledges the task without a mathematical argument.
+jcaf520a9f7ee7cbd	h74f10a6c30bba494	reindex	0	Restates the quantifiers and asks for evidence without supplying it.
+jd1752d1a2f10dd96	h8ba729be9d0be60e	regimes	0	Repeats the instructions without addressing the original publication sentence.
+jd4fb549e2100516d	h00531d4d6366387b	regimes	0	An isolated calibration value does not resolve the original quantified sentence.
+jd516d025f6817d6e	h00d7ed235ae3f39c	reindex	0	Restates the quantifiers and asks for evidence without supplying it.
+je00ff2ceb2530580	h74f10a6c30bba494	reindex	0	Repeats the instructions without addressing the original publication sentence.
+je35b1299f588d089	hdcafe3dbe357d977	reindex	0	Repeats the topic without deriving a result.
+je70c0825247a9b70	h25649b65a34a4fd1	grids	0	Repeats the instructions without addressing the original publication sentence.
+jebd84846e3d7a4b8	hebac413f5e159f44	grids	0	Routing and calibration do not settle the scientific publication decision.
+jf17355fb7c756577	hebac413f5e159f44	grids	0	Routing and calibration do not settle the scientific publication decision.
+jf1c333f8ed1b64b4	hb2dddf1332ce1bb0	regimes	0	The single k=-3/8 fails 5/8 and achieves 9/8. These facts do not prove the universal exclusion claimed.
+jf45f310603e52398	h6e8663c1ca11dd16	rounding	0	Acknowledges the task without a mathematical argument.
+jfedd7ea142a9c316	h91d79fe820674875	rounding	0	The one calibration and request for additional checks do not cover the continuum.

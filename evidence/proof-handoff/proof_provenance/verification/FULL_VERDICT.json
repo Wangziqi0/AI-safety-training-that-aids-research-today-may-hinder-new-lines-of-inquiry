@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE_SOLUTION_ACCEPTED_AND_FIVE_CHALLENGES_MATCHED",
+  "kernel": "con-leche --verified --compare",
+  "all_solution_declarations": 1468418,
+  "all_challenge_declarations": 51692,
+  "theorems": [
+    "riemannHypothesis",
+    "riemannZeta_eq_zero_re",
+    "LFunction_ne_zero_of_half_lt_re",
+    "LFunction_eq_zero_re",
+    "LFunction_eq_zero_re_of_isPrimitive"
+  ],
+  "solution_bytes": 61570595788,
+  "solution_sha256": "5ea74b912147c5c93cc2b6d70cc727cf908df2f62ac6a20480a3fa02f6be244e",
+  "challenge_sha256": "bd484ac9886a96f26b1d9a7a59ebd45b7a70d102c015d4f31f9302bbdd6ab2b9",
+  "allowable_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "return_code": 0,
+  "wall_seconds": 853.301,
+  "peak_rss_gib": 44.12
+}
